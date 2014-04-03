@@ -8,14 +8,14 @@
     <linguisticProcessors layer="entities">
       <lp name="ehu-nerc-de" timestamp="2014-02-25 12:45:54" version="1.0"/>
     </linguisticProcessors>
-    <linguisticProcessor layer="constituents">
+    <linguisticProcessors layer="constituents">
       <lp timestamp="2014-02-25T12:45:58CET" version="1.3_17jan2014" name="Stanford German constituency parser trained on NEGRA corpus"/>
-    </linguisticProcessor>
-    <linguisticProcessor layer="features">
-      <lp timestamp="2014-02-25T12:45:54CET" version="4nov2013_1.0" name="VUA property tagger"/>
-    </linguisticProcessor>
+    </linguisticProcessors>
+    <linguisticProcessors layer="features">
+      <lp name="Property manual annotations" version="1.0" timestamp="2014-04-03T11:04:54CEST"/>
+    </linguisticProcessors>
     <linguisticProcessors layer="opinions">
-      <lp name="Manual annotations" version="Manual annotations" timestamp="2014-03-18T16:10:32CET"/>
+      <lp name="Manual annotations" version="1.0" timestamp="2014-04-03T11:04:54CEST"/>
     </linguisticProcessors>
   </kafHeader>
   <text>
@@ -426,11 +426,24 @@
   </terms>
   <features>
     <properties>
-      <property pid="p1" lemma="room">
+      <property pid="p0" lemma="Interior/exterior">
         <references>
-          <!--klein-->
           <span>
-            <target id="t27"/>
+            <target id="t36"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p1" lemma="Rooms">
+        <references>
+          <span>
+            <target id="t28"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p2" lemma="Breakfast">
+        <references>
+          <span>
+            <target id="t39"/>
           </span>
         </references>
       </property>

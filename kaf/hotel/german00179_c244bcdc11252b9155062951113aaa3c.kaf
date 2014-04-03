@@ -8,14 +8,14 @@
     <linguisticProcessors layer="entities">
       <lp name="ehu-nerc-de" timestamp="2014-02-25 12:48:11" version="1.0"/>
     </linguisticProcessors>
-    <linguisticProcessor layer="constituents">
+    <linguisticProcessors layer="constituents">
       <lp timestamp="2014-02-25T12:48:16CET" version="1.3_17jan2014" name="Stanford German constituency parser trained on NEGRA corpus"/>
-    </linguisticProcessor>
-    <linguisticProcessor layer="features">
-      <lp timestamp="2014-02-25T12:48:12CET" version="4nov2013_1.0" name="VUA property tagger"/>
-    </linguisticProcessor>
+    </linguisticProcessors>
+    <linguisticProcessors layer="features">
+      <lp name="Property manual annotations" version="1.0" timestamp="2014-04-03T11:04:48CEST"/>
+    </linguisticProcessors>
     <linguisticProcessors layer="opinions">
-      <lp name="Manual annotations" version="Manual annotations" timestamp="2014-03-18T16:10:25CET"/>
+      <lp name="Manual annotations" version="1.0" timestamp="2014-04-03T11:04:48CEST"/>
     </linguisticProcessors>
   </kafHeader>
   <text>
@@ -769,15 +769,40 @@
   </entities>
   <features>
     <properties>
-      <property pid="p1" lemma="location">
+      <property pid="p0" lemma="Interior/exterior">
         <references>
-          <!--weit-->
           <span>
-            <target id="t40"/>
+            <target id="t79"/>
+            <target id="t80"/>
+            <target id="t81"/>
+            <target id="t82"/>
+            <target id="t83"/>
+            <target id="t84"/>
           </span>
-          <!--weg-->
+        </references>
+      </property>
+      <property pid="p1" lemma="Value-for-money">
+        <references>
           <span>
+            <target id="t66"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p2" lemma="Location">
+        <references>
+          <span>
+            <target id="t36"/>
+            <target id="t39"/>
+            <target id="t40"/>
             <target id="t41"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p3" lemma="Interior/exterior">
+        <references>
+          <span>
+            <target id="t87"/>
+            <target id="t88"/>
           </span>
         </references>
       </property>

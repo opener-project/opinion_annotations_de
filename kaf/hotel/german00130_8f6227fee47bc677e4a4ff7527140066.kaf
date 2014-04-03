@@ -8,14 +8,15 @@
     <linguisticProcessors layer="entities">
       <lp name="ehu-nerc-de" timestamp="2014-02-25 12:42:56" version="1.0"/>
     </linguisticProcessors>
-    <linguisticProcessor layer="constituents">
+    <linguisticProcessors layer="constituents">
       <lp timestamp="2014-02-25T12:43:00CET" version="1.3_17jan2014" name="Stanford German constituency parser trained on NEGRA corpus"/>
-    </linguisticProcessor>
-    <linguisticProcessor layer="features">
+    </linguisticProcessors>
+    <linguisticProcessors layer="features">
       <lp timestamp="2014-02-25T12:42:56CET" version="4nov2013_1.0" name="VUA property tagger"/>
-    </linguisticProcessor>
+      <lp name="Property manual annotations" version="1.0" timestamp="2014-04-03T11:04:53CEST"/>
+    </linguisticProcessors>
     <linguisticProcessors layer="opinions">
-      <lp name="Manual annotations" version="Manual annotations" timestamp="2014-03-18T16:10:31CET"/>
+      <lp name="Manual annotations" version="1.0" timestamp="2014-04-03T11:04:53CEST"/>
     </linguisticProcessors>
   </kafHeader>
   <text>
@@ -1533,4 +1534,43 @@
       </opinion_expression>
     </opinion>
   </opinions>
+  <features>
+    <properties>
+      <property pid="p0" lemma="Noisiness">
+        <references>
+          <span>
+            <target id="t36"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p1" lemma="Breakfast">
+        <references>
+          <span>
+            <target id="t21"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p2" lemma="Transportation">
+        <references>
+          <span>
+            <target id="t50"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p3" lemma="Interior/exterior">
+        <references>
+          <span>
+            <target id="t12"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p4" lemma="Rooms">
+        <references>
+          <span>
+            <target id="t37"/>
+          </span>
+        </references>
+      </property>
+    </properties>
+  </features>
 </KAF>

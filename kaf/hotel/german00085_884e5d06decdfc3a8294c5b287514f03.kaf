@@ -9,20 +9,20 @@
     <linguisticProcessors layer="entities">
       <lp name="ehu-nerc-de" timestamp="2014-01-14 17:27:06" version="1.0"/>
     </linguisticProcessors>
-    <linguisticProcessor layer="constituents">
+    <linguisticProcessors layer="constituents">
       <lp timestamp="2014-02-25T13:02:50CET" version="1.3_17jan2014" name="Stanford German constituency parser trained on NEGRA corpus"/>
-    </linguisticProcessor>
-    <linguisticProcessor layer="features">
-      <lp timestamp="2014-02-25T13:02:46CET" version="4nov2013_1.0" name="VUA property tagger"/>
-    </linguisticProcessor>
-    <linguisticProcessor layer="terms">
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
       <lp timestamp="2014-02-25T13:02:46CET" version="4nov2013_1.0" name="VUA polarity tagger multilanguage"/>
-    </linguisticProcessor>
-    <linguisticProcessor layer="term">
+    </linguisticProcessors>
+    <linguisticProcessors layer="term">
       <lp timestamp="2014-02-12T10:02:17CET" version="1.0" name="TreeTagger_from_kaf German models"/>
-    </linguisticProcessor>
+    </linguisticProcessors>
+    <linguisticProcessors layer="features">
+      <lp name="Property manual annotations" version="1.0" timestamp="2014-04-03T11:04:55CEST"/>
+    </linguisticProcessors>
     <linguisticProcessors layer="opinions">
-      <lp name="Manual annotations" version="Manual annotations" timestamp="2014-03-18T16:10:32CET"/>
+      <lp name="Manual annotations" version="1.0" timestamp="2014-04-03T11:04:55CEST"/>
     </linguisticProcessors>
   </kafHeader>
   <text>
@@ -740,31 +740,39 @@
   </terms>
   <features>
     <properties>
-      <property pid="p1" lemma="location">
+      <property pid="p0" lemma="Reservation/check-in/check-out">
         <references>
-          <!--befinden-->
           <span>
-            <target id="t8"/>
-          </span>
-          <!--direkt-->
-          <span>
-            <target id="t10"/>
-          </span>
-          <!--direkt-->
-          <span>
-            <target id="t34"/>
-          </span>
-          <!--verbinden-->
-          <span>
-            <target id="t42"/>
+            <target id="t57"/>
           </span>
         </references>
       </property>
-      <property pid="p2" lemma="room">
+      <property pid="p1" lemma="Location">
         <references>
-          <!--hellhörig-->
+          <span>
+            <target id="t10"/>
+            <target id="t11"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p2" lemma="Breakfast">
+        <references>
+          <span>
+            <target id="t59"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p3" lemma="Noisiness">
+        <references>
           <span>
             <target id="t96"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p4" lemma="Rooms">
+        <references>
+          <span>
+            <target id="t93"/>
           </span>
         </references>
       </property>

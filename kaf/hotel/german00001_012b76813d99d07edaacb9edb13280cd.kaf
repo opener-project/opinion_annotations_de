@@ -8,14 +8,14 @@
     <linguisticProcessors layer="entities">
       <lp name="ehu-nerc-de" timestamp="2014-02-25 12:27:24" version="1.0"/>
     </linguisticProcessors>
-    <linguisticProcessor layer="constituents">
+    <linguisticProcessors layer="constituents">
       <lp timestamp="2014-02-25T12:27:29CET" version="1.3_17jan2014" name="Stanford German constituency parser trained on NEGRA corpus"/>
-    </linguisticProcessor>
-    <linguisticProcessor layer="features">
-      <lp timestamp="2014-02-25T12:27:25CET" version="4nov2013_1.0" name="VUA property tagger"/>
-    </linguisticProcessor>
+    </linguisticProcessors>
+    <linguisticProcessors layer="features">
+      <lp name="Property manual annotations" version="1.0" timestamp="2014-04-03T11:04:47CEST"/>
+    </linguisticProcessors>
     <linguisticProcessors layer="opinions">
-      <lp name="Manual annotations" version="Manual annotations" timestamp="2014-03-18T16:10:24CET"/>
+      <lp name="Manual annotations" version="1.0" timestamp="2014-04-03T11:04:47CEST"/>
     </linguisticProcessors>
   </kafHeader>
   <text>
@@ -881,19 +881,31 @@
   </entities>
   <features>
     <properties>
-      <property pid="p1" lemma="value_for_money">
+      <property pid="p0" lemma="Value-for-money">
         <references>
-          <!--günstig-->
           <span>
             <target id="t85"/>
+            <target id="t86"/>
           </span>
-          <!--teuer-->
+        </references>
+      </property>
+      <property pid="p1" lemma="Value-for-money">
+        <references>
           <span>
-            <target id="t107"/>
-          </span>
-          <!--teuer-->
-          <span>
+            <target id="t114"/>
             <target id="t115"/>
+            <target id="t116"/>
+            <target id="t117"/>
+            <target id="t118"/>
+            <target id="t119"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p2" lemma="Value-for-money">
+        <references>
+          <span>
+            <target id="t106"/>
+            <target id="t107"/>
           </span>
         </references>
       </property>

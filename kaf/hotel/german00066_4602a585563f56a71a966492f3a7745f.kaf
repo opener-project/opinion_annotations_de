@@ -8,14 +8,14 @@
     <linguisticProcessors layer="entities">
       <lp name="ehu-nerc-de" timestamp="2014-02-25 12:35:02" version="1.0"/>
     </linguisticProcessors>
-    <linguisticProcessor layer="constituents">
+    <linguisticProcessors layer="constituents">
       <lp timestamp="2014-02-25T12:35:05CET" version="1.3_17jan2014" name="Stanford German constituency parser trained on NEGRA corpus"/>
-    </linguisticProcessor>
-    <linguisticProcessor layer="features">
-      <lp timestamp="2014-02-25T12:35:03CET" version="4nov2013_1.0" name="VUA property tagger"/>
-    </linguisticProcessor>
+    </linguisticProcessors>
+    <linguisticProcessors layer="features">
+      <lp name="Property manual annotations" version="1.0" timestamp="2014-04-03T11:04:47CEST"/>
+    </linguisticProcessors>
     <linguisticProcessors layer="opinions">
-      <lp name="Manual annotations" version="Manual annotations" timestamp="2014-03-18T16:10:23CET"/>
+      <lp name="Manual annotations" version="1.0" timestamp="2014-04-03T11:04:47CEST"/>
     </linguisticProcessors>
   </kafHeader>
   <text>
@@ -783,23 +783,59 @@
   </terms>
   <features>
     <properties>
-      <property pid="p1" lemma="cleanliness">
+      <property pid="p0" lemma="Swimming pool">
         <references>
-          <!--sauber-->
+          <span>
+            <target id="t78"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p1" lemma="Staff">
+        <references>
+          <span>
+            <target id="t21"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p2" lemma="Staff">
+        <references>
+          <span>
+            <target id="t106"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p3" lemma="Staff">
+        <references>
+          <span>
+            <target id="t104"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p4" lemma="Staff">
+        <references>
+          <span>
+            <target id="t33"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p5" lemma="Cleanliness">
+        <references>
+          <span>
+            <target id="t76"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p6" lemma="Cleanliness">
+        <references>
           <span>
             <target id="t67"/>
           </span>
         </references>
       </property>
-      <property pid="p2" lemma="staff">
+      <property pid="p7" lemma="Staff">
         <references>
-          <!--kompetent-->
           <span>
-            <target id="t20"/>
-          </span>
-          <!--aufmerksam-->
-          <span>
-            <target id="t42"/>
+            <target id="t96"/>
           </span>
         </references>
       </property>

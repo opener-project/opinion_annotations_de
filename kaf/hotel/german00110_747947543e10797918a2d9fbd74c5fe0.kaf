@@ -8,14 +8,14 @@
     <linguisticProcessors layer="entities">
       <lp name="ehu-nerc-de" timestamp="2014-02-25 12:40:33" version="1.0"/>
     </linguisticProcessors>
-    <linguisticProcessor layer="constituents">
+    <linguisticProcessors layer="constituents">
       <lp timestamp="2014-02-25T12:40:38CET" version="1.3_17jan2014" name="Stanford German constituency parser trained on NEGRA corpus"/>
-    </linguisticProcessor>
-    <linguisticProcessor layer="features">
-      <lp timestamp="2014-02-25T12:40:34CET" version="4nov2013_1.0" name="VUA property tagger"/>
-    </linguisticProcessor>
+    </linguisticProcessors>
+    <linguisticProcessors layer="features">
+      <lp name="Property manual annotations" version="1.0" timestamp="2014-04-03T11:04:50CEST"/>
+    </linguisticProcessors>
     <linguisticProcessors layer="opinions">
-      <lp name="Manual annotations" version="Manual annotations" timestamp="2014-03-18T16:10:27CET"/>
+      <lp name="Manual annotations" version="1.0" timestamp="2014-04-03T11:04:50CEST"/>
     </linguisticProcessors>
   </kafHeader>
   <text>
@@ -355,11 +355,40 @@
   </terms>
   <features>
     <properties>
-      <property pid="p1" lemma="room">
+      <property pid="p0" lemma="Rooms">
         <references>
-          <!--winzig-->
           <span>
-            <target id="t31"/>
+            <target id="t26"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p1" lemma="Facilities">
+        <references>
+          <span>
+            <target id="t38"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p2" lemma="Value-for-money">
+        <references>
+          <span>
+            <target id="t27"/>
+            <target id="t28"/>
+            <target id="t29"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p3" lemma="Breakfast">
+        <references>
+          <span>
+            <target id="t43"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p4" lemma="Staff">
+        <references>
+          <span>
+            <target id="t20"/>
           </span>
         </references>
       </property>

@@ -8,14 +8,14 @@
     <linguisticProcessors layer="entities">
       <lp name="ehu-nerc-de" timestamp="2014-02-25 12:54:00" version="1.0"/>
     </linguisticProcessors>
-    <linguisticProcessor layer="constituents">
+    <linguisticProcessors layer="constituents">
       <lp timestamp="2014-02-25T12:54:04CET" version="1.3_17jan2014" name="Stanford German constituency parser trained on NEGRA corpus"/>
-    </linguisticProcessor>
-    <linguisticProcessor layer="features">
-      <lp timestamp="2014-02-25T12:54:00CET" version="4nov2013_1.0" name="VUA property tagger"/>
-    </linguisticProcessor>
+    </linguisticProcessors>
+    <linguisticProcessors layer="features">
+      <lp name="Property manual annotations" version="1.0" timestamp="2014-04-03T11:04:53CEST"/>
+    </linguisticProcessors>
     <linguisticProcessors layer="opinions">
-      <lp name="Manual annotations" version="Manual annotations" timestamp="2014-03-18T16:10:31CET"/>
+      <lp name="Manual annotations" version="1.0" timestamp="2014-04-03T11:04:53CEST"/>
     </linguisticProcessors>
   </kafHeader>
   <text>
@@ -808,27 +808,38 @@
   </entities>
   <features>
     <properties>
-      <property pid="p1" lemma="cleanliness">
+      <property pid="p0" lemma="Rooms">
         <references>
-          <!--sauber-->
+          <span>
+            <target id="t37"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p1" lemma="Staff">
+        <references>
+          <span>
+            <target id="t56"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p2" lemma="Facilities">
+        <references>
+          <span>
+            <target id="t15"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p3" lemma="Restaurant">
+        <references>
+          <span>
+            <target id="t44"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p4" lemma="Cleanliness">
+        <references>
           <span>
             <target id="t34"/>
-          </span>
-        </references>
-      </property>
-      <property pid="p2" lemma="room">
-        <references>
-          <!--groß-->
-          <span>
-            <target id="t39"/>
-          </span>
-        </references>
-      </property>
-      <property pid="p3" lemma="staff">
-        <references>
-          <!--hilfsbereit-->
-          <span>
-            <target id="t68"/>
           </span>
         </references>
       </property>

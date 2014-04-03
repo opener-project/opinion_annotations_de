@@ -8,14 +8,14 @@
     <linguisticProcessors layer="entities">
       <lp name="ehu-nerc-de" timestamp="2014-02-25 12:53:15" version="1.0"/>
     </linguisticProcessors>
-    <linguisticProcessor layer="constituents">
+    <linguisticProcessors layer="constituents">
       <lp timestamp="2014-02-25T12:53:19CET" version="1.3_17jan2014" name="Stanford German constituency parser trained on NEGRA corpus"/>
-    </linguisticProcessor>
-    <linguisticProcessor layer="features">
-      <lp timestamp="2014-02-25T12:53:15CET" version="4nov2013_1.0" name="VUA property tagger"/>
-    </linguisticProcessor>
+    </linguisticProcessors>
+    <linguisticProcessors layer="features">
+      <lp name="Property manual annotations" version="1.0" timestamp="2014-04-03T11:04:54CEST"/>
+    </linguisticProcessors>
     <linguisticProcessors layer="opinions">
-      <lp name="Manual annotations" version="Manual annotations" timestamp="2014-03-18T16:10:32CET"/>
+      <lp name="Manual annotations" version="1.0" timestamp="2014-04-03T11:04:54CEST"/>
     </linguisticProcessors>
   </kafHeader>
   <text>
@@ -398,27 +398,24 @@
   </terms>
   <features>
     <properties>
-      <property pid="p1" lemma="value_for_money">
+      <property pid="p0" lemma="Rooms">
         <references>
-          <!--günstig-->
           <span>
-            <target id="t46"/>
+            <target id="t23"/>
           </span>
         </references>
       </property>
-      <property pid="p2" lemma="location">
+      <property pid="p1" lemma="Interior/exterior">
         <references>
-          <!--unmittelbar-->
           <span>
-            <target id="t48"/>
+            <target id="t25"/>
           </span>
         </references>
       </property>
-      <property pid="p3" lemma="sleeping_comfort">
+      <property pid="p2" lemma="Interior/exterior">
         <references>
-          <!--schlafen-->
           <span>
-            <target id="t52"/>
+            <target id="t32"/>
           </span>
         </references>
       </property>

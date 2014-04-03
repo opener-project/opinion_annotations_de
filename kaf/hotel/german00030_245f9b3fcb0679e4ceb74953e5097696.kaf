@@ -8,14 +8,14 @@
     <linguisticProcessors layer="entities">
       <lp name="ehu-nerc-de" timestamp="2014-02-25 12:31:00" version="1.0"/>
     </linguisticProcessors>
-    <linguisticProcessor layer="constituents">
+    <linguisticProcessors layer="constituents">
       <lp timestamp="2014-02-25T12:31:04CET" version="1.3_17jan2014" name="Stanford German constituency parser trained on NEGRA corpus"/>
-    </linguisticProcessor>
-    <linguisticProcessor layer="features">
-      <lp timestamp="2014-02-25T12:31:01CET" version="4nov2013_1.0" name="VUA property tagger"/>
-    </linguisticProcessor>
+    </linguisticProcessors>
+    <linguisticProcessors layer="features">
+      <lp name="Property manual annotations" version="1.0" timestamp="2014-04-03T11:04:47CEST"/>
+    </linguisticProcessors>
     <linguisticProcessors layer="opinions">
-      <lp name="Manual annotations" version="Manual annotations" timestamp="2014-03-18T16:10:23CET"/>
+      <lp name="Manual annotations" version="1.0" timestamp="2014-04-03T11:04:47CEST"/>
     </linguisticProcessors>
   </kafHeader>
   <text>
@@ -1113,19 +1113,57 @@
   </entities>
   <features>
     <properties>
-      <property pid="p1" lemma="value_for_money">
+      <property pid="p0" lemma="Facilities">
         <references>
-          <!--bezahlen-->
           <span>
-            <target id="t78"/>
+            <target id="t99"/>
+            <target id="t100"/>
           </span>
         </references>
       </property>
-      <property pid="p2" lemma="sleeping_comfort">
+      <property pid="p1" lemma="Location">
         <references>
-          <!--schlafen-->
           <span>
-            <target id="t147"/>
+            <target id="t46"/>
+            <target id="t47"/>
+            <target id="t48"/>
+            <target id="t49"/>
+            <target id="t50"/>
+            <target id="t51"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p2" lemma="Value-for-money">
+        <references>
+          <span>
+            <target id="t63"/>
+            <target id="t64"/>
+            <target id="t65"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p3" lemma="Car parking">
+        <references>
+          <span>
+            <target id="t80"/>
+            <target id="t81"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p4" lemma="Rooms">
+        <references>
+          <span>
+            <target id="t119"/>
+            <target id="t120"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p5" lemma="Noisiness">
+        <references>
+          <span>
+            <target id="t139"/>
+            <target id="t140"/>
+            <target id="t141"/>
           </span>
         </references>
       </property>

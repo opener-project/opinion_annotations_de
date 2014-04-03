@@ -8,14 +8,14 @@
     <linguisticProcessors layer="entities">
       <lp name="ehu-nerc-de" timestamp="2014-02-25 12:46:00" version="1.0"/>
     </linguisticProcessors>
-    <linguisticProcessor layer="constituents">
+    <linguisticProcessors layer="constituents">
       <lp timestamp="2014-02-25T12:46:06CET" version="1.3_17jan2014" name="Stanford German constituency parser trained on NEGRA corpus"/>
-    </linguisticProcessor>
-    <linguisticProcessor layer="features">
-      <lp timestamp="2014-02-25T12:46:00CET" version="4nov2013_1.0" name="VUA property tagger"/>
-    </linguisticProcessor>
+    </linguisticProcessors>
+    <linguisticProcessors layer="features">
+      <lp name="Property manual annotations" version="1.0" timestamp="2014-04-03T11:04:47CEST"/>
+    </linguisticProcessors>
     <linguisticProcessors layer="opinions">
-      <lp name="Manual annotations" version="Manual annotations" timestamp="2014-03-18T16:10:22CET"/>
+      <lp name="Manual annotations" version="1.0" timestamp="2014-04-03T11:04:47CEST"/>
     </linguisticProcessors>
   </kafHeader>
   <text>
@@ -881,19 +881,41 @@
   </terms>
   <features>
     <properties>
-      <property pid="p1" lemma="value_for_money">
+      <property pid="p0" lemma="Cleanliness">
         <references>
-          <!--inkl-->
           <span>
-            <target id="t51"/>
+            <target id="t74"/>
           </span>
         </references>
       </property>
-      <property pid="p2" lemma="room">
+      <property pid="p1" lemma="Facilities">
         <references>
-          <!--groß-->
           <span>
-            <target id="t14"/>
+            <target id="t107"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p2" lemma="Internet">
+        <references>
+          <span>
+            <target id="t80"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p3" lemma="Location">
+        <references>
+          <span>
+            <target id="t22"/>
+            <target id="t23"/>
+            <target id="t24"/>
+            <target id="t25"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p4" lemma="Swimming pool">
+        <references>
+          <span>
+            <target id="t100"/>
           </span>
         </references>
       </property>

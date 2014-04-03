@@ -8,14 +8,14 @@
     <linguisticProcessors layer="entities">
       <lp name="ehu-nerc-de" timestamp="2014-02-25 12:35:52" version="1.0"/>
     </linguisticProcessors>
-    <linguisticProcessor layer="constituents">
+    <linguisticProcessors layer="constituents">
       <lp timestamp="2014-02-25T12:35:57CET" version="1.3_17jan2014" name="Stanford German constituency parser trained on NEGRA corpus"/>
-    </linguisticProcessor>
-    <linguisticProcessor layer="features">
-      <lp timestamp="2014-02-25T12:35:52CET" version="4nov2013_1.0" name="VUA property tagger"/>
-    </linguisticProcessor>
+    </linguisticProcessors>
+    <linguisticProcessors layer="features">
+      <lp name="Property manual annotations" version="1.0" timestamp="2014-04-03T11:04:50CEST"/>
+    </linguisticProcessors>
     <linguisticProcessors layer="opinions">
-      <lp name="Manual annotations" version="Manual annotations" timestamp="2014-03-18T16:10:28CET"/>
+      <lp name="Manual annotations" version="1.0" timestamp="2014-04-03T11:04:50CEST"/>
     </linguisticProcessors>
   </kafHeader>
   <text>
@@ -1059,55 +1059,81 @@
   </entities>
   <features>
     <properties>
-      <property pid="p1" lemma="value_for_money">
+      <property pid="p0" lemma="Restaurant">
         <references>
-          <!--preiswert-->
           <span>
-            <target id="t39"/>
+            <target id="t97"/>
           </span>
         </references>
       </property>
-      <property pid="p2" lemma="room">
+      <property pid="p1" lemma="Rooms">
         <references>
-          <!--groß-->
           <span>
-            <target id="t78"/>
+            <target id="t93"/>
           </span>
         </references>
       </property>
-      <property pid="p3" lemma="restaurant">
+      <property pid="p2" lemma="Location">
         <references>
-          <!--speisen-->
           <span>
-            <target id="t106"/>
+            <target id="t58"/>
           </span>
         </references>
       </property>
-      <property pid="p4" lemma="cleanliness">
+      <property pid="p3" lemma="Reservation/check-in/check-out">
         <references>
-          <!--reinigen-->
+          <span>
+            <target id="t105"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p4" lemma="Location">
+        <references>
+          <span>
+            <target id="t74"/>
+            <target id="t75"/>
+            <target id="t76"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p5" lemma="Restaurant">
+        <references>
+          <span>
+            <target id="t85"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p6" lemma="Restaurant">
+        <references>
+          <span>
+            <target id="t108"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p7" lemma="Cleanliness">
+        <references>
           <span>
             <target id="t136"/>
           </span>
         </references>
       </property>
-      <property pid="p5" lemma="location">
+      <property pid="p8" lemma="Rooms">
         <references>
-          <!--liegen-->
           <span>
-            <target id="t20"/>
-          </span>
-          <!--direkt-->
-          <span>
-            <target id="t64"/>
+            <target id="t119"/>
           </span>
         </references>
       </property>
-      <property pid="p6" lemma="breakfast">
+      <property pid="p9" lemma="Value-for-money">
         <references>
-          <!--reichhaltig-->
           <span>
-            <target id="t112"/>
+            <target id="t38"/>
+            <target id="t39"/>
+            <target id="t40"/>
+            <target id="t41"/>
+            <target id="t42"/>
+            <target id="t43"/>
+            <target id="t44"/>
           </span>
         </references>
       </property>

@@ -9,20 +9,20 @@
     <linguisticProcessors layer="entities">
       <lp name="ehu-nerc-de" timestamp="2014-01-14 17:27:52" version="1.0"/>
     </linguisticProcessors>
-    <linguisticProcessor layer="constituents">
+    <linguisticProcessors layer="constituents">
       <lp timestamp="2014-02-25T13:05:53CET" version="1.3_17jan2014" name="Stanford German constituency parser trained on NEGRA corpus"/>
-    </linguisticProcessor>
-    <linguisticProcessor layer="features">
-      <lp timestamp="2014-02-25T13:05:49CET" version="4nov2013_1.0" name="VUA property tagger"/>
-    </linguisticProcessor>
-    <linguisticProcessor layer="terms">
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
       <lp timestamp="2014-02-25T13:05:48CET" version="4nov2013_1.0" name="VUA polarity tagger multilanguage"/>
-    </linguisticProcessor>
-    <linguisticProcessor layer="term">
+    </linguisticProcessors>
+    <linguisticProcessors layer="term">
       <lp timestamp="2014-02-12T10:07:06CET" version="1.0" name="TreeTagger_from_kaf German models"/>
-    </linguisticProcessor>
+    </linguisticProcessors>
+    <linguisticProcessors layer="features">
+      <lp name="Property manual annotations" version="1.0" timestamp="2014-04-03T11:04:47CEST"/>
+    </linguisticProcessors>
     <linguisticProcessors layer="opinions">
-      <lp name="Manual annotations" version="Manual annotations" timestamp="2014-03-18T16:10:23CET"/>
+      <lp name="Manual annotations" version="1.0" timestamp="2014-04-03T11:04:47CEST"/>
     </linguisticProcessors>
   </kafHeader>
   <text>
@@ -502,19 +502,31 @@
   </terms>
   <features>
     <properties>
-      <property pid="p1" lemma="cleanliness">
+      <property pid="p0" lemma="Rooms">
         <references>
-          <!--sauber-->
           <span>
-            <target id="t40"/>
+            <target id="t19"/>
           </span>
         </references>
       </property>
-      <property pid="p2" lemma="room">
+      <property pid="p1" lemma="Bathroom">
         <references>
-          <!--groß-->
           <span>
-            <target id="t32"/>
+            <target id="t34"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p2" lemma="Bathroom">
+        <references>
+          <span>
+            <target id="t30"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p3" lemma="Breakfast">
+        <references>
+          <span>
+            <target id="t45"/>
           </span>
         </references>
       </property>

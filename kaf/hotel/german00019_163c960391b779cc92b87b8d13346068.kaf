@@ -8,14 +8,14 @@
     <linguisticProcessors layer="entities">
       <lp name="ehu-nerc-de" timestamp="2014-02-25 12:29:29" version="1.0"/>
     </linguisticProcessors>
-    <linguisticProcessor layer="constituents">
+    <linguisticProcessors layer="constituents">
       <lp timestamp="2014-02-25T12:29:34CET" version="1.3_17jan2014" name="Stanford German constituency parser trained on NEGRA corpus"/>
-    </linguisticProcessor>
-    <linguisticProcessor layer="features">
-      <lp timestamp="2014-02-25T12:29:30CET" version="4nov2013_1.0" name="VUA property tagger"/>
-    </linguisticProcessor>
+    </linguisticProcessors>
+    <linguisticProcessors layer="features">
+      <lp name="Property manual annotations" version="1.0" timestamp="2014-04-03T11:04:50CEST"/>
+    </linguisticProcessors>
     <linguisticProcessors layer="opinions">
-      <lp name="Manual annotations" version="Manual annotations" timestamp="2014-03-18T16:10:27CET"/>
+      <lp name="Manual annotations" version="1.0" timestamp="2014-04-03T11:04:50CEST"/>
     </linguisticProcessors>
   </kafHeader>
   <text>
@@ -780,11 +780,41 @@
   </terms>
   <features>
     <properties>
-      <property pid="p1" lemma="room">
+      <property pid="p0" lemma="Restaurant">
         <references>
-          <!--groß-->
           <span>
-            <target id="t10"/>
+            <target id="t28"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p1" lemma="Interior/exterior">
+        <references>
+          <span>
+            <target id="t91"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p2" lemma="Cleanliness">
+        <references>
+          <span>
+            <target id="t94"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p3" lemma="Swimming pool">
+        <references>
+          <span>
+            <target id="t51"/>
+            <target id="t61"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p4" lemma="Value-for-money">
+        <references>
+          <span>
+            <target id="t1"/>
+            <target id="t2"/>
+            <target id="t3"/>
           </span>
         </references>
       </property>

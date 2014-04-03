@@ -8,14 +8,14 @@
     <linguisticProcessors layer="entities">
       <lp name="ehu-nerc-de" timestamp="2014-02-25 12:33:35" version="1.0"/>
     </linguisticProcessors>
-    <linguisticProcessor layer="constituents">
+    <linguisticProcessors layer="constituents">
       <lp timestamp="2014-02-25T12:33:39CET" version="1.3_17jan2014" name="Stanford German constituency parser trained on NEGRA corpus"/>
-    </linguisticProcessor>
-    <linguisticProcessor layer="features">
-      <lp timestamp="2014-02-25T12:33:35CET" version="4nov2013_1.0" name="VUA property tagger"/>
-    </linguisticProcessor>
+    </linguisticProcessors>
+    <linguisticProcessors layer="features">
+      <lp name="Property manual annotations" version="1.0" timestamp="2014-04-03T11:04:50CEST"/>
+    </linguisticProcessors>
     <linguisticProcessors layer="opinions">
-      <lp name="Manual annotations" version="Manual annotations" timestamp="2014-03-18T16:10:27CET"/>
+      <lp name="Manual annotations" version="1.0" timestamp="2014-04-03T11:04:50CEST"/>
     </linguisticProcessors>
   </kafHeader>
   <text>
@@ -428,31 +428,40 @@
   </entities>
   <features>
     <properties>
-      <property pid="p1" lemma="location">
+      <property pid="p0" lemma="Breakfast">
         <references>
-          <!--liegen-->
           <span>
-            <target id="t9"/>
-          </span>
-          <!--zentral-->
-          <span>
-            <target id="t11"/>
-          </span>
-          <!--entfernen-->
-          <span>
-            <target id="t21"/>
-          </span>
-          <!--befinden-->
-          <span>
-            <target id="t43"/>
+            <target id="t49"/>
           </span>
         </references>
       </property>
-      <property pid="p2" lemma="room">
+      <property pid="p1" lemma="Location">
         <references>
-          <!--klein-->
           <span>
-            <target id="t37"/>
+            <target id="t10"/>
+            <target id="t11"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p2" lemma="Location">
+        <references>
+          <span>
+            <target id="t13"/>
+            <target id="t14"/>
+            <target id="t15"/>
+            <target id="t16"/>
+            <target id="t17"/>
+            <target id="t18"/>
+            <target id="t19"/>
+            <target id="t20"/>
+            <target id="t21"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p3" lemma="Facilities">
+        <references>
+          <span>
+            <target id="t38"/>
           </span>
         </references>
       </property>

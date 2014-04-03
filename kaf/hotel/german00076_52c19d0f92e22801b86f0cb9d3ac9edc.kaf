@@ -8,14 +8,14 @@
     <linguisticProcessors layer="entities">
       <lp name="ehu-nerc-de" timestamp="2014-02-25 12:36:06" version="1.0"/>
     </linguisticProcessors>
-    <linguisticProcessor layer="constituents">
+    <linguisticProcessors layer="constituents">
       <lp timestamp="2014-02-25T12:36:11CET" version="1.3_17jan2014" name="Stanford German constituency parser trained on NEGRA corpus"/>
-    </linguisticProcessor>
-    <linguisticProcessor layer="features">
-      <lp timestamp="2014-02-25T12:36:06CET" version="4nov2013_1.0" name="VUA property tagger"/>
-    </linguisticProcessor>
+    </linguisticProcessors>
+    <linguisticProcessors layer="features">
+      <lp name="Property manual annotations" version="1.0" timestamp="2014-04-03T11:04:56CEST"/>
+    </linguisticProcessors>
     <linguisticProcessors layer="opinions">
-      <lp name="Manual annotations" version="Manual annotations" timestamp="2014-03-18T16:10:34CET"/>
+      <lp name="Manual annotations" version="1.0" timestamp="2014-04-03T11:04:56CEST"/>
     </linguisticProcessors>
   </kafHeader>
   <text>
@@ -614,11 +614,101 @@
   </entities>
   <features>
     <properties>
-      <property pid="p1" lemma="cleanliness">
+      <property pid="p0" lemma="Bathroom">
         <references>
-          <!--reinigen-->
+          <span>
+            <target id="t60"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p1" lemma="Cleanliness">
+        <references>
+          <span>
+            <target id="t23"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p2" lemma="Interior/exterior">
+        <references>
+          <span>
+            <target id="t17"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p3" lemma="Cleanliness">
+        <references>
+          <span>
+            <target id="t81"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p4" lemma="Bathroom">
+        <references>
+          <span>
+            <target id="t51"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p5" lemma="Cleanliness">
+        <references>
+          <span>
+            <target id="t48"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p6" lemma="Bathroom">
+        <references>
+          <span>
+            <target id="t38"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p7" lemma="Cleanliness">
+        <references>
+          <span>
+            <target id="t70"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p8" lemma="Cleanliness">
+        <references>
+          <span>
+            <target id="t62"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p9" lemma="Interior/exterior">
+        <references>
+          <span>
+            <target id="t76"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p10" lemma="Interior/exterior">
+        <references>
+          <span>
+            <target id="t65"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p11" lemma="Interior/exterior">
+        <references>
+          <span>
+            <target id="t74"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p12" lemma="Cleanliness">
+        <references>
           <span>
             <target id="t14"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p13" lemma="Rooms">
+        <references>
+          <span>
+            <target id="t8"/>
           </span>
         </references>
       </property>

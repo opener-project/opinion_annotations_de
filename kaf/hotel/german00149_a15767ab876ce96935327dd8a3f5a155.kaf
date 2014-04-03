@@ -8,14 +8,15 @@
     <linguisticProcessors layer="entities">
       <lp name="ehu-nerc-de" timestamp="2014-02-25 12:45:06" version="1.0"/>
     </linguisticProcessors>
-    <linguisticProcessor layer="constituents">
+    <linguisticProcessors layer="constituents">
       <lp timestamp="2014-02-25T12:45:10CET" version="1.3_17jan2014" name="Stanford German constituency parser trained on NEGRA corpus"/>
-    </linguisticProcessor>
-    <linguisticProcessor layer="features">
+    </linguisticProcessors>
+    <linguisticProcessors layer="features">
       <lp timestamp="2014-02-25T12:45:06CET" version="4nov2013_1.0" name="VUA property tagger"/>
-    </linguisticProcessor>
+      <lp name="Property manual annotations" version="1.0" timestamp="2014-04-03T11:04:50CEST"/>
+    </linguisticProcessors>
     <linguisticProcessors layer="opinions">
-      <lp name="Manual annotations" version="Manual annotations" timestamp="2014-03-18T16:10:27CET"/>
+      <lp name="Manual annotations" version="1.0" timestamp="2014-04-03T11:04:50CEST"/>
     </linguisticProcessors>
   </kafHeader>
   <text>
@@ -877,4 +878,26 @@
       </opinion_expression>
     </opinion>
   </opinions>
+  <features>
+    <properties>
+      <property pid="p0" lemma="Restaurant">
+        <references>
+          <span>
+            <target id="t33"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p1" lemma="Value-for-money">
+        <references>
+          <span>
+            <target id="t17"/>
+            <target id="t18"/>
+            <target id="t19"/>
+            <target id="t20"/>
+            <target id="t21"/>
+          </span>
+        </references>
+      </property>
+    </properties>
+  </features>
 </KAF>

@@ -8,14 +8,14 @@
     <linguisticProcessors layer="entities">
       <lp name="ehu-nerc-de" timestamp="2014-02-25 12:30:22" version="1.0"/>
     </linguisticProcessors>
-    <linguisticProcessor layer="constituents">
+    <linguisticProcessors layer="constituents">
       <lp timestamp="2014-02-25T12:30:28CET" version="1.3_17jan2014" name="Stanford German constituency parser trained on NEGRA corpus"/>
-    </linguisticProcessor>
-    <linguisticProcessor layer="features">
-      <lp timestamp="2014-02-25T12:30:22CET" version="4nov2013_1.0" name="VUA property tagger"/>
-    </linguisticProcessor>
+    </linguisticProcessors>
+    <linguisticProcessors layer="features">
+      <lp name="Property manual annotations" version="1.0" timestamp="2014-04-03T11:04:51CEST"/>
+    </linguisticProcessors>
     <linguisticProcessors layer="opinions">
-      <lp name="Manual annotations" version="Manual annotations" timestamp="2014-03-18T16:10:28CET"/>
+      <lp name="Manual annotations" version="1.0" timestamp="2014-04-03T11:04:51CEST"/>
     </linguisticProcessors>
   </kafHeader>
   <text>
@@ -969,11 +969,64 @@
   </entities>
   <features>
     <properties>
-      <property pid="p1" lemma="location">
+      <property pid="p0" lemma="Facilities">
         <references>
-          <!--liegen-->
           <span>
-            <target id="t79"/>
+            <target id="t61"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p1" lemma="Beds">
+        <references>
+          <span>
+            <target id="t38"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p2" lemma="Cleanliness">
+        <references>
+          <span>
+            <target id="t43"/>
+            <target id="t44"/>
+            <target id="t45"/>
+            <target id="t46"/>
+            <target id="t49"/>
+            <target id="t52"/>
+            <target id="t53"/>
+            <target id="t54"/>
+            <target id="t55"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p3" lemma="Interior/exterior">
+        <references>
+          <span>
+            <target id="t72"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p4" lemma="Cleanliness">
+        <references>
+          <span>
+            <target id="t22"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p5" lemma="Interior/exterior">
+        <references>
+          <span>
+            <target id="t25"/>
+            <target id="t26"/>
+            <target id="t27"/>
+            <target id="t28"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p6" lemma="Beds">
+        <references>
+          <span>
+            <target id="t30"/>
+            <target id="t31"/>
           </span>
         </references>
       </property>

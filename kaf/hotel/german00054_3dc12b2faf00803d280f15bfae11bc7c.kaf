@@ -8,14 +8,14 @@
     <linguisticProcessors layer="entities">
       <lp name="ehu-nerc-de" timestamp="2014-02-25 12:33:42" version="1.0"/>
     </linguisticProcessors>
-    <linguisticProcessor layer="constituents">
+    <linguisticProcessors layer="constituents">
       <lp timestamp="2014-02-25T12:33:47CET" version="1.3_17jan2014" name="Stanford German constituency parser trained on NEGRA corpus"/>
-    </linguisticProcessor>
-    <linguisticProcessor layer="features">
-      <lp timestamp="2014-02-25T12:33:42CET" version="4nov2013_1.0" name="VUA property tagger"/>
-    </linguisticProcessor>
+    </linguisticProcessors>
+    <linguisticProcessors layer="features">
+      <lp name="Property manual annotations" version="1.0" timestamp="2014-04-03T11:04:54CEST"/>
+    </linguisticProcessors>
     <linguisticProcessors layer="opinions">
-      <lp name="Manual annotations" version="Manual annotations" timestamp="2014-03-18T16:10:31CET"/>
+      <lp name="Manual annotations" version="1.0" timestamp="2014-04-03T11:04:54CEST"/>
     </linguisticProcessors>
   </kafHeader>
   <text>
@@ -860,51 +860,40 @@
   </terms>
   <features>
     <properties>
-      <property pid="p1" lemma="staff">
+      <property pid="p0" lemma="Location">
         <references>
-          <!--bereit-->
           <span>
-            <target id="t115"/>
+            <target id="t30"/>
+            <target id="t31"/>
+            <target id="t32"/>
           </span>
         </references>
       </property>
-      <property pid="p2" lemma="location">
+      <property pid="p1" lemma="Location">
         <references>
-          <!--direkt-->
           <span>
             <target id="t19"/>
+            <target id="t20"/>
+            <target id="t21"/>
+            <target id="t22"/>
           </span>
-          <!--befinden-->
+        </references>
+      </property>
+      <property pid="p2" lemma="Rooms">
+        <references>
           <span>
-            <target id="t23"/>
+            <target id="t114"/>
           </span>
-          <!--direkt-->
+        </references>
+      </property>
+      <property pid="p3" lemma="Location">
+        <references>
           <span>
+            <target id="t69"/>
             <target id="t70"/>
-          </span>
-          <!--shopping-->
-          <span>
-            <target id="t76"/>
-          </span>
-          <!--direkt-->
-          <span>
-            <target id="t87"/>
-          </span>
-        </references>
-      </property>
-      <property pid="p3" lemma="sleeping_comfort">
-        <references>
-          <!--schlafen-->
-          <span>
-            <target id="t66"/>
-          </span>
-        </references>
-      </property>
-      <property pid="p4" lemma="room">
-        <references>
-          <!--groß-->
-          <span>
-            <target id="t75"/>
+            <target id="t71"/>
+            <target id="t72"/>
+            <target id="t73"/>
           </span>
         </references>
       </property>

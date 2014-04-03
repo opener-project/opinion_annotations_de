@@ -9,20 +9,20 @@
     <linguisticProcessors layer="entities">
       <lp name="ehu-nerc-de" timestamp="2014-01-14 17:27:44" version="1.0"/>
     </linguisticProcessors>
-    <linguisticProcessor layer="constituents">
+    <linguisticProcessors layer="constituents">
       <lp timestamp="2014-02-25T13:05:22CET" version="1.3_17jan2014" name="Stanford German constituency parser trained on NEGRA corpus"/>
-    </linguisticProcessor>
-    <linguisticProcessor layer="features">
-      <lp timestamp="2014-02-25T13:05:17CET" version="4nov2013_1.0" name="VUA property tagger"/>
-    </linguisticProcessor>
-    <linguisticProcessor layer="terms">
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
       <lp timestamp="2014-02-25T13:05:17CET" version="4nov2013_1.0" name="VUA polarity tagger multilanguage"/>
-    </linguisticProcessor>
-    <linguisticProcessor layer="term">
+    </linguisticProcessors>
+    <linguisticProcessors layer="term">
       <lp timestamp="2014-02-12T10:06:15CET" version="1.0" name="TreeTagger_from_kaf German models"/>
-    </linguisticProcessor>
+    </linguisticProcessors>
+    <linguisticProcessors layer="features">
+      <lp name="Property manual annotations" version="1.0" timestamp="2014-04-03T11:04:48CEST"/>
+    </linguisticProcessors>
     <linguisticProcessors layer="opinions">
-      <lp name="Manual annotations" version="Manual annotations" timestamp="2014-03-18T16:10:25CET"/>
+      <lp name="Manual annotations" version="1.0" timestamp="2014-04-03T11:04:48CEST"/>
     </linguisticProcessors>
   </kafHeader>
   <text>
@@ -384,30 +384,7 @@
       </span>
     </term>
   </terms>
-  <features>
-    <properties>
-      <property pid="p1" lemma="value_for_money">
-        <references>
-          <!--inbegriffen-->
-          <span>
-            <target id="t36"/>
-          </span>
-        </references>
-      </property>
-      <property pid="p2" lemma="location">
-        <references>
-          <!--verkehrsgünstig-->
-          <span>
-            <target id="t9"/>
-          </span>
-          <!--direkt-->
-          <span>
-            <target id="t39"/>
-          </span>
-        </references>
-      </property>
-    </properties>
-  </features>
+  <features/>
   <constituency>
     <tree>
       <nt id="nter0" label="ROOT"/>

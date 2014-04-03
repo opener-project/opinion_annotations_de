@@ -9,20 +9,21 @@
     <linguisticProcessors layer="entities">
       <lp name="ehu-nerc-de" timestamp="2014-01-14 17:26:24" version="1.0"/>
     </linguisticProcessors>
-    <linguisticProcessor layer="constituents">
+    <linguisticProcessors layer="constituents">
       <lp timestamp="2014-02-25T13:00:36CET" version="1.3_17jan2014" name="Stanford German constituency parser trained on NEGRA corpus"/>
-    </linguisticProcessor>
-    <linguisticProcessor layer="features">
+    </linguisticProcessors>
+    <linguisticProcessors layer="features">
       <lp timestamp="2014-02-25T13:00:32CET" version="4nov2013_1.0" name="VUA property tagger"/>
-    </linguisticProcessor>
-    <linguisticProcessor layer="terms">
+      <lp name="Property manual annotations" version="1.0" timestamp="2014-04-03T11:04:52CEST"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
       <lp timestamp="2014-02-25T13:00:32CET" version="4nov2013_1.0" name="VUA polarity tagger multilanguage"/>
-    </linguisticProcessor>
-    <linguisticProcessor layer="term">
+    </linguisticProcessors>
+    <linguisticProcessors layer="term">
       <lp timestamp="2014-02-12T09:56:56CET" version="1.0" name="TreeTagger_from_kaf German models"/>
-    </linguisticProcessor>
+    </linguisticProcessors>
     <linguisticProcessors layer="opinions">
-      <lp name="Manual annotations" version="Manual annotations" timestamp="2014-03-18T16:10:30CET"/>
+      <lp name="Manual annotations" version="1.0" timestamp="2014-04-03T11:04:52CEST"/>
     </linguisticProcessors>
   </kafHeader>
   <text>
@@ -2927,4 +2928,57 @@
       </opinion_expression>
     </opinion>
   </opinions>
+  <features>
+    <properties>
+      <property pid="p0" lemma="Rooms">
+        <references>
+          <span>
+            <target id="t90"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p1" lemma="Noisiness">
+        <references>
+          <span>
+            <target id="t52"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p2" lemma="Noisiness">
+        <references>
+          <span>
+            <target id="t48"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p3" lemma="Staff">
+        <references>
+          <span>
+            <target id="t75"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p4" lemma="Cleanliness">
+        <references>
+          <span>
+            <target id="t106"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p5" lemma="Cleanliness">
+        <references>
+          <span>
+            <target id="t96"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p6" lemma="Location">
+        <references>
+          <span>
+            <target id="t16"/>
+          </span>
+        </references>
+      </property>
+    </properties>
+  </features>
 </KAF>

@@ -8,14 +8,14 @@
     <linguisticProcessors layer="entities">
       <lp name="ehu-nerc-de" timestamp="2014-02-25 12:37:06" version="1.0"/>
     </linguisticProcessors>
-    <linguisticProcessor layer="constituents">
+    <linguisticProcessors layer="constituents">
       <lp timestamp="2014-02-25T12:37:12CET" version="1.3_17jan2014" name="Stanford German constituency parser trained on NEGRA corpus"/>
-    </linguisticProcessor>
-    <linguisticProcessor layer="features">
-      <lp timestamp="2014-02-25T12:37:06CET" version="4nov2013_1.0" name="VUA property tagger"/>
-    </linguisticProcessor>
+    </linguisticProcessors>
+    <linguisticProcessors layer="features">
+      <lp name="Property manual annotations" version="1.0" timestamp="2014-04-03T11:04:51CEST"/>
+    </linguisticProcessors>
     <linguisticProcessors layer="opinions">
-      <lp name="Manual annotations" version="Manual annotations" timestamp="2014-03-18T16:10:29CET"/>
+      <lp name="Manual annotations" version="1.0" timestamp="2014-04-03T11:04:51CEST"/>
     </linguisticProcessors>
   </kafHeader>
   <text>
@@ -1091,39 +1091,67 @@
   </entities>
   <features>
     <properties>
-      <property pid="p1" lemma="cleanliness">
+      <property pid="p0" lemma="Facilities">
         <references>
-          <!--reinigen-->
+          <span>
+            <target id="t130"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p1" lemma="Cleanliness">
+        <references>
           <span>
             <target id="t133"/>
           </span>
-          <!--sauber-->
+        </references>
+      </property>
+      <property pid="p2" lemma="Staff">
+        <references>
+          <span>
+            <target id="t53"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p3" lemma="Facilities">
+        <references>
+          <span>
+            <target id="t39"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p4" lemma="Staff">
+        <references>
+          <span>
+            <target id="t72"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p5" lemma="Staff">
+        <references>
+          <span>
+            <target id="t59"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p6" lemma="Location">
+        <references>
+          <span>
+            <target id="t124"/>
+            <target id="t125"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p7" lemma="Cleanliness">
+        <references>
           <span>
             <target id="t139"/>
           </span>
         </references>
       </property>
-      <property pid="p2" lemma="noise">
+      <property pid="p8" lemma="Cleanliness">
         <references>
-          <!--laut-->
           <span>
-            <target id="t69"/>
-          </span>
-        </references>
-      </property>
-      <property pid="p3" lemma="location">
-        <references>
-          <!--liegen-->
-          <span>
-            <target id="t78"/>
-          </span>
-          <!--liegen-->
-          <span>
-            <target id="t123"/>
-          </span>
-          <!--direkt-->
-          <span>
-            <target id="t124"/>
+            <target id="t146"/>
           </span>
         </references>
       </property>

@@ -8,14 +8,15 @@
     <linguisticProcessors layer="entities">
       <lp name="ehu-nerc-de" timestamp="2014-02-25 12:28:57" version="1.0"/>
     </linguisticProcessors>
-    <linguisticProcessor layer="constituents">
+    <linguisticProcessors layer="constituents">
       <lp timestamp="2014-02-25T12:29:01CET" version="1.3_17jan2014" name="Stanford German constituency parser trained on NEGRA corpus"/>
-    </linguisticProcessor>
-    <linguisticProcessor layer="features">
+    </linguisticProcessors>
+    <linguisticProcessors layer="features">
       <lp timestamp="2014-02-25T12:28:58CET" version="4nov2013_1.0" name="VUA property tagger"/>
-    </linguisticProcessor>
+      <lp name="Property manual annotations" version="1.0" timestamp="2014-04-03T11:04:49CEST"/>
+    </linguisticProcessors>
     <linguisticProcessors layer="opinions">
-      <lp name="Manual annotations" version="Manual annotations" timestamp="2014-03-18T16:10:26CET"/>
+      <lp name="Manual annotations" version="1.0" timestamp="2014-04-03T11:04:49CEST"/>
     </linguisticProcessors>
   </kafHeader>
   <text>
@@ -2449,4 +2450,60 @@
       </opinion_expression>
     </opinion>
   </opinions>
+  <features>
+    <properties>
+      <property pid="p0" lemma="Staff">
+        <references>
+          <span>
+            <target id="t14"/>
+            <target id="t19"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p1" lemma="Beds">
+        <references>
+          <span>
+            <target id="t55"/>
+            <target id="t60"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p2" lemma="Rooms">
+        <references>
+          <span>
+            <target id="t67"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p3" lemma="Interior/exterior">
+        <references>
+          <span>
+            <target id="t25"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p4" lemma="Cleanliness">
+        <references>
+          <span>
+            <target id="t63"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p5" lemma="Rooms">
+        <references>
+          <span>
+            <target id="t80"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p6" lemma="Interior/exterior">
+        <references>
+          <span>
+            <target id="t101"/>
+            <target id="t103"/>
+          </span>
+        </references>
+      </property>
+    </properties>
+  </features>
 </KAF>

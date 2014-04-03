@@ -9,20 +9,20 @@
     <linguisticProcessors layer="entities">
       <lp name="ehu-nerc-de" timestamp="2014-01-14 17:27:19" version="1.0"/>
     </linguisticProcessors>
-    <linguisticProcessor layer="constituents">
+    <linguisticProcessors layer="constituents">
       <lp timestamp="2014-02-25T13:03:46CET" version="1.3_17jan2014" name="Stanford German constituency parser trained on NEGRA corpus"/>
-    </linguisticProcessor>
-    <linguisticProcessor layer="features">
-      <lp timestamp="2014-02-25T13:03:42CET" version="4nov2013_1.0" name="VUA property tagger"/>
-    </linguisticProcessor>
-    <linguisticProcessor layer="terms">
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
       <lp timestamp="2014-02-25T13:03:42CET" version="4nov2013_1.0" name="VUA polarity tagger multilanguage"/>
-    </linguisticProcessor>
-    <linguisticProcessor layer="term">
+    </linguisticProcessors>
+    <linguisticProcessors layer="term">
       <lp timestamp="2014-02-12T10:03:29CET" version="1.0" name="TreeTagger_from_kaf German models"/>
-    </linguisticProcessor>
+    </linguisticProcessors>
+    <linguisticProcessors layer="features">
+      <lp name="Property manual annotations" version="1.0" timestamp="2014-04-03T11:04:49CEST"/>
+    </linguisticProcessors>
     <linguisticProcessors layer="opinions">
-      <lp name="Manual annotations" version="Manual annotations" timestamp="2014-03-18T16:10:25CET"/>
+      <lp name="Manual annotations" version="1.0" timestamp="2014-04-03T11:04:49CEST"/>
     </linguisticProcessors>
   </kafHeader>
   <text>
@@ -382,11 +382,76 @@
   </terms>
   <features>
     <properties>
-      <property pid="p1" lemma="location">
+      <property pid="p0" lemma="Location">
         <references>
-          <!--unmittelbar-->
           <span>
+            <target id="t56"/>
             <target id="t57"/>
+            <target id="t58"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p1" lemma="Facilities">
+        <references>
+          <span>
+            <target id="t22"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p2" lemma="Staff">
+        <references>
+          <span>
+            <target id="t36"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p3" lemma="Location">
+        <references>
+          <span>
+            <target id="t43"/>
+            <target id="t44"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p4" lemma="Transportation">
+        <references>
+          <span>
+            <target id="t50"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p5" lemma="Location">
+        <references>
+          <span>
+            <target id="t55"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p6" lemma="Location">
+        <references>
+          <span>
+            <target id="t6"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p7" lemma="Location">
+        <references>
+          <span>
+            <target id="t4"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p8" lemma="Facilities">
+        <references>
+          <span>
+            <target id="t9"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p9" lemma="Location">
+        <references>
+          <span>
+            <target id="t53"/>
           </span>
         </references>
       </property>

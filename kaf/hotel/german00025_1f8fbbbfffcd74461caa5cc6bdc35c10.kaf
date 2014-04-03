@@ -8,14 +8,14 @@
     <linguisticProcessors layer="entities">
       <lp name="ehu-nerc-de" timestamp="2014-02-25 12:30:09" version="1.0"/>
     </linguisticProcessors>
-    <linguisticProcessor layer="constituents">
+    <linguisticProcessors layer="constituents">
       <lp timestamp="2014-02-25T12:30:15CET" version="1.3_17jan2014" name="Stanford German constituency parser trained on NEGRA corpus"/>
-    </linguisticProcessor>
-    <linguisticProcessor layer="features">
-      <lp timestamp="2014-02-25T12:30:10CET" version="4nov2013_1.0" name="VUA property tagger"/>
-    </linguisticProcessor>
+    </linguisticProcessors>
+    <linguisticProcessors layer="features">
+      <lp name="Property manual annotations" version="1.0" timestamp="2014-04-03T11:04:50CEST"/>
+    </linguisticProcessors>
     <linguisticProcessors layer="opinions">
-      <lp name="Manual annotations" version="Manual annotations" timestamp="2014-03-18T16:10:27CET"/>
+      <lp name="Manual annotations" version="1.0" timestamp="2014-04-03T11:04:50CEST"/>
     </linguisticProcessors>
   </kafHeader>
   <text>
@@ -1220,31 +1220,52 @@
   </terms>
   <features>
     <properties>
-      <property pid="p1" lemma="value_for_money">
+      <property pid="p0" lemma="Breakfast">
         <references>
-          <!--preiswert-->
           <span>
-            <target id="t56"/>
+            <target id="t65"/>
           </span>
         </references>
       </property>
-      <property pid="p2" lemma="room">
+      <property pid="p1" lemma="Restaurant">
         <references>
-          <!--klein-->
           <span>
-            <target id="t104"/>
-          </span>
-          <!--klein-->
-          <span>
-            <target id="t133"/>
+            <target id="t57"/>
           </span>
         </references>
       </property>
-      <property pid="p3" lemma="location">
+      <property pid="p2" lemma="Interior/exterior">
         <references>
-          <!--unmittelbar-->
           <span>
-            <target id="t166"/>
+            <target id="t144"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p3" lemma="Facilities">
+        <references>
+          <span>
+            <target id="t98"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p4" lemma="Swimming pool">
+        <references>
+          <span>
+            <target id="t123"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p5" lemma="Staff">
+        <references>
+          <span>
+            <target id="t90"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p6" lemma="Restaurant">
+        <references>
+          <span>
+            <target id="t23"/>
           </span>
         </references>
       </property>

@@ -8,14 +8,14 @@
     <linguisticProcessors layer="entities">
       <lp name="ehu-nerc-de" timestamp="2014-02-25 12:30:03" version="1.0"/>
     </linguisticProcessors>
-    <linguisticProcessor layer="constituents">
+    <linguisticProcessors layer="constituents">
       <lp timestamp="2014-02-25T12:30:07CET" version="1.3_17jan2014" name="Stanford German constituency parser trained on NEGRA corpus"/>
-    </linguisticProcessor>
-    <linguisticProcessor layer="features">
-      <lp timestamp="2014-02-25T12:30:03CET" version="4nov2013_1.0" name="VUA property tagger"/>
-    </linguisticProcessor>
+    </linguisticProcessors>
+    <linguisticProcessors layer="features">
+      <lp name="Property manual annotations" version="1.0" timestamp="2014-04-03T11:04:56CEST"/>
+    </linguisticProcessors>
     <linguisticProcessors layer="opinions">
-      <lp name="Manual annotations" version="Manual annotations" timestamp="2014-03-18T16:10:34CET"/>
+      <lp name="Manual annotations" version="1.0" timestamp="2014-04-03T11:04:56CEST"/>
     </linguisticProcessors>
   </kafHeader>
   <text>
@@ -1087,11 +1087,86 @@
   </entities>
   <features>
     <properties>
-      <property pid="p1" lemma="room">
+      <property pid="p0" lemma="Cleanliness">
         <references>
-          <!--groß-->
           <span>
+            <target id="t87"/>
+            <target id="t88"/>
+            <target id="t89"/>
+            <target id="t90"/>
+            <target id="t91"/>
+            <target id="t92"/>
+            <target id="t93"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p1" lemma="Cleanliness">
+        <references>
+          <span>
+            <target id="t110"/>
+            <target id="t111"/>
+            <target id="t112"/>
+            <target id="t113"/>
+            <target id="t114"/>
+            <target id="t115"/>
+            <target id="t116"/>
+            <target id="t117"/>
+            <target id="t118"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p2" lemma="Breakfast">
+        <references>
+          <span>
+            <target id="t134"/>
+            <target id="t135"/>
+            <target id="t136"/>
+            <target id="t137"/>
+            <target id="t138"/>
+            <target id="t139"/>
+            <target id="t140"/>
+            <target id="t141"/>
+            <target id="t142"/>
+            <target id="t143"/>
+            <target id="t144"/>
+            <target id="t145"/>
+            <target id="t146"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p3" lemma="Cleanliness">
+        <references>
+          <span>
+            <target id="t103"/>
+            <target id="t104"/>
+            <target id="t105"/>
+            <target id="t106"/>
+            <target id="t107"/>
+            <target id="t108"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p4" lemma="Breakfast">
+        <references>
+          <span>
+            <target id="t125"/>
+            <target id="t126"/>
+            <target id="t127"/>
+            <target id="t128"/>
+            <target id="t129"/>
             <target id="t130"/>
+            <target id="t131"/>
+            <target id="t132"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p5" lemma="Breakfast">
+        <references>
+          <span>
+            <target id="t120"/>
+            <target id="t121"/>
+            <target id="t122"/>
+            <target id="t123"/>
           </span>
         </references>
       </property>

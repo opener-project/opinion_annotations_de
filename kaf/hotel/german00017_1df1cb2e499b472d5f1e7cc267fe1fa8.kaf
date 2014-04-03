@@ -9,20 +9,20 @@
     <linguisticProcessors layer="entities">
       <lp name="ehu-nerc-de" timestamp="2014-01-14 17:25:33" version="1.0"/>
     </linguisticProcessors>
-    <linguisticProcessor layer="constituents">
+    <linguisticProcessors layer="constituents">
       <lp timestamp="2014-02-25T12:57:52CET" version="1.3_17jan2014" name="Stanford German constituency parser trained on NEGRA corpus"/>
-    </linguisticProcessor>
-    <linguisticProcessor layer="features">
-      <lp timestamp="2014-02-25T12:57:48CET" version="4nov2013_1.0" name="VUA property tagger"/>
-    </linguisticProcessor>
-    <linguisticProcessor layer="terms">
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
       <lp timestamp="2014-02-25T12:57:48CET" version="4nov2013_1.0" name="VUA polarity tagger multilanguage"/>
-    </linguisticProcessor>
-    <linguisticProcessor layer="term">
+    </linguisticProcessors>
+    <linguisticProcessors layer="term">
       <lp timestamp="2014-02-12T09:50:42CET" version="1.0" name="TreeTagger_from_kaf German models"/>
-    </linguisticProcessor>
+    </linguisticProcessors>
+    <linguisticProcessors layer="features">
+      <lp name="Property manual annotations" version="1.0" timestamp="2014-04-03T11:04:47CEST"/>
+    </linguisticProcessors>
     <linguisticProcessors layer="opinions">
-      <lp name="Manual annotations" version="Manual annotations" timestamp="2014-03-18T16:10:23CET"/>
+      <lp name="Manual annotations" version="1.0" timestamp="2014-04-03T11:04:47CEST"/>
     </linguisticProcessors>
   </kafHeader>
   <text>
@@ -699,39 +699,37 @@
   </terms>
   <features>
     <properties>
-      <property pid="p1" lemma="cleanliness">
+      <property pid="p0" lemma="Location">
         <references>
-          <!--sauber-->
+          <span>
+            <target id="t12"/>
+            <target id="t13"/>
+            <target id="t14"/>
+            <target id="t15"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p1" lemma="Restaurant">
+        <references>
+          <span>
+            <target id="t37"/>
+            <target id="t38"/>
+            <target id="t39"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p2" lemma="Cleanliness">
+        <references>
           <span>
             <target id="t8"/>
           </span>
         </references>
       </property>
-      <property pid="p2" lemma="value_for_money">
+      <property pid="p3" lemma="Breakfast">
         <references>
-          <!--inbegriffen-->
           <span>
-            <target id="t78"/>
-          </span>
-        </references>
-      </property>
-      <property pid="p3" lemma="location">
-        <references>
-          <!--direkt-->
-          <span>
-            <target id="t12"/>
-          </span>
-          <!--weit-->
-          <span>
-            <target id="t33"/>
-          </span>
-        </references>
-      </property>
-      <property pid="p4" lemma="room">
-        <references>
-          <!--groß-->
-          <span>
-            <target id="t92"/>
+            <target id="t73"/>
+            <target id="t74"/>
           </span>
         </references>
       </property>

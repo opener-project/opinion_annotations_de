@@ -9,20 +9,20 @@
     <linguisticProcessors layer="entities">
       <lp name="ehu-nerc-de" timestamp="2014-01-14 17:27:54" version="1.0"/>
     </linguisticProcessors>
-    <linguisticProcessor layer="constituents">
+    <linguisticProcessors layer="constituents">
       <lp timestamp="2014-02-25T13:06:09CET" version="1.3_17jan2014" name="Stanford German constituency parser trained on NEGRA corpus"/>
-    </linguisticProcessor>
-    <linguisticProcessor layer="features">
-      <lp timestamp="2014-02-25T13:05:59CET" version="4nov2013_1.0" name="VUA property tagger"/>
-    </linguisticProcessor>
-    <linguisticProcessor layer="terms">
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
       <lp timestamp="2014-02-25T13:05:59CET" version="4nov2013_1.0" name="VUA polarity tagger multilanguage"/>
-    </linguisticProcessor>
-    <linguisticProcessor layer="term">
+    </linguisticProcessors>
+    <linguisticProcessors layer="term">
       <lp timestamp="2014-02-12T10:07:20CET" version="1.0" name="TreeTagger_from_kaf German models"/>
-    </linguisticProcessor>
+    </linguisticProcessors>
+    <linguisticProcessors layer="features">
+      <lp name="Property manual annotations" version="1.0" timestamp="2014-04-03T11:04:53CEST"/>
+    </linguisticProcessors>
     <linguisticProcessors layer="opinions">
-      <lp name="Manual annotations" version="Manual annotations" timestamp="2014-03-18T16:10:30CET"/>
+      <lp name="Manual annotations" version="1.0" timestamp="2014-04-03T11:04:53CEST"/>
     </linguisticProcessors>
   </kafHeader>
   <text>
@@ -1130,31 +1130,79 @@
   </terms>
   <features>
     <properties>
-      <property pid="p1" lemma="value_for_money">
+      <property pid="p0" lemma="Facilities">
         <references>
-          <!--kostenlos-->
           <span>
-            <target id="t27"/>
+            <target id="t14"/>
+            <target id="t15"/>
           </span>
-          <!--kostenlos-->
+        </references>
+      </property>
+      <property pid="p1" lemma="Facilities">
+        <references>
           <span>
-            <target id="t61"/>
+            <target id="t30"/>
+            <target id="t31"/>
           </span>
-          <!--günstig-->
+        </references>
+      </property>
+      <property pid="p2" lemma="Location">
+        <references>
           <span>
-            <target id="t72"/>
+            <target id="t18"/>
           </span>
-          <!--günstig-->
+        </references>
+      </property>
+      <property pid="p3" lemma="Restaurant">
+        <references>
           <span>
+            <target id="t178"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p4" lemma="Value-for-money">
+        <references>
+          <span>
+            <target id="t169"/>
+            <target id="t170"/>
             <target id="t171"/>
           </span>
         </references>
       </property>
-      <property pid="p2" lemma="location">
+      <property pid="p5" lemma="Staff">
         <references>
-          <!--bus-->
           <span>
-            <target id="t95"/>
+            <target id="t175"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p6" lemma="Facilities">
+        <references>
+          <span>
+            <target id="t21"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p7" lemma="Restaurant">
+        <references>
+          <span>
+            <target id="t153"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p8" lemma="Facilities">
+        <references>
+          <span>
+            <target id="t62"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p9" lemma="Location">
+        <references>
+          <span>
+            <target id="t22"/>
+            <target id="t23"/>
+            <target id="t24"/>
           </span>
         </references>
       </property>

@@ -8,14 +8,14 @@
     <linguisticProcessors layer="entities">
       <lp name="ehu-nerc-de" timestamp="2014-02-25 12:42:34" version="1.0"/>
     </linguisticProcessors>
-    <linguisticProcessor layer="constituents">
+    <linguisticProcessors layer="constituents">
       <lp timestamp="2014-02-25T12:42:39CET" version="1.3_17jan2014" name="Stanford German constituency parser trained on NEGRA corpus"/>
-    </linguisticProcessor>
-    <linguisticProcessor layer="features">
-      <lp timestamp="2014-02-25T12:42:34CET" version="4nov2013_1.0" name="VUA property tagger"/>
-    </linguisticProcessor>
+    </linguisticProcessors>
+    <linguisticProcessors layer="features">
+      <lp name="Property manual annotations" version="1.0" timestamp="2014-04-03T11:04:47CEST"/>
+    </linguisticProcessors>
     <linguisticProcessors layer="opinions">
-      <lp name="Manual annotations" version="Manual annotations" timestamp="2014-03-18T16:10:23CET"/>
+      <lp name="Manual annotations" version="1.0" timestamp="2014-04-03T11:04:47CEST"/>
     </linguisticProcessors>
   </kafHeader>
   <text>
@@ -808,27 +808,101 @@
   </entities>
   <features>
     <properties>
-      <property pid="p1" lemma="location">
+      <property pid="p0" lemma="Location">
         <references>
-          <!--liegen-->
           <span>
-            <target id="t18"/>
-          </span>
-          <!--direkt-->
-          <span>
-            <target id="t31"/>
-          </span>
-          <!--kurz-->
-          <span>
-            <target id="t43"/>
+            <target id="t19"/>
+            <target id="t20"/>
+            <target id="t21"/>
+            <target id="t22"/>
           </span>
         </references>
       </property>
-      <property pid="p2" lemma="room">
+      <property pid="p1" lemma="Transportation">
         <references>
-          <!--alt-->
           <span>
-            <target id="t88"/>
+            <target id="t38"/>
+            <target id="t39"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p2" lemma="Location">
+        <references>
+          <span>
+            <target id="t41"/>
+            <target id="t42"/>
+            <target id="t43"/>
+            <target id="t44"/>
+            <target id="t45"/>
+            <target id="t46"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p3" lemma="Location">
+        <references>
+          <span>
+            <target id="t29"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p4" lemma="Location">
+        <references>
+          <span>
+            <target id="t32"/>
+            <target id="t33"/>
+            <target id="t34"/>
+            <target id="t35"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p5" lemma="Staff">
+        <references>
+          <span>
+            <target id="t83"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p6" lemma="Interior/exterior">
+        <references>
+          <span>
+            <target id="t81"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p7" lemma="Location">
+        <references>
+          <span>
+            <target id="t60"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p8" lemma="Location">
+        <references>
+          <span>
+            <target id="t3"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p9" lemma="Restaurant">
+        <references>
+          <span>
+            <target id="t74"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p10" lemma="Facilities">
+        <references>
+          <span>
+            <target id="t48"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p11" lemma="Location">
+        <references>
+          <span>
+            <target id="t66"/>
+            <target id="t67"/>
+            <target id="t68"/>
           </span>
         </references>
       </property>

@@ -8,14 +8,14 @@
     <linguisticProcessors layer="entities">
       <lp name="ehu-nerc-de" timestamp="2014-02-25 12:33:55" version="1.0"/>
     </linguisticProcessors>
-    <linguisticProcessor layer="constituents">
+    <linguisticProcessors layer="constituents">
       <lp timestamp="2014-02-25T12:34:01CET" version="1.3_17jan2014" name="Stanford German constituency parser trained on NEGRA corpus"/>
-    </linguisticProcessor>
-    <linguisticProcessor layer="features">
-      <lp timestamp="2014-02-25T12:33:56CET" version="4nov2013_1.0" name="VUA property tagger"/>
-    </linguisticProcessor>
+    </linguisticProcessors>
+    <linguisticProcessors layer="features">
+      <lp name="Property manual annotations" version="1.0" timestamp="2014-04-03T11:04:49CEST"/>
+    </linguisticProcessors>
     <linguisticProcessors layer="opinions">
-      <lp name="Manual annotations" version="Manual annotations" timestamp="2014-03-18T16:10:25CET"/>
+      <lp name="Manual annotations" version="1.0" timestamp="2014-04-03T11:04:49CEST"/>
     </linguisticProcessors>
   </kafHeader>
   <text>
@@ -836,19 +836,29 @@
   </terms>
   <features>
     <properties>
-      <property pid="p1" lemma="value_for_money">
+      <property pid="p0" lemma="Value-for-money">
         <references>
-          <!--gratis-->
           <span>
-            <target id="t62"/>
+            <target id="t30"/>
+            <target id="t31"/>
+            <target id="t32"/>
+            <target id="t33"/>
           </span>
         </references>
       </property>
-      <property pid="p2" lemma="location">
+      <property pid="p1" lemma="Internet">
         <references>
-          <!--kurz-->
           <span>
-            <target id="t11"/>
+            <target id="t63"/>
+            <target id="t64"/>
+            <target id="t65"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p2" lemma="Noisiness">
+        <references>
+          <span>
+            <target id="t74"/>
           </span>
         </references>
       </property>

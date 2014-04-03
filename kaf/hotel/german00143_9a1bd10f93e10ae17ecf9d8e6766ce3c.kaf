@@ -8,14 +8,14 @@
     <linguisticProcessors layer="entities">
       <lp name="ehu-nerc-de" timestamp="2014-02-25 12:44:29" version="1.0"/>
     </linguisticProcessors>
-    <linguisticProcessor layer="constituents">
+    <linguisticProcessors layer="constituents">
       <lp timestamp="2014-02-25T12:44:33CET" version="1.3_17jan2014" name="Stanford German constituency parser trained on NEGRA corpus"/>
-    </linguisticProcessor>
-    <linguisticProcessor layer="features">
-      <lp timestamp="2014-02-25T12:44:29CET" version="4nov2013_1.0" name="VUA property tagger"/>
-    </linguisticProcessor>
+    </linguisticProcessors>
+    <linguisticProcessors layer="features">
+      <lp name="Property manual annotations" version="1.0" timestamp="2014-04-03T11:04:52CEST"/>
+    </linguisticProcessors>
     <linguisticProcessors layer="opinions">
-      <lp name="Manual annotations" version="Manual annotations" timestamp="2014-03-18T16:10:29CET"/>
+      <lp name="Manual annotations" version="1.0" timestamp="2014-04-03T11:04:52CEST"/>
     </linguisticProcessors>
   </kafHeader>
   <text>
@@ -779,19 +779,122 @@
   </terms>
   <features>
     <properties>
-      <property pid="p1" lemma="room">
+      <property pid="p0" lemma="Facilities">
         <references>
-          <!--klein-->
           <span>
-            <target id="t55"/>
+            <target id="t27"/>
           </span>
         </references>
       </property>
-      <property pid="p2" lemma="location">
+      <property pid="p1" lemma="Facilities">
         <references>
-          <!--zentral-->
           <span>
-            <target id="t78"/>
+            <target id="t25"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p2" lemma="Restaurant">
+        <references>
+          <span>
+            <target id="t16"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p3" lemma="Reservation/check-in/check-out">
+        <references>
+          <span>
+            <target id="t74"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p4" lemma="Staff">
+        <references>
+          <span>
+            <target id="t12"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p5" lemma="Restaurant">
+        <references>
+          <span>
+            <target id="t14"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p6" lemma="Staff">
+        <references>
+          <span>
+            <target id="t29"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p7" lemma="Location">
+        <references>
+          <span>
+            <target id="t34"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p8" lemma="Transportation">
+        <references>
+          <span>
+            <target id="t37"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p9" lemma="Location">
+        <references>
+          <span>
+            <target id="t39"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p10" lemma="Bathroom">
+        <references>
+          <span>
+            <target id="t95"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p11" lemma="Facilities">
+        <references>
+          <span>
+            <target id="t65"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p12" lemma="Staff">
+        <references>
+          <span>
+            <target id="t2"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p13" lemma="Rooms">
+        <references>
+          <span>
+            <target id="t79"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p14" lemma="Bathroom">
+        <references>
+          <span>
+            <target id="t84"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p15" lemma="Rooms">
+        <references>
+          <span>
+            <target id="t90"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p16" lemma="Bathroom">
+        <references>
+          <span>
+            <target id="t98"/>
           </span>
         </references>
       </property>

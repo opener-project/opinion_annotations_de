@@ -9,20 +9,20 @@
     <linguisticProcessors layer="entities">
       <lp name="ehu-nerc-de" timestamp="2014-01-14 17:26:37" version="1.0"/>
     </linguisticProcessors>
-    <linguisticProcessor layer="constituents">
+    <linguisticProcessors layer="constituents">
       <lp timestamp="2014-02-25T13:01:16CET" version="1.3_17jan2014" name="Stanford German constituency parser trained on NEGRA corpus"/>
-    </linguisticProcessor>
-    <linguisticProcessor layer="features">
-      <lp timestamp="2014-02-25T13:01:12CET" version="4nov2013_1.0" name="VUA property tagger"/>
-    </linguisticProcessor>
-    <linguisticProcessor layer="terms">
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
       <lp timestamp="2014-02-25T13:01:12CET" version="4nov2013_1.0" name="VUA polarity tagger multilanguage"/>
-    </linguisticProcessor>
-    <linguisticProcessor layer="term">
+    </linguisticProcessors>
+    <linguisticProcessors layer="term">
       <lp timestamp="2014-02-12T09:58:43CET" version="1.0" name="TreeTagger_from_kaf German models"/>
-    </linguisticProcessor>
+    </linguisticProcessors>
+    <linguisticProcessors layer="features">
+      <lp name="Property manual annotations" version="1.0" timestamp="2014-04-03T11:04:56CEST"/>
+    </linguisticProcessors>
     <linguisticProcessors layer="opinions">
-      <lp name="Manual annotations" version="Manual annotations" timestamp="2014-03-18T16:10:34CET"/>
+      <lp name="Manual annotations" version="1.0" timestamp="2014-04-03T11:04:56CEST"/>
     </linguisticProcessors>
   </kafHeader>
   <text>
@@ -720,19 +720,66 @@
   </terms>
   <features>
     <properties>
-      <property pid="p1" lemma="room">
+      <property pid="p0" lemma="Facilities">
         <references>
-          <!--groß-->
           <span>
-            <target id="t8"/>
+            <target id="t84"/>
           </span>
-          <!--groß-->
+        </references>
+      </property>
+      <property pid="p1" lemma="Facilities">
+        <references>
           <span>
-            <target id="t79"/>
+            <target id="t87"/>
           </span>
-          <!--groß-->
+        </references>
+      </property>
+      <property pid="p2" lemma="Swimming pool">
+        <references>
           <span>
-            <target id="t90"/>
+            <target id="t63"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p3" lemma="Interior/exterior">
+        <references>
+          <span>
+            <target id="t56"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p4" lemma="Swimming pool">
+        <references>
+          <span>
+            <target id="t59"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p5" lemma="Facilities">
+        <references>
+          <span>
+            <target id="t22"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p6" lemma="Rooms">
+        <references>
+          <span>
+            <target id="t20"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p7" lemma="Facilities">
+        <references>
+          <span>
+            <target id="t26"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p8" lemma="Restaurant">
+        <references>
+          <span>
+            <target id="t24"/>
           </span>
         </references>
       </property>

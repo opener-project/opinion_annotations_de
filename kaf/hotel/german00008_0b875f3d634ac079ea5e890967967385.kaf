@@ -8,14 +8,14 @@
     <linguisticProcessors layer="entities">
       <lp name="ehu-nerc-de" timestamp="2014-02-25 12:28:19" version="1.0"/>
     </linguisticProcessors>
-    <linguisticProcessor layer="constituents">
+    <linguisticProcessors layer="constituents">
       <lp timestamp="2014-02-25T12:28:26CET" version="1.3_17jan2014" name="Stanford German constituency parser trained on NEGRA corpus"/>
-    </linguisticProcessor>
-    <linguisticProcessor layer="features">
-      <lp timestamp="2014-02-25T12:28:20CET" version="4nov2013_1.0" name="VUA property tagger"/>
-    </linguisticProcessor>
+    </linguisticProcessors>
+    <linguisticProcessors layer="features">
+      <lp name="Property manual annotations" version="1.0" timestamp="2014-04-03T11:04:52CEST"/>
+    </linguisticProcessors>
     <linguisticProcessors layer="opinions">
-      <lp name="Manual annotations" version="Manual annotations" timestamp="2014-03-18T16:10:29CET"/>
+      <lp name="Manual annotations" version="1.0" timestamp="2014-04-03T11:04:52CEST"/>
     </linguisticProcessors>
   </kafHeader>
   <text>
@@ -1224,23 +1224,35 @@
   </entities>
   <features>
     <properties>
-      <property pid="p1" lemma="cleanliness">
+      <property pid="p0" lemma="Facilities">
         <references>
-          <!--sauber-->
+          <span>
+            <target id="t10"/>
+            <target id="t11"/>
+            <target id="t12"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p1" lemma="Noisiness">
+        <references>
+          <span>
+            <target id="t56"/>
+            <target id="t62"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p2" lemma="Cleanliness">
+        <references>
           <span>
             <target id="t6"/>
           </span>
         </references>
       </property>
-      <property pid="p2" lemma="room">
+      <property pid="p3" lemma="Restaurant">
         <references>
-          <!--groß-->
           <span>
-            <target id="t4"/>
-          </span>
-          <!--alt-->
-          <span>
-            <target id="t80"/>
+            <target id="t22"/>
+            <target id="t23"/>
           </span>
         </references>
       </property>

@@ -8,14 +8,14 @@
     <linguisticProcessors layer="entities">
       <lp name="ehu-nerc-de" timestamp="2014-02-25 12:29:43" version="1.0"/>
     </linguisticProcessors>
-    <linguisticProcessor layer="constituents">
+    <linguisticProcessors layer="constituents">
       <lp timestamp="2014-02-25T12:29:48CET" version="1.3_17jan2014" name="Stanford German constituency parser trained on NEGRA corpus"/>
-    </linguisticProcessor>
-    <linguisticProcessor layer="features">
-      <lp timestamp="2014-02-25T12:29:43CET" version="4nov2013_1.0" name="VUA property tagger"/>
-    </linguisticProcessor>
+    </linguisticProcessors>
+    <linguisticProcessors layer="features">
+      <lp name="Property manual annotations" version="1.0" timestamp="2014-04-03T11:04:49CEST"/>
+    </linguisticProcessors>
     <linguisticProcessors layer="opinions">
-      <lp name="Manual annotations" version="Manual annotations" timestamp="2014-03-18T16:10:26CET"/>
+      <lp name="Manual annotations" version="1.0" timestamp="2014-04-03T11:04:49CEST"/>
     </linguisticProcessors>
   </kafHeader>
   <text>
@@ -864,39 +864,39 @@
   </entities>
   <features>
     <properties>
-      <property pid="p1" lemma="value_for_money">
+      <property pid="p0" lemma="Staff">
         <references>
-          <!--inklusive-->
           <span>
-            <target id="t37"/>
+            <target id="t44"/>
           </span>
         </references>
       </property>
-      <property pid="p2" lemma="room">
+      <property pid="p1" lemma="Restaurant">
         <references>
-          <!--groß-->
           <span>
-            <target id="t69"/>
+            <target id="t26"/>
           </span>
         </references>
       </property>
-      <property pid="p3" lemma="location">
+      <property pid="p2" lemma="Cleanliness">
         <references>
-          <!--liegen-->
           <span>
-            <target id="t4"/>
-          </span>
-          <!--weit-->
-          <span>
-            <target id="t16"/>
+            <target id="t51"/>
           </span>
         </references>
       </property>
-      <property pid="p4" lemma="staff">
+      <property pid="p3" lemma="Value-for-money">
         <references>
-          <!--hilfsbereit-->
           <span>
-            <target id="t49"/>
+            <target id="t40"/>
+            <target id="t41"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p4" lemma="Facilities">
+        <references>
+          <span>
+            <target id="t19"/>
           </span>
         </references>
       </property>

@@ -8,14 +8,14 @@
     <linguisticProcessors layer="entities">
       <lp name="ehu-nerc-de" timestamp="2014-02-25 12:48:41" version="1.0"/>
     </linguisticProcessors>
-    <linguisticProcessor layer="constituents">
+    <linguisticProcessors layer="constituents">
       <lp timestamp="2014-02-25T12:49:44CET" version="1.3_17jan2014" name="Stanford German constituency parser trained on NEGRA corpus"/>
-    </linguisticProcessor>
-    <linguisticProcessor layer="features">
-      <lp timestamp="2014-02-25T12:48:41CET" version="4nov2013_1.0" name="VUA property tagger"/>
-    </linguisticProcessor>
+    </linguisticProcessors>
+    <linguisticProcessors layer="features">
+      <lp name="Property manual annotations" version="1.0" timestamp="2014-04-03T11:04:51CEST"/>
+    </linguisticProcessors>
     <linguisticProcessors layer="opinions">
-      <lp name="Manual annotations" version="Manual annotations" timestamp="2014-03-18T16:10:28CET"/>
+      <lp name="Manual annotations" version="1.0" timestamp="2014-04-03T11:04:51CEST"/>
     </linguisticProcessors>
   </kafHeader>
   <text>
@@ -1321,27 +1321,105 @@
   </entities>
   <features>
     <properties>
-      <property pid="p1" lemma="value_for_money">
+      <property pid="p0" lemma="Bathroom">
         <references>
-          <!--teuer-->
           <span>
+            <target id="t75"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p1" lemma="Bathroom">
+        <references>
+          <span>
+            <target id="t52"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p2" lemma="Rooms">
+        <references>
+          <span>
+            <target id="t50"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p3" lemma="Location">
+        <references>
+          <span>
+            <target id="t150"/>
+            <target id="t151"/>
+            <target id="t152"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p4" lemma="Bathroom">
+        <references>
+          <span>
+            <target id="t64"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p5" lemma="Facilities">
+        <references>
+          <span>
+            <target id="t104"/>
+            <target id="t105"/>
+            <target id="t106"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p6" lemma="Staff">
+        <references>
+          <span>
+            <target id="t126"/>
+            <target id="t127"/>
+            <target id="t128"/>
+            <target id="t129"/>
+            <target id="t130"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p7" lemma="Interior/exterior">
+        <references>
+          <span>
+            <target id="t102"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p8" lemma="Interior/exterior">
+        <references>
+          <span>
+            <target id="t89"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p9" lemma="Location">
+        <references>
+          <span>
+            <target id="t159"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p10" lemma="Value-for-money">
+        <references>
+          <span>
+            <target id="t180"/>
             <target id="t181"/>
           </span>
         </references>
       </property>
-      <property pid="p2" lemma="room">
+      <property pid="p11" lemma="Location">
         <references>
-          <!--klein-->
           <span>
-            <target id="t55"/>
+            <target id="t165"/>
+            <target id="t166"/>
+            <target id="t167"/>
           </span>
         </references>
       </property>
-      <property pid="p3" lemma="location">
+      <property pid="p12" lemma="Restaurant">
         <references>
-          <!--entfernen-->
           <span>
-            <target id="t155"/>
+            <target id="t164"/>
           </span>
         </references>
       </property>

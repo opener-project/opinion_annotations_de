@@ -8,14 +8,14 @@
     <linguisticProcessors layer="entities">
       <lp name="ehu-nerc-de" timestamp="2014-02-25 12:36:13" version="1.0"/>
     </linguisticProcessors>
-    <linguisticProcessor layer="constituents">
+    <linguisticProcessors layer="constituents">
       <lp timestamp="2014-02-25T12:36:19CET" version="1.3_17jan2014" name="Stanford German constituency parser trained on NEGRA corpus"/>
-    </linguisticProcessor>
-    <linguisticProcessor layer="features">
-      <lp timestamp="2014-02-25T12:36:13CET" version="4nov2013_1.0" name="VUA property tagger"/>
-    </linguisticProcessor>
+    </linguisticProcessors>
+    <linguisticProcessors layer="features">
+      <lp name="Property manual annotations" version="1.0" timestamp="2014-04-03T11:04:53CEST"/>
+    </linguisticProcessors>
     <linguisticProcessors layer="opinions">
-      <lp name="Manual annotations" version="Manual annotations" timestamp="2014-03-18T16:10:30CET"/>
+      <lp name="Manual annotations" version="1.0" timestamp="2014-04-03T11:04:53CEST"/>
     </linguisticProcessors>
   </kafHeader>
   <text>
@@ -789,27 +789,52 @@
   </terms>
   <features>
     <properties>
-      <property pid="p1" lemma="cleanliness">
+      <property pid="p0" lemma="Noisiness">
         <references>
-          <!--sauber-->
           <span>
-            <target id="t47"/>
+            <target id="t54"/>
           </span>
         </references>
       </property>
-      <property pid="p2" lemma="room">
+      <property pid="p1" lemma="Rooms">
         <references>
-          <!--klein-->
           <span>
-            <target id="t41"/>
+            <target id="t52"/>
           </span>
-          <!--eingerichtet-->
+        </references>
+      </property>
+      <property pid="p2" lemma="Staff">
+        <references>
+          <span>
+            <target id="t72"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p3" lemma="Reservation/check-in/check-out">
+        <references>
+          <span>
+            <target id="t82"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p4" lemma="Interior/exterior">
+        <references>
           <span>
             <target id="t45"/>
           </span>
-          <!--hellhörig-->
+        </references>
+      </property>
+      <property pid="p5" lemma="Rooms">
+        <references>
           <span>
-            <target id="t54"/>
+            <target id="t38"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p6" lemma="Cleanliness">
+        <references>
+          <span>
+            <target id="t47"/>
           </span>
         </references>
       </property>

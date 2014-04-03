@@ -8,14 +8,14 @@
     <linguisticProcessors layer="entities">
       <lp name="ehu-nerc-de" timestamp="2014-02-25 12:45:40" version="1.0"/>
     </linguisticProcessors>
-    <linguisticProcessor layer="constituents">
+    <linguisticProcessors layer="constituents">
       <lp timestamp="2014-02-25T12:45:46CET" version="1.3_17jan2014" name="Stanford German constituency parser trained on NEGRA corpus"/>
-    </linguisticProcessor>
-    <linguisticProcessor layer="features">
-      <lp timestamp="2014-02-25T12:45:41CET" version="4nov2013_1.0" name="VUA property tagger"/>
-    </linguisticProcessor>
+    </linguisticProcessors>
+    <linguisticProcessors layer="features">
+      <lp name="Property manual annotations" version="1.0" timestamp="2014-04-03T11:04:48CEST"/>
+    </linguisticProcessors>
     <linguisticProcessors layer="opinions">
-      <lp name="Manual annotations" version="Manual annotations" timestamp="2014-03-18T16:10:25CET"/>
+      <lp name="Manual annotations" version="1.0" timestamp="2014-04-03T11:04:48CEST"/>
     </linguisticProcessors>
   </kafHeader>
   <text>
@@ -614,27 +614,54 @@
   </entities>
   <features>
     <properties>
-      <property pid="p1" lemma="value_for_money">
+      <property pid="p0" lemma="Location">
         <references>
-          <!--preislich-->
+          <span>
+            <target id="t28"/>
+            <target id="t29"/>
+            <target id="t30"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p1" lemma="Staff">
+        <references>
+          <span>
+            <target id="t81"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p2" lemma="Facilities">
+        <references>
+          <span>
+            <target id="t47"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p3" lemma="Internet">
+        <references>
+          <span>
+            <target id="t67"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p4" lemma="Rooms">
+        <references>
+          <span>
+            <target id="t72"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p5" lemma="Reservation/check-in/check-out">
+        <references>
+          <span>
+            <target id="t78"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p6" lemma="Value-for-money">
+        <references>
           <span>
             <target id="t25"/>
-          </span>
-        </references>
-      </property>
-      <property pid="p2" lemma="location">
-        <references>
-          <!--liegen-->
-          <span>
-            <target id="t34"/>
-          </span>
-        </references>
-      </property>
-      <property pid="p3" lemma="room">
-        <references>
-          <!--klein-->
-          <span>
-            <target id="t71"/>
           </span>
         </references>
       </property>

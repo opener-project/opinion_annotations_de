@@ -9,20 +9,20 @@
     <linguisticProcessors layer="entities">
       <lp name="ehu-nerc-de" timestamp="2014-01-14 17:28:34" version="1.0"/>
     </linguisticProcessors>
-    <linguisticProcessor layer="constituents">
+    <linguisticProcessors layer="constituents">
       <lp timestamp="2014-02-25T13:08:28CET" version="1.3_17jan2014" name="Stanford German constituency parser trained on NEGRA corpus"/>
-    </linguisticProcessor>
-    <linguisticProcessor layer="features">
-      <lp timestamp="2014-02-25T13:08:22CET" version="4nov2013_1.0" name="VUA property tagger"/>
-    </linguisticProcessor>
-    <linguisticProcessor layer="terms">
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
       <lp timestamp="2014-02-25T13:08:22CET" version="4nov2013_1.0" name="VUA polarity tagger multilanguage"/>
-    </linguisticProcessor>
-    <linguisticProcessor layer="term">
+    </linguisticProcessors>
+    <linguisticProcessors layer="term">
       <lp timestamp="2014-02-12T10:11:27CET" version="1.0" name="TreeTagger_from_kaf German models"/>
-    </linguisticProcessor>
+    </linguisticProcessors>
+    <linguisticProcessors layer="features">
+      <lp name="Property manual annotations" version="1.0" timestamp="2014-04-03T11:04:48CEST"/>
+    </linguisticProcessors>
     <linguisticProcessors layer="opinions">
-      <lp name="Manual annotations" version="Manual annotations" timestamp="2014-03-18T16:10:25CET"/>
+      <lp name="Manual annotations" version="1.0" timestamp="2014-04-03T11:04:48CEST"/>
     </linguisticProcessors>
   </kafHeader>
   <text>
@@ -966,43 +966,80 @@
   </terms>
   <features>
     <properties>
-      <property pid="p1" lemma="value_for_money">
+      <property pid="p0" lemma="Transportation">
         <references>
-          <!--zahlen-->
           <span>
-            <target id="t88"/>
+            <target id="t36"/>
+            <target id="t37"/>
+            <target id="t38"/>
           </span>
         </references>
       </property>
-      <property pid="p2" lemma="location">
+      <property pid="p1" lemma="Transportation">
         <references>
-          <!--liegen-->
+          <span>
+            <target id="t28"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p2" lemma="Reservation/check-in/check-out">
+        <references>
+          <span>
+            <target id="t98"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p3" lemma="Transportation">
+        <references>
+          <span>
+            <target id="t124"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p4" lemma="Staff">
+        <references>
+          <span>
+            <target id="t59"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p5" lemma="Reservation/check-in/check-out">
+        <references>
+          <span>
+            <target id="t80"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p6" lemma="Transportation">
+        <references>
+          <span>
+            <target id="t120"/>
+            <target id="t121"/>
+            <target id="t122"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p7" lemma="Transportation">
+        <references>
+          <span>
+            <target id="t131"/>
+            <target id="t132"/>
+            <target id="t133"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p8" lemma="Location">
+        <references>
           <span>
             <target id="t11"/>
-          </span>
-          <!--verkehrsgünstig-->
-          <span>
             <target id="t12"/>
-          </span>
-          <!--unmittelbar-->
-          <span>
-            <target id="t22"/>
-          </span>
-          <!--direkt-->
-          <span>
-            <target id="t30"/>
-          </span>
-          <!--direkt-->
-          <span>
-            <target id="t117"/>
           </span>
         </references>
       </property>
-      <property pid="p3" lemma="staff">
+      <property pid="p9" lemma="Location">
         <references>
-          <!--hilfsbereit-->
           <span>
-            <target id="t64"/>
+            <target id="t23"/>
           </span>
         </references>
       </property>
