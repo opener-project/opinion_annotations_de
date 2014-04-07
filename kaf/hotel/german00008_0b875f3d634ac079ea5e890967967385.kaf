@@ -12,10 +12,10 @@
       <lp timestamp="2014-02-25T12:28:26CET" version="1.3_17jan2014" name="Stanford German constituency parser trained on NEGRA corpus"/>
     </linguisticProcessors>
     <linguisticProcessors layer="features">
-      <lp name="Property manual annotations" version="1.0" timestamp="2014-04-03T11:04:52CEST"/>
+      <lp name="Property manual annotations" version="1.0" timestamp="2014-04-07T17:37:08CEST"/>
     </linguisticProcessors>
     <linguisticProcessors layer="opinions">
-      <lp name="Manual annotations" version="1.0" timestamp="2014-04-03T11:04:52CEST"/>
+      <lp name="Manual annotations" version="1.0" timestamp="2014-04-07T17:37:08CEST"/>
     </linguisticProcessors>
   </kafHeader>
   <text>
@@ -3168,7 +3168,8 @@
     </tree>
   </constituency>
   <opinions>
-    <opinion oid="20_0">
+    <opinion oid="o0">
+      <!--Tag opinion scope id=20-->
       <opinion_holder/>
       <opinion_target>
         <!--Familien mit Kleinkindern-->
@@ -3189,7 +3190,8 @@
         </span>
       </opinion_expression>
     </opinion>
-    <opinion oid="10_0">
+    <opinion oid="o0">
+      <!--Tag opinion scope id=10-->
       <opinion_holder/>
       <opinion_target>
         <!--AI · Leistungen-->
@@ -3208,7 +3210,8 @@
         </span>
       </opinion_expression>
     </opinion>
-    <opinion oid="2_0">
+    <opinion oid="o0">
+      <!--Tag opinion scope id=2-->
       <opinion_holder/>
       <opinion_target/>
       <opinion_expression polarity="StrongPositive">
@@ -3219,7 +3222,8 @@
         </span>
       </opinion_expression>
     </opinion>
-    <opinion oid="15_0">
+    <opinion oid="o0">
+      <!--Tag opinion scope id=15-->
       <opinion_holder/>
       <opinion_target>
         <!--Restaurants-->
@@ -3235,7 +3239,8 @@
         </span>
       </opinion_expression>
     </opinion>
-    <opinion oid="15_1">
+    <opinion oid="o1">
+      <!--Tag opinion scope id=15-->
       <opinion_holder/>
       <opinion_target>
         <!--Restaurants-->
@@ -3255,7 +3260,8 @@
         </span>
       </opinion_expression>
     </opinion>
-    <opinion oid="6_0">
+    <opinion oid="o0">
+      <!--Tag opinion scope id=6-->
       <opinion_holder/>
       <opinion_target>
         <!--Hotel-->
@@ -3271,7 +3277,8 @@
         </span>
       </opinion_expression>
     </opinion>
-    <opinion oid="6_1">
+    <opinion oid="o1">
+      <!--Tag opinion scope id=6-->
       <opinion_holder/>
       <opinion_target>
         <!--Hotel-->

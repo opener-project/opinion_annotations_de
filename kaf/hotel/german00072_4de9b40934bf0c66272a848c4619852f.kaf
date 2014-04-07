@@ -12,11 +12,10 @@
       <lp timestamp="2014-02-25T12:35:43CET" version="1.3_17jan2014" name="Stanford German constituency parser trained on NEGRA corpus"/>
     </linguisticProcessors>
     <linguisticProcessors layer="features">
-      <lp timestamp="2014-02-25T12:35:39CET" version="4nov2013_1.0" name="VUA property tagger"/>
-      <lp name="Property manual annotations" version="1.0" timestamp="2014-04-03T11:04:56CEST"/>
+      <lp name="Property manual annotations" version="1.0" timestamp="2014-04-07T17:37:13CEST"/>
     </linguisticProcessors>
     <linguisticProcessors layer="opinions">
-      <lp name="Manual annotations" version="1.0" timestamp="2014-04-03T11:04:56CEST"/>
+      <lp name="Manual annotations" version="1.0" timestamp="2014-04-07T17:37:13CEST"/>
     </linguisticProcessors>
   </kafHeader>
   <text>
@@ -890,151 +889,6 @@
       <edge from="ter45" id="tre112" to="nter70"/>
     </tree>
   </constituency>
-  <opinions>
-    <opinion oid="24_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--Abfalleimer-->
-        <span>
-          <target id="t28"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Negative">
-        <!--defekte-->
-        <span>
-          <target id="t22"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="24_1">
-      <opinion_holder/>
-      <opinion_target>
-        <!--Geräte z.B. Fernseher-->
-        <span>
-          <target id="t23"/>
-          <target id="t25"/>
-          <target id="t26"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Negative">
-        <!--defekte-->
-        <span>
-          <target id="t22"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="24_2">
-      <opinion_holder/>
-      <opinion_target>
-        <!--Duschkopf-->
-        <span>
-          <target id="t30"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Negative">
-        <!--defekte-->
-        <span>
-          <target id="t22"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="12_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--Zimmer-->
-        <span>
-          <target id="t13"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Negative">
-        <!--dreckiger Teppich-->
-        <span>
-          <target id="t10"/>
-          <target id="t11"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="15_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--im Bad-->
-        <span>
-          <target id="t19"/>
-          <target id="t20"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Negative">
-        <!--Farbe lößt sich ab-->
-        <span>
-          <target id="t15"/>
-          <target id="t16"/>
-          <target id="t17"/>
-          <target id="t18"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="33_0">
-      <opinion_holder/>
-      <opinion_target/>
-      <opinion_expression polarity="Negative">
-        <!--Trotz Zimmerwechsel wieder Schimmel-->
-        <span>
-          <target id="t37"/>
-          <target id="t38"/>
-          <target id="t39"/>
-          <target id="t40"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="28_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--Servicepersonal-->
-        <span>
-          <target id="t35"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Negative">
-        <!--Keine Entschuldigung-->
-        <span>
-          <target id="t32"/>
-          <target id="t33"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="3_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--dieses Hotel-->
-        <span>
-          <target id="t4"/>
-          <target id="t5"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="StrongNegative">
-        <!--Nie wieder-->
-        <span>
-          <target id="t1"/>
-          <target id="t2"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="7_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--Zimmer-->
-        <span>
-          <target id="t8"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Negative">
-        <!--Schimmelproblem-->
-        <span>
-          <target id="t6"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-  </opinions>
   <features>
     <properties>
       <property pid="p0" lemma="Interior/exterior">
@@ -1116,4 +970,158 @@
       </property>
     </properties>
   </features>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=24-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--Abfalleimer-->
+        <span>
+          <target id="t28"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Negative">
+        <!--defekte-->
+        <span>
+          <target id="t22"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=24-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--Geräte z.B. Fernseher-->
+        <span>
+          <target id="t23"/>
+          <target id="t25"/>
+          <target id="t26"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Negative">
+        <!--defekte-->
+        <span>
+          <target id="t22"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o2">
+      <!--Tag opinion scope id=24-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--Duschkopf-->
+        <span>
+          <target id="t30"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Negative">
+        <!--defekte-->
+        <span>
+          <target id="t22"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=12-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--Zimmer-->
+        <span>
+          <target id="t13"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Negative">
+        <!--dreckiger Teppich-->
+        <span>
+          <target id="t10"/>
+          <target id="t11"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=15-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--im Bad-->
+        <span>
+          <target id="t19"/>
+          <target id="t20"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Negative">
+        <!--Farbe lößt sich ab-->
+        <span>
+          <target id="t15"/>
+          <target id="t16"/>
+          <target id="t17"/>
+          <target id="t18"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=33-->
+      <opinion_holder/>
+      <opinion_target/>
+      <opinion_expression polarity="Negative">
+        <!--Trotz Zimmerwechsel wieder Schimmel-->
+        <span>
+          <target id="t37"/>
+          <target id="t38"/>
+          <target id="t39"/>
+          <target id="t40"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=28-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--Servicepersonal-->
+        <span>
+          <target id="t35"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Negative">
+        <!--Keine Entschuldigung-->
+        <span>
+          <target id="t32"/>
+          <target id="t33"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=3-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--dieses Hotel-->
+        <span>
+          <target id="t4"/>
+          <target id="t5"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="StrongNegative">
+        <!--Nie wieder-->
+        <span>
+          <target id="t1"/>
+          <target id="t2"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=7-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--Zimmer-->
+        <span>
+          <target id="t8"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Negative">
+        <!--Schimmelproblem-->
+        <span>
+          <target id="t6"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
 </KAF>

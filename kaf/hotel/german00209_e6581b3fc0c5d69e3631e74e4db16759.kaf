@@ -12,10 +12,10 @@
       <lp timestamp="2014-02-25T12:52:28CET" version="1.3_17jan2014" name="Stanford German constituency parser trained on NEGRA corpus"/>
     </linguisticProcessors>
     <linguisticProcessors layer="features">
-      <lp name="Property manual annotations" version="1.0" timestamp="2014-04-03T11:04:51CEST"/>
+      <lp name="Property manual annotations" version="1.0" timestamp="2014-04-07T17:37:06CEST"/>
     </linguisticProcessors>
     <linguisticProcessors layer="opinions">
-      <lp name="Manual annotations" version="1.0" timestamp="2014-04-03T11:04:51CEST"/>
+      <lp name="Manual annotations" version="1.0" timestamp="2014-04-07T17:37:06CEST"/>
     </linguisticProcessors>
   </kafHeader>
   <text>
@@ -1100,7 +1100,8 @@
     </tree>
   </constituency>
   <opinions>
-    <opinion oid="9_0">
+    <opinion oid="o0">
+      <!--Tag opinion scope id=9-->
       <opinion_holder/>
       <opinion_target>
         <!--die Sauberkeit-->
@@ -1119,7 +1120,8 @@
         </span>
       </opinion_expression>
     </opinion>
-    <opinion oid="12_0">
+    <opinion oid="o0">
+      <!--Tag opinion scope id=12-->
       <opinion_holder/>
       <opinion_target/>
       <opinion_expression polarity="Negative">
@@ -1130,7 +1132,8 @@
         </span>
       </opinion_expression>
     </opinion>
-    <opinion oid="5_0">
+    <opinion oid="o0">
+      <!--Tag opinion scope id=5-->
       <opinion_holder/>
       <opinion_target>
         <!--die Anlage-->

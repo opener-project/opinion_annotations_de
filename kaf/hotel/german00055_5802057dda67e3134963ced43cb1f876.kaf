@@ -12,18 +12,17 @@
     <linguisticProcessors layer="constituents">
       <lp timestamp="2014-02-25T13:00:36CET" version="1.3_17jan2014" name="Stanford German constituency parser trained on NEGRA corpus"/>
     </linguisticProcessors>
-    <linguisticProcessors layer="features">
-      <lp timestamp="2014-02-25T13:00:32CET" version="4nov2013_1.0" name="VUA property tagger"/>
-      <lp name="Property manual annotations" version="1.0" timestamp="2014-04-03T11:04:52CEST"/>
-    </linguisticProcessors>
     <linguisticProcessors layer="terms">
       <lp timestamp="2014-02-25T13:00:32CET" version="4nov2013_1.0" name="VUA polarity tagger multilanguage"/>
     </linguisticProcessors>
     <linguisticProcessors layer="term">
       <lp timestamp="2014-02-12T09:56:56CET" version="1.0" name="TreeTagger_from_kaf German models"/>
     </linguisticProcessors>
+    <linguisticProcessors layer="features">
+      <lp name="Property manual annotations" version="1.0" timestamp="2014-04-07T17:37:08CEST"/>
+    </linguisticProcessors>
     <linguisticProcessors layer="opinions">
-      <lp name="Manual annotations" version="1.0" timestamp="2014-04-03T11:04:52CEST"/>
+      <lp name="Manual annotations" version="1.0" timestamp="2014-04-07T17:37:08CEST"/>
     </linguisticProcessors>
   </kafHeader>
   <text>
@@ -2729,205 +2728,6 @@
       <edge from="ter151" id="tre379" to="nter236"/>
     </tree>
   </constituency>
-  <opinions>
-    <opinion oid="11_0">
-      <opinion_holder/>
-      <opinion_target/>
-      <opinion_expression polarity="Negative">
-        <!--Schlafen ist auch mit Ohropax unmöglich-->
-        <span>
-          <target id="t37"/>
-          <target id="t38"/>
-          <target id="t39"/>
-          <target id="t40"/>
-          <target id="t41"/>
-          <target id="t42"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="27_0">
-      <opinion_holder>
-        <!--Unser-->
-        <span>
-          <target id="t89"/>
-        </span>
-      </opinion_holder>
-      <opinion_target>
-        <!--Zimmer-->
-        <span>
-          <target id="t90"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Negative">
-        <!--( ähnlich Schweiss ) gestunken-->
-        <span>
-          <target id="t92"/>
-          <target id="t93"/>
-          <target id="t94"/>
-          <target id="t95"/>
-          <target id="t96"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="22_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--Personal-->
-        <span>
-          <target id="t75"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="StrongPositive">
-        <!--sehr freundlich-->
-        <span>
-          <target id="t80"/>
-          <target id="t81"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="22_1">
-      <opinion_holder/>
-      <opinion_target>
-        <!--Personal-->
-        <span>
-          <target id="t75"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Positive">
-        <!--allen erfahrenen Bereichen-->
-        <span>
-          <target id="t77"/>
-          <target id="t78"/>
-          <target id="t79"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="22_2">
-      <opinion_holder/>
-      <opinion_target>
-        <!--Personal-->
-        <span>
-          <target id="t75"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Positive">
-        <!--da gibts nichts zu sagen-->
-        <span>
-          <target id="t83"/>
-          <target id="t84"/>
-          <target id="t85"/>
-          <target id="t86"/>
-          <target id="t87"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="16_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--Züge-->
-        <span>
-          <target id="t57"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Negative">
-        <!--verkehren twenty · four · hours · Horror-->
-        <span>
-          <target id="t65"/>
-          <target id="t66"/>
-          <target id="t67"/>
-          <target id="t68"/>
-          <target id="t69"/>
-          <target id="t70"/>
-          <target id="t71"/>
-          <target id="t72"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="32_0">
-      <opinion_holder>
-        <!--Ich-->
-        <span>
-          <target id="t9"/>
-        </span>
-      </opinion_holder>
-      <opinion_target/>
-      <opinion_expression polarity="Negative">
-        <!--verstehe nicht , wie an diesem Standort ein Hotel gebaut werden kann-->
-        <span>
-          <target id="t10"/>
-          <target id="t11"/>
-          <target id="t12"/>
-          <target id="t13"/>
-          <target id="t14"/>
-          <target id="t15"/>
-          <target id="t16"/>
-          <target id="t17"/>
-          <target id="t18"/>
-          <target id="t19"/>
-          <target id="t20"/>
-          <target id="t21"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="31_0">
-      <opinion_holder/>
-      <opinion_target/>
-      <opinion_expression polarity="StrongNegative">
-        <!--Nie wieder-->
-        <span>
-          <target id="t108"/>
-          <target id="t109"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="2_0">
-      <opinion_holder/>
-      <opinion_target/>
-      <opinion_expression polarity="StrongNegative">
-        <!--Geht nicht-->
-        <span>
-          <target id="t1"/>
-          <target id="t2"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="4_0">
-      <opinion_holder/>
-      <opinion_target/>
-      <opinion_expression polarity="Negative">
-        <!--Wie rubriziert · geht nicht-->
-        <span>
-          <target id="t3"/>
-          <target id="t4"/>
-          <target id="t5"/>
-          <target id="t6"/>
-          <target id="t7"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="9_0">
-      <opinion_holder/>
-      <opinion_target/>
-      <opinion_expression polarity="Negative">
-        <!--Schliessfächer würden sich eher eignen , da diese keine " Sinne " haben-->
-        <span>
-          <target id="t23"/>
-          <target id="t24"/>
-          <target id="t25"/>
-          <target id="t26"/>
-          <target id="t27"/>
-          <target id="t28"/>
-          <target id="t29"/>
-          <target id="t30"/>
-          <target id="t31"/>
-          <target id="t32"/>
-          <target id="t33"/>
-          <target id="t34"/>
-          <target id="t35"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-  </opinions>
   <features>
     <properties>
       <property pid="p0" lemma="Rooms">
@@ -2981,4 +2781,214 @@
       </property>
     </properties>
   </features>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=11-->
+      <opinion_holder/>
+      <opinion_target/>
+      <opinion_expression polarity="Negative">
+        <!--Schlafen ist auch mit Ohropax unmöglich-->
+        <span>
+          <target id="t37"/>
+          <target id="t38"/>
+          <target id="t39"/>
+          <target id="t40"/>
+          <target id="t41"/>
+          <target id="t42"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=27-->
+      <opinion_holder>
+        <!--Unser-->
+        <span>
+          <target id="t89"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--Zimmer-->
+        <span>
+          <target id="t90"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Negative">
+        <!--( ähnlich Schweiss ) gestunken-->
+        <span>
+          <target id="t92"/>
+          <target id="t93"/>
+          <target id="t94"/>
+          <target id="t95"/>
+          <target id="t96"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=22-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--Personal-->
+        <span>
+          <target id="t75"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="StrongPositive">
+        <!--sehr freundlich-->
+        <span>
+          <target id="t80"/>
+          <target id="t81"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=22-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--Personal-->
+        <span>
+          <target id="t75"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Positive">
+        <!--allen erfahrenen Bereichen-->
+        <span>
+          <target id="t77"/>
+          <target id="t78"/>
+          <target id="t79"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o2">
+      <!--Tag opinion scope id=22-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--Personal-->
+        <span>
+          <target id="t75"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Positive">
+        <!--da gibts nichts zu sagen-->
+        <span>
+          <target id="t83"/>
+          <target id="t84"/>
+          <target id="t85"/>
+          <target id="t86"/>
+          <target id="t87"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=16-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--Züge-->
+        <span>
+          <target id="t57"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Negative">
+        <!--verkehren twenty · four · hours · Horror-->
+        <span>
+          <target id="t65"/>
+          <target id="t66"/>
+          <target id="t67"/>
+          <target id="t68"/>
+          <target id="t69"/>
+          <target id="t70"/>
+          <target id="t71"/>
+          <target id="t72"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=32-->
+      <opinion_holder>
+        <!--Ich-->
+        <span>
+          <target id="t9"/>
+        </span>
+      </opinion_holder>
+      <opinion_target/>
+      <opinion_expression polarity="Negative">
+        <!--verstehe nicht , wie an diesem Standort ein Hotel gebaut werden kann-->
+        <span>
+          <target id="t10"/>
+          <target id="t11"/>
+          <target id="t12"/>
+          <target id="t13"/>
+          <target id="t14"/>
+          <target id="t15"/>
+          <target id="t16"/>
+          <target id="t17"/>
+          <target id="t18"/>
+          <target id="t19"/>
+          <target id="t20"/>
+          <target id="t21"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=31-->
+      <opinion_holder/>
+      <opinion_target/>
+      <opinion_expression polarity="StrongNegative">
+        <!--Nie wieder-->
+        <span>
+          <target id="t108"/>
+          <target id="t109"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=2-->
+      <opinion_holder/>
+      <opinion_target/>
+      <opinion_expression polarity="StrongNegative">
+        <!--Geht nicht-->
+        <span>
+          <target id="t1"/>
+          <target id="t2"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=4-->
+      <opinion_holder/>
+      <opinion_target/>
+      <opinion_expression polarity="Negative">
+        <!--Wie rubriziert · geht nicht-->
+        <span>
+          <target id="t3"/>
+          <target id="t4"/>
+          <target id="t5"/>
+          <target id="t6"/>
+          <target id="t7"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=9-->
+      <opinion_holder/>
+      <opinion_target/>
+      <opinion_expression polarity="Negative">
+        <!--Schliessfächer würden sich eher eignen , da diese keine " Sinne " haben-->
+        <span>
+          <target id="t23"/>
+          <target id="t24"/>
+          <target id="t25"/>
+          <target id="t26"/>
+          <target id="t27"/>
+          <target id="t28"/>
+          <target id="t29"/>
+          <target id="t30"/>
+          <target id="t31"/>
+          <target id="t32"/>
+          <target id="t33"/>
+          <target id="t34"/>
+          <target id="t35"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
 </KAF>

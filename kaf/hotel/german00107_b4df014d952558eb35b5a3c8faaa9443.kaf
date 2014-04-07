@@ -12,18 +12,17 @@
     <linguisticProcessors layer="constituents">
       <lp timestamp="2014-02-25T13:04:46CET" version="1.3_17jan2014" name="Stanford German constituency parser trained on NEGRA corpus"/>
     </linguisticProcessors>
-    <linguisticProcessors layer="features">
-      <lp timestamp="2014-02-25T13:04:42CET" version="4nov2013_1.0" name="VUA property tagger"/>
-      <lp name="Property manual annotations" version="1.0" timestamp="2014-04-03T11:04:54CEST"/>
-    </linguisticProcessors>
     <linguisticProcessors layer="terms">
       <lp timestamp="2014-02-25T13:04:42CET" version="4nov2013_1.0" name="VUA polarity tagger multilanguage"/>
     </linguisticProcessors>
     <linguisticProcessors layer="term">
       <lp timestamp="2014-02-12T10:05:22CET" version="1.0" name="TreeTagger_from_kaf German models"/>
     </linguisticProcessors>
+    <linguisticProcessors layer="features">
+      <lp name="Property manual annotations" version="1.0" timestamp="2014-04-07T17:37:11CEST"/>
+    </linguisticProcessors>
     <linguisticProcessors layer="opinions">
-      <lp name="Manual annotations" version="1.0" timestamp="2014-04-03T11:04:54CEST"/>
+      <lp name="Manual annotations" version="1.0" timestamp="2014-04-07T17:37:11CEST"/>
     </linguisticProcessors>
   </kafHeader>
   <text>
@@ -975,144 +974,6 @@
       <edge from="ter50" id="tre127" to="nter81"/>
     </tree>
   </constituency>
-  <opinions>
-    <opinion oid="20_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--WLAN Empfang-->
-        <span>
-          <target id="t46"/>
-          <target id="t47"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Negative">
-        <!--sehr schwach-->
-        <span>
-          <target id="t52"/>
-          <target id="t53"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="20_1">
-      <opinion_holder/>
-      <opinion_target>
-        <!--WLAN Empfang-->
-        <span>
-          <target id="t46"/>
-          <target id="t47"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Negative">
-        <!--Kein-->
-        <span>
-          <target id="t45"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="1_0">
-      <opinion_holder/>
-      <opinion_target/>
-      <opinion_expression polarity="Negative">
-        <!--nicht perfekt-->
-        <span>
-          <target id="t4"/>
-          <target id="t5"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="1_1">
-      <opinion_holder/>
-      <opinion_target/>
-      <opinion_expression polarity="Positive">
-        <!--Ok-->
-        <span>
-          <target id="t1"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="3_0">
-      <opinion_holder/>
-      <opinion_target/>
-      <opinion_expression polarity="Negative">
-        <!--war aber viel besser.Schade-->
-        <span>
-          <target id="t23"/>
-          <target id="t24"/>
-          <target id="t25"/>
-          <target id="t28"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="2_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--Lage-->
-        <span>
-          <target id="t8"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="StrongPositive">
-        <!--Super-->
-        <span>
-          <target id="t7"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="5_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--die Zimmer-->
-        <span>
-          <target id="t41"/>
-          <target id="t42"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Negative">
-        <!--Leider sind runtergekommen-->
-        <span>
-          <target id="t39"/>
-          <target id="t40"/>
-          <target id="t43"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="4_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--das Hotel-->
-        <span>
-          <target id="t33"/>
-          <target id="t34"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Negative">
-        <!--war mal schöner-->
-        <span>
-          <target id="t30"/>
-          <target id="t31"/>
-          <target id="t32"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="4_1">
-      <opinion_holder/>
-      <opinion_target>
-        <!--die Mitarbeiter-->
-        <span>
-          <target id="t36"/>
-          <target id="t37"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Negative">
-        <!--war mal schöner-->
-        <span>
-          <target id="t30"/>
-          <target id="t31"/>
-          <target id="t32"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-  </opinions>
   <features>
     <properties>
       <property pid="p0" lemma="Rooms">
@@ -1146,4 +1007,151 @@
       </property>
     </properties>
   </features>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=20-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--WLAN Empfang-->
+        <span>
+          <target id="t46"/>
+          <target id="t47"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Negative">
+        <!--sehr schwach-->
+        <span>
+          <target id="t52"/>
+          <target id="t53"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=20-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--WLAN Empfang-->
+        <span>
+          <target id="t46"/>
+          <target id="t47"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Negative">
+        <!--Kein-->
+        <span>
+          <target id="t45"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=1-->
+      <opinion_holder/>
+      <opinion_target/>
+      <opinion_expression polarity="Negative">
+        <!--nicht perfekt-->
+        <span>
+          <target id="t4"/>
+          <target id="t5"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=1-->
+      <opinion_holder/>
+      <opinion_target/>
+      <opinion_expression polarity="Positive">
+        <!--Ok-->
+        <span>
+          <target id="t1"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=3-->
+      <opinion_holder/>
+      <opinion_target/>
+      <opinion_expression polarity="Negative">
+        <!--war aber viel besser.Schade-->
+        <span>
+          <target id="t23"/>
+          <target id="t24"/>
+          <target id="t25"/>
+          <target id="t28"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=2-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--Lage-->
+        <span>
+          <target id="t8"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="StrongPositive">
+        <!--Super-->
+        <span>
+          <target id="t7"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=5-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--die Zimmer-->
+        <span>
+          <target id="t41"/>
+          <target id="t42"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Negative">
+        <!--Leider sind runtergekommen-->
+        <span>
+          <target id="t39"/>
+          <target id="t40"/>
+          <target id="t43"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=4-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--das Hotel-->
+        <span>
+          <target id="t33"/>
+          <target id="t34"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Negative">
+        <!--war mal schöner-->
+        <span>
+          <target id="t30"/>
+          <target id="t31"/>
+          <target id="t32"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=4-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--die Mitarbeiter-->
+        <span>
+          <target id="t36"/>
+          <target id="t37"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Negative">
+        <!--war mal schöner-->
+        <span>
+          <target id="t30"/>
+          <target id="t31"/>
+          <target id="t32"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
 </KAF>

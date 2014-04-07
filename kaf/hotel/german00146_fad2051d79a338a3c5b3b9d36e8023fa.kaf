@@ -12,18 +12,17 @@
     <linguisticProcessors layer="constituents">
       <lp timestamp="2014-02-25T13:08:05CET" version="1.3_17jan2014" name="Stanford German constituency parser trained on NEGRA corpus"/>
     </linguisticProcessors>
-    <linguisticProcessors layer="features">
-      <lp timestamp="2014-02-25T13:08:00CET" version="4nov2013_1.0" name="VUA property tagger"/>
-      <lp name="Property manual annotations" version="1.0" timestamp="2014-04-03T11:04:48CEST"/>
-    </linguisticProcessors>
     <linguisticProcessors layer="terms">
       <lp timestamp="2014-02-25T13:08:00CET" version="4nov2013_1.0" name="VUA polarity tagger multilanguage"/>
     </linguisticProcessors>
     <linguisticProcessors layer="term">
       <lp timestamp="2014-02-12T10:10:44CET" version="1.0" name="TreeTagger_from_kaf German models"/>
     </linguisticProcessors>
+    <linguisticProcessors layer="features">
+      <lp name="Property manual annotations" version="1.0" timestamp="2014-04-07T17:37:01CEST"/>
+    </linguisticProcessors>
     <linguisticProcessors layer="opinions">
-      <lp name="Manual annotations" version="1.0" timestamp="2014-04-03T11:04:48CEST"/>
+      <lp name="Manual annotations" version="1.0" timestamp="2014-04-07T17:37:01CEST"/>
     </linguisticProcessors>
   </kafHeader>
   <text>
@@ -1287,8 +1286,27 @@
       <edge from="ter68" id="tre175" to="nter111"/>
     </tree>
   </constituency>
+  <features>
+    <properties>
+      <property pid="p0" lemma="Restaurant">
+        <references>
+          <span>
+            <target id="t34"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p1" lemma="Restaurant">
+        <references>
+          <span>
+            <target id="t15"/>
+          </span>
+        </references>
+      </property>
+    </properties>
+  </features>
   <opinions>
-    <opinion oid="26_0">
+    <opinion oid="o0">
+      <!--Tag opinion scope id=26-->
       <opinion_holder/>
       <opinion_target>
         <!--das Angebot-->
@@ -1305,7 +1323,8 @@
         </span>
       </opinion_expression>
     </opinion>
-    <opinion oid="26_1">
+    <opinion oid="o1">
+      <!--Tag opinion scope id=26-->
       <opinion_holder/>
       <opinion_target>
         <!--Für ein 4 Sterne Hotel-->
@@ -1325,7 +1344,8 @@
         </span>
       </opinion_expression>
     </opinion>
-    <opinion oid="26_2">
+    <opinion oid="o2">
+      <!--Tag opinion scope id=26-->
       <opinion_holder/>
       <opinion_target>
         <!--die Qualität-->
@@ -1342,7 +1362,8 @@
         </span>
       </opinion_expression>
     </opinion>
-    <opinion oid="12_0">
+    <opinion oid="o0">
+      <!--Tag opinion scope id=12-->
       <opinion_holder/>
       <opinion_target>
         <!--ein 4 Gänge Menü-->
@@ -1366,7 +1387,8 @@
         </span>
       </opinion_expression>
     </opinion>
-    <opinion oid="21_0">
+    <opinion oid="o0">
+      <!--Tag opinion scope id=21-->
       <opinion_holder/>
       <opinion_target>
         <!--der Geschmack-->
@@ -1384,7 +1406,8 @@
         </span>
       </opinion_expression>
     </opinion>
-    <opinion oid="21_1">
+    <opinion oid="o1">
+      <!--Tag opinion scope id=21-->
       <opinion_holder/>
       <opinion_target>
         <!--die Auswahl-->
@@ -1402,7 +1425,8 @@
         </span>
       </opinion_expression>
     </opinion>
-    <opinion oid="16_0">
+    <opinion oid="o0">
+      <!--Tag opinion scope id=16-->
       <opinion_holder/>
       <opinion_target>
         <!--Das Essen-->
@@ -1422,7 +1446,8 @@
         </span>
       </opinion_expression>
     </opinion>
-    <opinion oid="3_0">
+    <opinion oid="o0">
+      <!--Tag opinion scope id=3-->
       <opinion_holder/>
       <opinion_target/>
       <opinion_expression polarity="Negative">
@@ -1435,7 +1460,8 @@
         </span>
       </opinion_expression>
     </opinion>
-    <opinion oid="3_1">
+    <opinion oid="o1">
+      <!--Tag opinion scope id=3-->
       <opinion_holder/>
       <opinion_target/>
       <opinion_expression polarity="Negative">
@@ -1447,7 +1473,8 @@
         </span>
       </opinion_expression>
     </opinion>
-    <opinion oid="8_0">
+    <opinion oid="o0">
+      <!--Tag opinion scope id=8-->
       <opinion_holder>
         <!--Wir-->
         <span>
@@ -1470,22 +1497,4 @@
       </opinion_expression>
     </opinion>
   </opinions>
-  <features>
-    <properties>
-      <property pid="p0" lemma="Restaurant">
-        <references>
-          <span>
-            <target id="t34"/>
-          </span>
-        </references>
-      </property>
-      <property pid="p1" lemma="Restaurant">
-        <references>
-          <span>
-            <target id="t15"/>
-          </span>
-        </references>
-      </property>
-    </properties>
-  </features>
 </KAF>

@@ -12,11 +12,10 @@
       <lp timestamp="2014-02-25T12:33:33CET" version="1.3_17jan2014" name="Stanford German constituency parser trained on NEGRA corpus"/>
     </linguisticProcessors>
     <linguisticProcessors layer="features">
-      <lp timestamp="2014-02-25T12:33:28CET" version="4nov2013_1.0" name="VUA property tagger"/>
-      <lp name="Property manual annotations" version="1.0" timestamp="2014-04-03T11:04:56CEST"/>
+      <lp name="Property manual annotations" version="1.0" timestamp="2014-04-07T17:37:14CEST"/>
     </linguisticProcessors>
     <linguisticProcessors layer="opinions">
-      <lp name="Manual annotations" version="1.0" timestamp="2014-04-03T11:04:56CEST"/>
+      <lp name="Manual annotations" version="1.0" timestamp="2014-04-07T17:37:14CEST"/>
     </linguisticProcessors>
   </kafHeader>
   <text>
@@ -1788,341 +1787,6 @@
       <edge from="ter93" id="tre231" to="nter142"/>
     </tree>
   </constituency>
-  <opinions>
-    <opinion oid="11_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--Das Grand Elysee-->
-        <span>
-          <target id="t5"/>
-          <target id="t6"/>
-          <target id="t7"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Negative">
-        <!--designmässig in die Tage gekommen-->
-        <span>
-          <target id="t9"/>
-          <target id="t10"/>
-          <target id="t11"/>
-          <target id="t12"/>
-          <target id="t13"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="10_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--die Badzimmer im Altgebäude-->
-        <span>
-          <target id="t21"/>
-          <target id="t22"/>
-          <target id="t23"/>
-          <target id="t24"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Negative">
-        <!--könten eine Auffrischung vertragen-->
-        <span>
-          <target id="t25"/>
-          <target id="t26"/>
-          <target id="t27"/>
-          <target id="t28"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="21_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--Professionaltät-->
-        <span>
-          <target id="t34"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Negative">
-        <!--die Spuren der Zeit nagen-->
-        <span>
-          <target id="t43"/>
-          <target id="t44"/>
-          <target id="t45"/>
-          <target id="t46"/>
-          <target id="t47"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="21_1">
-      <opinion_holder/>
-      <opinion_target>
-        <!--Service-->
-        <span>
-          <target id="t30"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Negative">
-        <!--die Spuren der Zeit nagen-->
-        <span>
-          <target id="t43"/>
-          <target id="t44"/>
-          <target id="t45"/>
-          <target id="t46"/>
-          <target id="t47"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="21_2">
-      <opinion_holder/>
-      <opinion_target>
-        <!--Sauberkeit-->
-        <span>
-          <target id="t32"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Negative">
-        <!--die Spuren der Zeit nagen-->
-        <span>
-          <target id="t43"/>
-          <target id="t44"/>
-          <target id="t45"/>
-          <target id="t46"/>
-          <target id="t47"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="21_3">
-      <opinion_holder/>
-      <opinion_target>
-        <!--Professionaltät-->
-        <span>
-          <target id="t34"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Positive">
-        <!--machen dieses Manko mehr als wett-->
-        <span>
-          <target id="t35"/>
-          <target id="t36"/>
-          <target id="t37"/>
-          <target id="t38"/>
-          <target id="t39"/>
-          <target id="t40"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="21_4">
-      <opinion_holder/>
-      <opinion_target>
-        <!--Service-->
-        <span>
-          <target id="t30"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Positive">
-        <!--machen dieses Manko mehr als wett-->
-        <span>
-          <target id="t35"/>
-          <target id="t36"/>
-          <target id="t37"/>
-          <target id="t38"/>
-          <target id="t39"/>
-          <target id="t40"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="21_5">
-      <opinion_holder/>
-      <opinion_target>
-        <!--Sauberkeit-->
-        <span>
-          <target id="t32"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Positive">
-        <!--machen dieses Manko mehr als wett-->
-        <span>
-          <target id="t35"/>
-          <target id="t36"/>
-          <target id="t37"/>
-          <target id="t38"/>
-          <target id="t39"/>
-          <target id="t40"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="22_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--Wasserhähne-->
-        <span>
-          <target id="t50"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Negative">
-        <!--an denen das Messing durch das abgeputzte Chrom schimmert-->
-        <span>
-          <target id="t51"/>
-          <target id="t52"/>
-          <target id="t53"/>
-          <target id="t54"/>
-          <target id="t55"/>
-          <target id="t56"/>
-          <target id="t57"/>
-          <target id="t58"/>
-          <target id="t59"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="42_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--Ort-->
-        <span>
-          <target id="t85"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Positive">
-        <!--schöner-->
-        <span>
-          <target id="t84"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="42_1">
-      <opinion_holder/>
-      <opinion_target>
-        <!--Ort-->
-        <span>
-          <target id="t85"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Positive">
-        <!--lebendig für das Business-->
-        <span>
-          <target id="t91"/>
-          <target id="t92"/>
-          <target id="t93"/>
-          <target id="t94"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="36_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--Personal-->
-        <span>
-          <target id="t80"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="StrongPositive">
-        <!--fast schon fröhliches-->
-        <span>
-          <target id="t77"/>
-          <target id="t78"/>
-          <target id="t79"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="36_1">
-      <opinion_holder/>
-      <opinion_target>
-        <!--Personal-->
-        <span>
-          <target id="t80"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="StrongPositive">
-        <!--Sehr feundliches-->
-        <span>
-          <target id="t74"/>
-          <target id="t75"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="36_2">
-      <opinion_holder/>
-      <opinion_target>
-        <!--Personal-->
-        <span>
-          <target id="t80"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Positive">
-        <!--überall-->
-        <span>
-          <target id="t81"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="35_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--die stabile Block-->
-        <span>
-          <target id="t64"/>
-          <target id="t65"/>
-          <target id="t66"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Positive">
-        <!--auch nachts um 23.30h.-->
-        <span>
-          <target id="t69"/>
-          <target id="t70"/>
-          <target id="t71"/>
-          <target id="t73"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="35_1">
-      <opinion_holder/>
-      <opinion_target>
-        <!--die stabile Block-->
-        <span>
-          <target id="t64"/>
-          <target id="t65"/>
-          <target id="t66"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Positive">
-        <!--Die Gastronomie-->
-        <span>
-          <target id="t61"/>
-          <target id="t62"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="35_2">
-      <opinion_holder/>
-      <opinion_target>
-        <!--die stabile Block-->
-        <span>
-          <target id="t64"/>
-          <target id="t65"/>
-          <target id="t66"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Positive">
-        <!--QuALITÄT-->
-        <span>
-          <target id="t67"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="3_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--Gastgebertum-->
-        <span>
-          <target id="t2"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Positive">
-        <!--Fröhliches-->
-        <span>
-          <target id="t1"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-  </opinions>
   <features>
     <properties>
       <property pid="p0" lemma="Cleanliness">
@@ -2176,4 +1840,357 @@
       </property>
     </properties>
   </features>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=11-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--Das Grand Elysee-->
+        <span>
+          <target id="t5"/>
+          <target id="t6"/>
+          <target id="t7"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Negative">
+        <!--designmässig in die Tage gekommen-->
+        <span>
+          <target id="t9"/>
+          <target id="t10"/>
+          <target id="t11"/>
+          <target id="t12"/>
+          <target id="t13"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=10-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--die Badzimmer im Altgebäude-->
+        <span>
+          <target id="t21"/>
+          <target id="t22"/>
+          <target id="t23"/>
+          <target id="t24"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Negative">
+        <!--könten eine Auffrischung vertragen-->
+        <span>
+          <target id="t25"/>
+          <target id="t26"/>
+          <target id="t27"/>
+          <target id="t28"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=21-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--Professionaltät-->
+        <span>
+          <target id="t34"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Negative">
+        <!--die Spuren der Zeit nagen-->
+        <span>
+          <target id="t43"/>
+          <target id="t44"/>
+          <target id="t45"/>
+          <target id="t46"/>
+          <target id="t47"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=21-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--Service-->
+        <span>
+          <target id="t30"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Negative">
+        <!--die Spuren der Zeit nagen-->
+        <span>
+          <target id="t43"/>
+          <target id="t44"/>
+          <target id="t45"/>
+          <target id="t46"/>
+          <target id="t47"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o2">
+      <!--Tag opinion scope id=21-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--Sauberkeit-->
+        <span>
+          <target id="t32"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Negative">
+        <!--die Spuren der Zeit nagen-->
+        <span>
+          <target id="t43"/>
+          <target id="t44"/>
+          <target id="t45"/>
+          <target id="t46"/>
+          <target id="t47"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o3">
+      <!--Tag opinion scope id=21-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--Professionaltät-->
+        <span>
+          <target id="t34"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Positive">
+        <!--machen dieses Manko mehr als wett-->
+        <span>
+          <target id="t35"/>
+          <target id="t36"/>
+          <target id="t37"/>
+          <target id="t38"/>
+          <target id="t39"/>
+          <target id="t40"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o4">
+      <!--Tag opinion scope id=21-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--Service-->
+        <span>
+          <target id="t30"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Positive">
+        <!--machen dieses Manko mehr als wett-->
+        <span>
+          <target id="t35"/>
+          <target id="t36"/>
+          <target id="t37"/>
+          <target id="t38"/>
+          <target id="t39"/>
+          <target id="t40"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o5">
+      <!--Tag opinion scope id=21-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--Sauberkeit-->
+        <span>
+          <target id="t32"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Positive">
+        <!--machen dieses Manko mehr als wett-->
+        <span>
+          <target id="t35"/>
+          <target id="t36"/>
+          <target id="t37"/>
+          <target id="t38"/>
+          <target id="t39"/>
+          <target id="t40"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=22-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--Wasserhähne-->
+        <span>
+          <target id="t50"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Negative">
+        <!--an denen das Messing durch das abgeputzte Chrom schimmert-->
+        <span>
+          <target id="t51"/>
+          <target id="t52"/>
+          <target id="t53"/>
+          <target id="t54"/>
+          <target id="t55"/>
+          <target id="t56"/>
+          <target id="t57"/>
+          <target id="t58"/>
+          <target id="t59"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=42-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--Ort-->
+        <span>
+          <target id="t85"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Positive">
+        <!--schöner-->
+        <span>
+          <target id="t84"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=42-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--Ort-->
+        <span>
+          <target id="t85"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Positive">
+        <!--lebendig für das Business-->
+        <span>
+          <target id="t91"/>
+          <target id="t92"/>
+          <target id="t93"/>
+          <target id="t94"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=36-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--Personal-->
+        <span>
+          <target id="t80"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="StrongPositive">
+        <!--fast schon fröhliches-->
+        <span>
+          <target id="t77"/>
+          <target id="t78"/>
+          <target id="t79"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=36-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--Personal-->
+        <span>
+          <target id="t80"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="StrongPositive">
+        <!--Sehr feundliches-->
+        <span>
+          <target id="t74"/>
+          <target id="t75"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o2">
+      <!--Tag opinion scope id=36-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--Personal-->
+        <span>
+          <target id="t80"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Positive">
+        <!--überall-->
+        <span>
+          <target id="t81"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=35-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--die stabile Block-->
+        <span>
+          <target id="t64"/>
+          <target id="t65"/>
+          <target id="t66"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Positive">
+        <!--auch nachts um 23.30h.-->
+        <span>
+          <target id="t69"/>
+          <target id="t70"/>
+          <target id="t71"/>
+          <target id="t73"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=35-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--die stabile Block-->
+        <span>
+          <target id="t64"/>
+          <target id="t65"/>
+          <target id="t66"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Positive">
+        <!--Die Gastronomie-->
+        <span>
+          <target id="t61"/>
+          <target id="t62"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o2">
+      <!--Tag opinion scope id=35-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--die stabile Block-->
+        <span>
+          <target id="t64"/>
+          <target id="t65"/>
+          <target id="t66"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Positive">
+        <!--QuALITÄT-->
+        <span>
+          <target id="t67"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=3-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--Gastgebertum-->
+        <span>
+          <target id="t2"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Positive">
+        <!--Fröhliches-->
+        <span>
+          <target id="t1"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
 </KAF>

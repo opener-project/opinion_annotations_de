@@ -12,18 +12,17 @@
     <linguisticProcessors layer="constituents">
       <lp timestamp="2014-02-25T13:03:41CET" version="1.3_17jan2014" name="Stanford German constituency parser trained on NEGRA corpus"/>
     </linguisticProcessors>
-    <linguisticProcessors layer="features">
-      <lp timestamp="2014-02-25T13:03:37CET" version="4nov2013_1.0" name="VUA property tagger"/>
-      <lp name="Property manual annotations" version="1.0" timestamp="2014-04-03T11:04:55CEST"/>
-    </linguisticProcessors>
     <linguisticProcessors layer="terms">
       <lp timestamp="2014-02-25T13:03:37CET" version="4nov2013_1.0" name="VUA polarity tagger multilanguage"/>
     </linguisticProcessors>
     <linguisticProcessors layer="term">
       <lp timestamp="2014-02-12T10:03:25CET" version="1.0" name="TreeTagger_from_kaf German models"/>
     </linguisticProcessors>
+    <linguisticProcessors layer="features">
+      <lp name="Property manual annotations" version="1.0" timestamp="2014-04-07T17:37:13CEST"/>
+    </linguisticProcessors>
     <linguisticProcessors layer="opinions">
-      <lp name="Manual annotations" version="1.0" timestamp="2014-04-03T11:04:55CEST"/>
+      <lp name="Manual annotations" version="1.0" timestamp="2014-04-07T17:37:13CEST"/>
     </linguisticProcessors>
   </kafHeader>
   <text>
@@ -817,149 +816,6 @@
       <edge from="ter42" id="tre110" to="nter72"/>
     </tree>
   </constituency>
-  <opinions>
-    <opinion oid="1_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--Hotel-->
-        <span>
-          <target id="t2"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Positive">
-        <!--Gutes-->
-        <span>
-          <target id="t1"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="3_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--Bad-->
-        <span>
-          <target id="t8"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Negative">
-        <!--nicht Zeitgemäß-->
-        <span>
-          <target id="t11"/>
-          <target id="t12"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="3_1">
-      <opinion_holder/>
-      <opinion_target>
-        <!--TV-->
-        <span>
-          <target id="t10"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Negative">
-        <!--nicht Zeitgemäß-->
-        <span>
-          <target id="t11"/>
-          <target id="t12"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="2_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--Hotel-->
-        <span>
-          <target id="t4"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Positive">
-        <!--Gutes für Kurzurlaub-->
-        <span>
-          <target id="t3"/>
-          <target id="t5"/>
-          <target id="t6"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="5_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--Klimaanlage-->
-        <span>
-          <target id="t17"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Positive">
-        <!--auch notwendig-->
-        <span>
-          <target id="t22"/>
-          <target id="t23"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="5_1">
-      <opinion_holder/>
-      <opinion_target>
-        <!--Klimaanlage-->
-        <span>
-          <target id="t17"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Positive">
-        <!--im Sommer gut-->
-        <span>
-          <target id="t18"/>
-          <target id="t19"/>
-          <target id="t20"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="4_0">
-      <opinion_holder/>
-      <opinion_target/>
-      <opinion_expression polarity="Negative">
-        <!--keine 4Sterne-->
-        <span>
-          <target id="t14"/>
-          <target id="t15"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="7_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--Rührei-->
-        <span>
-          <target id="t36"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Negative">
-        <!--konnte man oft trinken-->
-        <span>
-          <target id="t39"/>
-          <target id="t40"/>
-          <target id="t41"/>
-          <target id="t42"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="6_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--Frühstücksbuffet-->
-        <span>
-          <target id="t31"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Positive">
-        <!--gut-->
-        <span>
-          <target id="t32"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-  </opinions>
   <features>
     <properties>
       <property pid="p0" lemma="Breakfast">
@@ -999,4 +855,156 @@
       </property>
     </properties>
   </features>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=1-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--Hotel-->
+        <span>
+          <target id="t2"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Positive">
+        <!--Gutes-->
+        <span>
+          <target id="t1"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=3-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--Bad-->
+        <span>
+          <target id="t8"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Negative">
+        <!--nicht Zeitgemäß-->
+        <span>
+          <target id="t11"/>
+          <target id="t12"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=3-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--TV-->
+        <span>
+          <target id="t10"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Negative">
+        <!--nicht Zeitgemäß-->
+        <span>
+          <target id="t11"/>
+          <target id="t12"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=2-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--Hotel-->
+        <span>
+          <target id="t4"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Positive">
+        <!--Gutes für Kurzurlaub-->
+        <span>
+          <target id="t3"/>
+          <target id="t5"/>
+          <target id="t6"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=5-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--Klimaanlage-->
+        <span>
+          <target id="t17"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Positive">
+        <!--auch notwendig-->
+        <span>
+          <target id="t22"/>
+          <target id="t23"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=5-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--Klimaanlage-->
+        <span>
+          <target id="t17"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Positive">
+        <!--im Sommer gut-->
+        <span>
+          <target id="t18"/>
+          <target id="t19"/>
+          <target id="t20"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=4-->
+      <opinion_holder/>
+      <opinion_target/>
+      <opinion_expression polarity="Negative">
+        <!--keine 4Sterne-->
+        <span>
+          <target id="t14"/>
+          <target id="t15"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=7-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--Rührei-->
+        <span>
+          <target id="t36"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Negative">
+        <!--konnte man oft trinken-->
+        <span>
+          <target id="t39"/>
+          <target id="t40"/>
+          <target id="t41"/>
+          <target id="t42"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=6-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--Frühstücksbuffet-->
+        <span>
+          <target id="t31"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Positive">
+        <!--gut-->
+        <span>
+          <target id="t32"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
 </KAF>

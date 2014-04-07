@@ -12,11 +12,10 @@
       <lp timestamp="2014-02-25T12:29:01CET" version="1.3_17jan2014" name="Stanford German constituency parser trained on NEGRA corpus"/>
     </linguisticProcessors>
     <linguisticProcessors layer="features">
-      <lp timestamp="2014-02-25T12:28:58CET" version="4nov2013_1.0" name="VUA property tagger"/>
-      <lp name="Property manual annotations" version="1.0" timestamp="2014-04-03T11:04:49CEST"/>
+      <lp name="Property manual annotations" version="1.0" timestamp="2014-04-07T17:37:03CEST"/>
     </linguisticProcessors>
     <linguisticProcessors layer="opinions">
-      <lp name="Manual annotations" version="1.0" timestamp="2014-04-03T11:04:49CEST"/>
+      <lp name="Manual annotations" version="1.0" timestamp="2014-04-07T17:37:03CEST"/>
     </linguisticProcessors>
   </kafHeader>
   <text>
@@ -2271,185 +2270,6 @@
       <edge from="ter118" id="tre296" to="nter186"/>
     </tree>
   </constituency>
-  <opinions>
-    <opinion oid="13_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--Die Lobby-->
-        <span>
-          <target id="t24"/>
-          <target id="t25"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Negative">
-        <!--ein Stilbruch mit dem Rest des Hotel-->
-        <span>
-          <target id="t27"/>
-          <target id="t28"/>
-          <target id="t29"/>
-          <target id="t30"/>
-          <target id="t31"/>
-          <target id="t32"/>
-          <target id="t33"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="33_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--Zimmer-->
-        <span>
-          <target id="t80"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Positive">
-        <!--besserer Qualität-->
-        <span>
-          <target id="t82"/>
-          <target id="t83"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="37_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--der Lobby-->
-        <span>
-          <target id="t100"/>
-          <target id="t101"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Negative">
-        <!--im July ein Weihnachtsmann aufgestellt-->
-        <span>
-          <target id="t91"/>
-          <target id="t92"/>
-          <target id="t102"/>
-          <target id="t103"/>
-          <target id="t104"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="29_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--Zimmer-->
-        <span>
-          <target id="t67"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="StrongNegative">
-        <!--schlechter Qualität-->
-        <span>
-          <target id="t69"/>
-          <target id="t70"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="43_0">
-      <opinion_holder>
-        <!--ich-->
-        <span>
-          <target id="t110"/>
-        </span>
-      </opinion_holder>
-      <opinion_target>
-        <!--Best Western-->
-        <span>
-          <target id="t107"/>
-          <target id="t108"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="StrongNegative">
-        <!--deshalb sehr Enttäuscht-->
-        <span>
-          <target id="t116"/>
-          <target id="t117"/>
-          <target id="t118"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="43_1">
-      <opinion_holder>
-        <!--ich-->
-        <span>
-          <target id="t110"/>
-        </span>
-      </opinion_holder>
-      <opinion_target>
-        <!--Best Western-->
-        <span>
-          <target id="t107"/>
-          <target id="t108"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Negative">
-        <!--anderen Standard gewohnt-->
-        <span>
-          <target id="t112"/>
-          <target id="t113"/>
-          <target id="t114"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="3_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--dieses Hotel-->
-        <span>
-          <target id="t3"/>
-          <target id="t4"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="StrongNegative">
-        <!--Nie wieder-->
-        <span>
-          <target id="t1"/>
-          <target id="t2"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="6_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--Hotel-->
-        <span>
-          <target id="t7"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Negative">
-        <!--auf keinen Fall weiterempfehlen-->
-        <span>
-          <target id="t8"/>
-          <target id="t9"/>
-          <target id="t10"/>
-          <target id="t11"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="9_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--Der Service und die Freundlichkeit des Personals-->
-        <span>
-          <target id="t13"/>
-          <target id="t14"/>
-          <target id="t15"/>
-          <target id="t16"/>
-          <target id="t17"/>
-          <target id="t18"/>
-          <target id="t19"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="StrongNegative">
-        <!--sehr schlecht-->
-        <span>
-          <target id="t21"/>
-          <target id="t22"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-  </opinions>
   <features>
     <properties>
       <property pid="p0" lemma="Staff">
@@ -2506,4 +2326,192 @@
       </property>
     </properties>
   </features>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=13-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--Die Lobby-->
+        <span>
+          <target id="t24"/>
+          <target id="t25"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Negative">
+        <!--ein Stilbruch mit dem Rest des Hotel-->
+        <span>
+          <target id="t27"/>
+          <target id="t28"/>
+          <target id="t29"/>
+          <target id="t30"/>
+          <target id="t31"/>
+          <target id="t32"/>
+          <target id="t33"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=33-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--Zimmer-->
+        <span>
+          <target id="t80"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Positive">
+        <!--besserer Qualität-->
+        <span>
+          <target id="t82"/>
+          <target id="t83"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=37-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--der Lobby-->
+        <span>
+          <target id="t100"/>
+          <target id="t101"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Negative">
+        <!--im July ein Weihnachtsmann aufgestellt-->
+        <span>
+          <target id="t91"/>
+          <target id="t92"/>
+          <target id="t102"/>
+          <target id="t103"/>
+          <target id="t104"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=29-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--Zimmer-->
+        <span>
+          <target id="t67"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="StrongNegative">
+        <!--schlechter Qualität-->
+        <span>
+          <target id="t69"/>
+          <target id="t70"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=43-->
+      <opinion_holder>
+        <!--ich-->
+        <span>
+          <target id="t110"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--Best Western-->
+        <span>
+          <target id="t107"/>
+          <target id="t108"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="StrongNegative">
+        <!--deshalb sehr Enttäuscht-->
+        <span>
+          <target id="t116"/>
+          <target id="t117"/>
+          <target id="t118"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=43-->
+      <opinion_holder>
+        <!--ich-->
+        <span>
+          <target id="t110"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--Best Western-->
+        <span>
+          <target id="t107"/>
+          <target id="t108"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Negative">
+        <!--anderen Standard gewohnt-->
+        <span>
+          <target id="t112"/>
+          <target id="t113"/>
+          <target id="t114"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=3-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--dieses Hotel-->
+        <span>
+          <target id="t3"/>
+          <target id="t4"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="StrongNegative">
+        <!--Nie wieder-->
+        <span>
+          <target id="t1"/>
+          <target id="t2"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=6-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--Hotel-->
+        <span>
+          <target id="t7"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Negative">
+        <!--auf keinen Fall weiterempfehlen-->
+        <span>
+          <target id="t8"/>
+          <target id="t9"/>
+          <target id="t10"/>
+          <target id="t11"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=9-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--Der Service und die Freundlichkeit des Personals-->
+        <span>
+          <target id="t13"/>
+          <target id="t14"/>
+          <target id="t15"/>
+          <target id="t16"/>
+          <target id="t17"/>
+          <target id="t18"/>
+          <target id="t19"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="StrongNegative">
+        <!--sehr schlecht-->
+        <span>
+          <target id="t21"/>
+          <target id="t22"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
 </KAF>

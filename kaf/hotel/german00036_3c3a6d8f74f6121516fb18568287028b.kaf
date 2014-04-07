@@ -12,18 +12,17 @@
     <linguisticProcessors layer="constituents">
       <lp timestamp="2014-02-25T12:59:16CET" version="1.3_17jan2014" name="Stanford German constituency parser trained on NEGRA corpus"/>
     </linguisticProcessors>
-    <linguisticProcessors layer="features">
-      <lp timestamp="2014-02-25T12:59:13CET" version="4nov2013_1.0" name="VUA property tagger"/>
-      <lp name="Property manual annotations" version="1.0" timestamp="2014-04-03T11:04:53CEST"/>
-    </linguisticProcessors>
     <linguisticProcessors layer="terms">
       <lp timestamp="2014-02-25T12:59:13CET" version="4nov2013_1.0" name="VUA polarity tagger multilanguage"/>
     </linguisticProcessors>
     <linguisticProcessors layer="term">
       <lp timestamp="2014-02-12T09:53:36CET" version="1.0" name="TreeTagger_from_kaf German models"/>
     </linguisticProcessors>
+    <linguisticProcessors layer="features">
+      <lp name="Property manual annotations" version="1.0" timestamp="2014-04-07T17:37:09CEST"/>
+    </linguisticProcessors>
     <linguisticProcessors layer="opinions">
-      <lp name="Manual annotations" version="1.0" timestamp="2014-04-03T11:04:53CEST"/>
+      <lp name="Manual annotations" version="1.0" timestamp="2014-04-07T17:37:09CEST"/>
     </linguisticProcessors>
   </kafHeader>
   <text>
@@ -1039,85 +1038,6 @@
       <edge from="ter55" id="tre139" to="nter88"/>
     </tree>
   </constituency>
-  <opinions>
-    <opinion oid="10_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--der Lobby-->
-        <span>
-          <target id="t25"/>
-          <target id="t26"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Positive">
-        <!--Sauberkeit ok-->
-        <span>
-          <target id="t23"/>
-          <target id="t30"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="10_1">
-      <opinion_holder/>
-      <opinion_target>
-        <!--Frühstücksraum-->
-        <span>
-          <target id="t29"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Positive">
-        <!--Sauberkeit ok-->
-        <span>
-          <target id="t23"/>
-          <target id="t30"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="3_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--Das Hotel-->
-        <span>
-          <target id="t3"/>
-          <target id="t4"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Negative">
-        <!--wirkt von außen schon etwas in die Jahre gekommen-->
-        <span>
-          <target id="t5"/>
-          <target id="t6"/>
-          <target id="t7"/>
-          <target id="t8"/>
-          <target id="t9"/>
-          <target id="t10"/>
-          <target id="t11"/>
-          <target id="t12"/>
-          <target id="t13"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="14_0">
-      <opinion_holder>
-        <!--Wir-->
-        <span>
-          <target id="t32"/>
-        </span>
-      </opinion_holder>
-      <opinion_target>
-        <!--Frühstück-->
-        <span>
-          <target id="t36"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Positive">
-        <!--ausreichend-->
-        <span>
-          <target id="t40"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-  </opinions>
   <features>
     <properties>
       <property pid="p0" lemma="Breakfast">
@@ -1150,4 +1070,87 @@
       </property>
     </properties>
   </features>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=10-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--der Lobby-->
+        <span>
+          <target id="t25"/>
+          <target id="t26"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Positive">
+        <!--Sauberkeit ok-->
+        <span>
+          <target id="t23"/>
+          <target id="t30"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=10-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--Frühstücksraum-->
+        <span>
+          <target id="t29"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Positive">
+        <!--Sauberkeit ok-->
+        <span>
+          <target id="t23"/>
+          <target id="t30"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=3-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--Das Hotel-->
+        <span>
+          <target id="t3"/>
+          <target id="t4"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Negative">
+        <!--wirkt von außen schon etwas in die Jahre gekommen-->
+        <span>
+          <target id="t5"/>
+          <target id="t6"/>
+          <target id="t7"/>
+          <target id="t8"/>
+          <target id="t9"/>
+          <target id="t10"/>
+          <target id="t11"/>
+          <target id="t12"/>
+          <target id="t13"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=14-->
+      <opinion_holder>
+        <!--Wir-->
+        <span>
+          <target id="t32"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--Frühstück-->
+        <span>
+          <target id="t36"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Positive">
+        <!--ausreichend-->
+        <span>
+          <target id="t40"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
 </KAF>

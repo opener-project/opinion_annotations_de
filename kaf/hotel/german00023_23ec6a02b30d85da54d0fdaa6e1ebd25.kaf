@@ -12,18 +12,17 @@
     <linguisticProcessors layer="constituents">
       <lp timestamp="2014-02-25T12:58:21CET" version="1.3_17jan2014" name="Stanford German constituency parser trained on NEGRA corpus"/>
     </linguisticProcessors>
-    <linguisticProcessors layer="features">
-      <lp timestamp="2014-02-25T12:58:18CET" version="4nov2013_1.0" name="VUA property tagger"/>
-      <lp name="Property manual annotations" version="1.0" timestamp="2014-04-03T11:04:54CEST"/>
-    </linguisticProcessors>
     <linguisticProcessors layer="terms">
       <lp timestamp="2014-02-25T12:58:18CET" version="4nov2013_1.0" name="VUA polarity tagger multilanguage"/>
     </linguisticProcessors>
     <linguisticProcessors layer="term">
       <lp timestamp="2014-02-12T09:51:27CET" version="1.0" name="TreeTagger_from_kaf German models"/>
     </linguisticProcessors>
+    <linguisticProcessors layer="features">
+      <lp name="Property manual annotations" version="1.0" timestamp="2014-04-07T17:37:12CEST"/>
+    </linguisticProcessors>
     <linguisticProcessors layer="opinions">
-      <lp name="Manual annotations" version="1.0" timestamp="2014-04-03T11:04:54CEST"/>
+      <lp name="Manual annotations" version="1.0" timestamp="2014-04-07T17:37:12CEST"/>
     </linguisticProcessors>
   </kafHeader>
   <text>
@@ -1144,96 +1143,6 @@
       <edge from="ter61" id="tre155" to="nter99"/>
     </tree>
   </constituency>
-  <opinions>
-    <opinion oid="13_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--Die Eisbecher-->
-        <span>
-          <target id="t25"/>
-          <target id="t26"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Negative">
-        <!--am Rand kaputt-->
-        <span>
-          <target id="t32"/>
-          <target id="t33"/>
-          <target id="t34"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="21_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--Buffet-->
-        <span>
-          <target id="t57"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Negative">
-        <!--leider meistenteils unzureichend aufgefühlt-->
-        <span>
-          <target id="t58"/>
-          <target id="t59"/>
-          <target id="t60"/>
-          <target id="t61"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="17_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--Rechnungen-->
-        <span>
-          <target id="t37"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Negative">
-        <!--nicht korrekt gebucht-->
-        <span>
-          <target id="t39"/>
-          <target id="t40"/>
-          <target id="t41"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="23_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--Hotelzimmer-->
-        <span>
-          <target id="t1"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="StrongPositive">
-        <!--mit tollem Blick-->
-        <span>
-          <target id="t2"/>
-          <target id="t3"/>
-          <target id="t4"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="6_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--Ein Hotel dessen Lage-->
-        <span>
-          <target id="t5"/>
-          <target id="t6"/>
-          <target id="t7"/>
-          <target id="t8"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Positive">
-        <!--toll-->
-        <span>
-          <target id="t9"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-  </opinions>
   <features>
     <properties>
       <property pid="p0" lemma="Restaurant">
@@ -1266,4 +1175,99 @@
       </property>
     </properties>
   </features>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=13-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--Die Eisbecher-->
+        <span>
+          <target id="t25"/>
+          <target id="t26"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Negative">
+        <!--am Rand kaputt-->
+        <span>
+          <target id="t32"/>
+          <target id="t33"/>
+          <target id="t34"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=21-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--Buffet-->
+        <span>
+          <target id="t57"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Negative">
+        <!--leider meistenteils unzureichend aufgefühlt-->
+        <span>
+          <target id="t58"/>
+          <target id="t59"/>
+          <target id="t60"/>
+          <target id="t61"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=17-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--Rechnungen-->
+        <span>
+          <target id="t37"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Negative">
+        <!--nicht korrekt gebucht-->
+        <span>
+          <target id="t39"/>
+          <target id="t40"/>
+          <target id="t41"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=23-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--Hotelzimmer-->
+        <span>
+          <target id="t1"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="StrongPositive">
+        <!--mit tollem Blick-->
+        <span>
+          <target id="t2"/>
+          <target id="t3"/>
+          <target id="t4"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=6-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--Ein Hotel dessen Lage-->
+        <span>
+          <target id="t5"/>
+          <target id="t6"/>
+          <target id="t7"/>
+          <target id="t8"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Positive">
+        <!--toll-->
+        <span>
+          <target id="t9"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
 </KAF>

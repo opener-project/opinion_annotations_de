@@ -12,18 +12,17 @@
     <linguisticProcessors layer="constituents">
       <lp timestamp="2014-02-25T13:03:32CET" version="1.3_17jan2014" name="Stanford German constituency parser trained on NEGRA corpus"/>
     </linguisticProcessors>
-    <linguisticProcessors layer="features">
-      <lp timestamp="2014-02-25T13:03:28CET" version="4nov2013_1.0" name="VUA property tagger"/>
-      <lp name="Property manual annotations" version="1.0" timestamp="2014-04-03T11:04:52CEST"/>
-    </linguisticProcessors>
     <linguisticProcessors layer="terms">
       <lp timestamp="2014-02-25T13:03:28CET" version="4nov2013_1.0" name="VUA polarity tagger multilanguage"/>
     </linguisticProcessors>
     <linguisticProcessors layer="term">
       <lp timestamp="2014-02-12T10:03:10CET" version="1.0" name="TreeTagger_from_kaf German models"/>
     </linguisticProcessors>
+    <linguisticProcessors layer="features">
+      <lp name="Property manual annotations" version="1.0" timestamp="2014-04-07T17:37:08CEST"/>
+    </linguisticProcessors>
     <linguisticProcessors layer="opinions">
-      <lp name="Manual annotations" version="1.0" timestamp="2014-04-03T11:04:52CEST"/>
+      <lp name="Manual annotations" version="1.0" timestamp="2014-04-07T17:37:08CEST"/>
     </linguisticProcessors>
   </kafHeader>
   <text>
@@ -1035,8 +1034,27 @@
       <edge from="ter55" id="tre140" to="nter89"/>
     </tree>
   </constituency>
+  <features>
+    <properties>
+      <property pid="p0" lemma="Staff">
+        <references>
+          <span>
+            <target id="t45"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p1" lemma="Rooms">
+        <references>
+          <span>
+            <target id="t43"/>
+          </span>
+        </references>
+      </property>
+    </properties>
+  </features>
   <opinions>
-    <opinion oid="1_0">
+    <opinion oid="o0">
+      <!--Tag opinion scope id=1-->
       <opinion_holder/>
       <opinion_target/>
       <opinion_expression polarity="StrongPositive">
@@ -1046,7 +1064,8 @@
         </span>
       </opinion_expression>
     </opinion>
-    <opinion oid="3_0">
+    <opinion oid="o0">
+      <!--Tag opinion scope id=3-->
       <opinion_holder>
         <!--uns-->
         <span>
@@ -1069,7 +1088,8 @@
         </span>
       </opinion_expression>
     </opinion>
-    <opinion oid="2_0">
+    <opinion oid="o0">
+      <!--Tag opinion scope id=2-->
       <opinion_holder/>
       <opinion_target/>
       <opinion_expression polarity="StrongPositive">
@@ -1081,7 +1101,8 @@
         </span>
       </opinion_expression>
     </opinion>
-    <opinion oid="17_0">
+    <opinion oid="o0">
+      <!--Tag opinion scope id=17-->
       <opinion_holder/>
       <opinion_target/>
       <opinion_expression polarity="StrongPositive">
@@ -1091,7 +1112,8 @@
         </span>
       </opinion_expression>
     </opinion>
-    <opinion oid="6_0">
+    <opinion oid="o0">
+      <!--Tag opinion scope id=6-->
       <opinion_holder/>
       <opinion_target>
         <!--die Anlage-->
@@ -1108,7 +1130,8 @@
         </span>
       </opinion_expression>
     </opinion>
-    <opinion oid="6_1">
+    <opinion oid="o1">
+      <!--Tag opinion scope id=6-->
       <opinion_holder/>
       <opinion_target>
         <!--alles-->
@@ -1124,7 +1147,8 @@
         </span>
       </opinion_expression>
     </opinion>
-    <opinion oid="6_2">
+    <opinion oid="o2">
+      <!--Tag opinion scope id=6-->
       <opinion_holder/>
       <opinion_target>
         <!--Zimmer-->
@@ -1140,7 +1164,8 @@
         </span>
       </opinion_expression>
     </opinion>
-    <opinion oid="6_3">
+    <opinion oid="o3">
+      <!--Tag opinion scope id=6-->
       <opinion_holder/>
       <opinion_target>
         <!--Service-->
@@ -1157,22 +1182,4 @@
       </opinion_expression>
     </opinion>
   </opinions>
-  <features>
-    <properties>
-      <property pid="p0" lemma="Staff">
-        <references>
-          <span>
-            <target id="t45"/>
-          </span>
-        </references>
-      </property>
-      <property pid="p1" lemma="Rooms">
-        <references>
-          <span>
-            <target id="t43"/>
-          </span>
-        </references>
-      </property>
-    </properties>
-  </features>
 </KAF>

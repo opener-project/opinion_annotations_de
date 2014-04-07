@@ -12,11 +12,10 @@
       <lp timestamp="2014-02-25T12:52:40CET" version="1.3_17jan2014" name="Stanford German constituency parser trained on NEGRA corpus"/>
     </linguisticProcessors>
     <linguisticProcessors layer="features">
-      <lp timestamp="2014-02-25T12:52:37CET" version="4nov2013_1.0" name="VUA property tagger"/>
-      <lp name="Property manual annotations" version="1.0" timestamp="2014-04-03T11:04:52CEST"/>
+      <lp name="Property manual annotations" version="1.0" timestamp="2014-04-07T17:37:07CEST"/>
     </linguisticProcessors>
     <linguisticProcessors layer="opinions">
-      <lp name="Manual annotations" version="1.0" timestamp="2014-04-03T11:04:52CEST"/>
+      <lp name="Manual annotations" version="1.0" timestamp="2014-04-07T17:37:07CEST"/>
     </linguisticProcessors>
   </kafHeader>
   <text>
@@ -933,8 +932,34 @@
       <edge from="ter48" id="tre118" to="nter72"/>
     </tree>
   </constituency>
+  <features>
+    <properties>
+      <property pid="p0" lemma="Staff">
+        <references>
+          <span>
+            <target id="t32"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p1" lemma="Restaurant">
+        <references>
+          <span>
+            <target id="t30"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p2" lemma="Staff">
+        <references>
+          <span>
+            <target id="t36"/>
+          </span>
+        </references>
+      </property>
+    </properties>
+  </features>
   <opinions>
-    <opinion oid="9_0">
+    <opinion oid="o0">
+      <!--Tag opinion scope id=9-->
       <opinion_holder/>
       <opinion_target>
         <!--Dieses Hotel-->
@@ -953,7 +978,8 @@
         </span>
       </opinion_expression>
     </opinion>
-    <opinion oid="3_0">
+    <opinion oid="o0">
+      <!--Tag opinion scope id=3-->
       <opinion_holder/>
       <opinion_target>
         <!--Hilton-->
@@ -969,7 +995,8 @@
         </span>
       </opinion_expression>
     </opinion>
-    <opinion oid="23_0">
+    <opinion oid="o0">
+      <!--Tag opinion scope id=23-->
       <opinion_holder/>
       <opinion_target>
         <!--Essen-->
@@ -995,7 +1022,8 @@
         </span>
       </opinion_expression>
     </opinion>
-    <opinion oid="23_1">
+    <opinion oid="o1">
+      <!--Tag opinion scope id=23-->
       <opinion_holder/>
       <opinion_target>
         <!--Service-->
@@ -1021,7 +1049,8 @@
         </span>
       </opinion_expression>
     </opinion>
-    <opinion oid="23_2">
+    <opinion oid="o2">
+      <!--Tag opinion scope id=23-->
       <opinion_holder/>
       <opinion_target>
         <!--Kompetenz des Personals-->
@@ -1049,7 +1078,8 @@
         </span>
       </opinion_expression>
     </opinion>
-    <opinion oid="6_0">
+    <opinion oid="o0">
+      <!--Tag opinion scope id=6-->
       <opinion_holder/>
       <opinion_target>
         <!--eines-->
@@ -1069,29 +1099,4 @@
       </opinion_expression>
     </opinion>
   </opinions>
-  <features>
-    <properties>
-      <property pid="p0" lemma="Staff">
-        <references>
-          <span>
-            <target id="t32"/>
-          </span>
-        </references>
-      </property>
-      <property pid="p1" lemma="Restaurant">
-        <references>
-          <span>
-            <target id="t30"/>
-          </span>
-        </references>
-      </property>
-      <property pid="p2" lemma="Staff">
-        <references>
-          <span>
-            <target id="t36"/>
-          </span>
-        </references>
-      </property>
-    </properties>
-  </features>
 </KAF>
