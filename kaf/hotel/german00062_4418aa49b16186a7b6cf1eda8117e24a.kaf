@@ -12,10 +12,10 @@
       <lp timestamp="2014-02-25T12:34:40CET" version="1.3_17jan2014" name="Stanford German constituency parser trained on NEGRA corpus"/>
     </linguisticProcessors>
     <linguisticProcessors layer="features">
-      <lp name="Property manual annotations" version="1.0" timestamp="2014-04-07T17:37:11CEST"/>
+      <lp name="Property manual annotations" version="1.0" timestamp="2014-04-08T16:32:25CEST"/>
     </linguisticProcessors>
     <linguisticProcessors layer="opinions">
-      <lp name="Manual annotations" version="1.0" timestamp="2014-04-07T17:37:11CEST"/>
+      <lp name="Manual annotations" version="1.0" timestamp="2014-04-08T16:32:25CEST"/>
     </linguisticProcessors>
   </kafHeader>
   <text>
@@ -1197,7 +1197,7 @@
         </span>
       </opinion_expression>
     </opinion>
-    <opinion oid="o0">
+    <opinion oid="o1">
       <!--Tag opinion scope id=13-->
       <opinion_holder/>
       <opinion_target>
@@ -1219,45 +1219,6 @@
         </span>
       </opinion_expression>
     </opinion>
-    <opinion oid="o0">
-      <!--Tag opinion scope id=26-->
-      <opinion_holder/>
-      <opinion_target>
-        <!--die Zimmer-->
-        <span>
-          <target id="t47"/>
-          <target id="t48"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Negative">
-        <!--entsprechen nicht 5 Sternen-->
-        <span>
-          <target id="t49"/>
-          <target id="t50"/>
-          <target id="t51"/>
-          <target id="t52"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="o1">
-      <!--Tag opinion scope id=26-->
-      <opinion_holder/>
-      <opinion_target>
-        <!--Hotel-->
-        <span>
-          <target id="t44"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Negative">
-        <!--entsprechen nicht 5 Sternen-->
-        <span>
-          <target id="t49"/>
-          <target id="t50"/>
-          <target id="t51"/>
-          <target id="t52"/>
-        </span>
-      </opinion_expression>
-    </opinion>
     <opinion oid="o2">
       <!--Tag opinion scope id=26-->
       <opinion_holder/>
@@ -1269,14 +1230,12 @@
         </span>
       </opinion_target>
       <opinion_expression polarity="Negative">
-        <!--sollten schnellstens renoviert bzw. instandgesetzt werden-->
+        <!--entsprechen nicht 5 Sternen-->
         <span>
-          <target id="t54"/>
-          <target id="t55"/>
-          <target id="t56"/>
-          <target id="t57"/>
-          <target id="t58"/>
-          <target id="t59"/>
+          <target id="t49"/>
+          <target id="t50"/>
+          <target id="t51"/>
+          <target id="t52"/>
         </span>
       </opinion_expression>
     </opinion>
@@ -1290,6 +1249,26 @@
         </span>
       </opinion_target>
       <opinion_expression polarity="Negative">
+        <!--entsprechen nicht 5 Sternen-->
+        <span>
+          <target id="t49"/>
+          <target id="t50"/>
+          <target id="t51"/>
+          <target id="t52"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o4">
+      <!--Tag opinion scope id=26-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--die Zimmer-->
+        <span>
+          <target id="t47"/>
+          <target id="t48"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Negative">
         <!--sollten schnellstens renoviert bzw. instandgesetzt werden-->
         <span>
           <target id="t54"/>
@@ -1301,7 +1280,28 @@
         </span>
       </opinion_expression>
     </opinion>
-    <opinion oid="o0">
+    <opinion oid="o5">
+      <!--Tag opinion scope id=26-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--Hotel-->
+        <span>
+          <target id="t44"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Negative">
+        <!--sollten schnellstens renoviert bzw. instandgesetzt werden-->
+        <span>
+          <target id="t54"/>
+          <target id="t55"/>
+          <target id="t56"/>
+          <target id="t57"/>
+          <target id="t58"/>
+          <target id="t59"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o6">
       <!--Tag opinion scope id=4-->
       <opinion_holder/>
       <opinion_target>
@@ -1319,7 +1319,7 @@
         </span>
       </opinion_expression>
     </opinion>
-    <opinion oid="o0">
+    <opinion oid="o7">
       <!--Tag opinion scope id=17-->
       <opinion_holder/>
       <opinion_target/>
@@ -1334,7 +1334,7 @@
         </span>
       </opinion_expression>
     </opinion>
-    <opinion oid="o1">
+    <opinion oid="o8">
       <!--Tag opinion scope id=17-->
       <opinion_holder/>
       <opinion_target/>
@@ -1349,7 +1349,7 @@
         </span>
       </opinion_expression>
     </opinion>
-    <opinion oid="o2">
+    <opinion oid="o9">
       <!--Tag opinion scope id=17-->
       <opinion_holder/>
       <opinion_target/>

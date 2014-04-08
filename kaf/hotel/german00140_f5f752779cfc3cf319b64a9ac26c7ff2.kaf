@@ -19,10 +19,10 @@
       <lp timestamp="2014-02-12T10:10:02CET" version="1.0" name="TreeTagger_from_kaf German models"/>
     </linguisticProcessors>
     <linguisticProcessors layer="features">
-      <lp name="Property manual annotations" version="1.0" timestamp="2014-04-07T17:37:14CEST"/>
+      <lp name="Property manual annotations" version="1.0" timestamp="2014-04-08T16:32:27CEST"/>
     </linguisticProcessors>
     <linguisticProcessors layer="opinions">
-      <lp name="Manual annotations" version="1.0" timestamp="2014-04-07T17:37:14CEST"/>
+      <lp name="Manual annotations" version="1.0" timestamp="2014-04-08T16:32:27CEST"/>
     </linguisticProcessors>
   </kafHeader>
   <text>
@@ -1192,48 +1192,6 @@
         </span>
       </opinion_expression>
     </opinion>
-    <opinion oid="o0">
-      <!--Tag opinion scope id=20-->
-      <opinion_holder>
-        <!--uns-->
-        <span>
-          <target id="t41"/>
-        </span>
-      </opinion_holder>
-      <opinion_target/>
-      <opinion_expression polarity="Positive">
-        <!--einen Gutschein für eine Gratisnacht erhalten-->
-        <span>
-          <target id="t44"/>
-          <target id="t45"/>
-          <target id="t46"/>
-          <target id="t47"/>
-          <target id="t48"/>
-          <target id="t49"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="o1">
-      <!--Tag opinion scope id=20-->
-      <opinion_holder>
-        <!--Wir-->
-        <span>
-          <target id="t39"/>
-        </span>
-      </opinion_holder>
-      <opinion_target/>
-      <opinion_expression polarity="Positive">
-        <!--einen Gutschein für eine Gratisnacht erhalten-->
-        <span>
-          <target id="t44"/>
-          <target id="t45"/>
-          <target id="t46"/>
-          <target id="t47"/>
-          <target id="t48"/>
-          <target id="t49"/>
-        </span>
-      </opinion_expression>
-    </opinion>
     <opinion oid="o2">
       <!--Tag opinion scope id=20-->
       <opinion_holder>
@@ -1243,10 +1201,15 @@
         </span>
       </opinion_holder>
       <opinion_target/>
-      <opinion_expression polarity="Negative">
-        <!--beschwert-->
+      <opinion_expression polarity="Positive">
+        <!--einen Gutschein für eine Gratisnacht erhalten-->
         <span>
-          <target id="t42"/>
+          <target id="t44"/>
+          <target id="t45"/>
+          <target id="t46"/>
+          <target id="t47"/>
+          <target id="t48"/>
+          <target id="t49"/>
         </span>
       </opinion_expression>
     </opinion>
@@ -1259,6 +1222,27 @@
         </span>
       </opinion_holder>
       <opinion_target/>
+      <opinion_expression polarity="Positive">
+        <!--einen Gutschein für eine Gratisnacht erhalten-->
+        <span>
+          <target id="t44"/>
+          <target id="t45"/>
+          <target id="t46"/>
+          <target id="t47"/>
+          <target id="t48"/>
+          <target id="t49"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o4">
+      <!--Tag opinion scope id=20-->
+      <opinion_holder>
+        <!--uns-->
+        <span>
+          <target id="t41"/>
+        </span>
+      </opinion_holder>
+      <opinion_target/>
       <opinion_expression polarity="Negative">
         <!--beschwert-->
         <span>
@@ -1266,7 +1250,23 @@
         </span>
       </opinion_expression>
     </opinion>
-    <opinion oid="o0">
+    <opinion oid="o5">
+      <!--Tag opinion scope id=20-->
+      <opinion_holder>
+        <!--Wir-->
+        <span>
+          <target id="t39"/>
+        </span>
+      </opinion_holder>
+      <opinion_target/>
+      <opinion_expression polarity="Negative">
+        <!--beschwert-->
+        <span>
+          <target id="t42"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o6">
       <!--Tag opinion scope id=14-->
       <opinion_holder/>
       <opinion_target>
@@ -1285,7 +1285,7 @@
         </span>
       </opinion_expression>
     </opinion>
-    <opinion oid="o1">
+    <opinion oid="o7">
       <!--Tag opinion scope id=14-->
       <opinion_holder/>
       <opinion_target>
@@ -1304,7 +1304,7 @@
         </span>
       </opinion_expression>
     </opinion>
-    <opinion oid="o0">
+    <opinion oid="o8">
       <!--Tag opinion scope id=2-->
       <opinion_holder/>
       <opinion_target/>
@@ -1318,7 +1318,7 @@
         </span>
       </opinion_expression>
     </opinion>
-    <opinion oid="o0">
+    <opinion oid="o9">
       <!--Tag opinion scope id=5-->
       <opinion_holder/>
       <opinion_target>
