@@ -1,0 +1,21 @@
+w1	Die	die	D			0		0		0	9-very positive	1	sports(stadium/game)	2		0		0		0	0	true	1
+w77	Mit	mit	P			0	Non-Opinionated	3		0		0		0		0		0		0	76	true	5
+w78	dieser	dies	Q			0	Non-Opinionated	3		0		0		0		0		0		0	77	true	5
+w79	Karte	Karte	N			0	Non-Opinionated	3		0		0		0		0		0		0	78	true	5
+w80	kann	können	V			0	Non-Opinionated	3		0		0		0		0		0		0	79	true	5
+w81	man	man	Q			0	Non-Opinionated	3		0		0		0		0		0		0	80	true	5
+w82	dann	dann	A			0	Non-Opinionated	3		0		0		0		0		0		0	81	true	5
+w83	zu	zu	P			0	Non-Opinionated	3		0		0		0		0		0		0	82	true	5
+w84	den	die	D			0	Non-Opinionated	3		0		0		0		0		0		0	83	true	5
+w85	sehr	sehr	A			0	Non-Opinionated	3		0		0		0		0		0		0	84	true	5
+w86	zahlreichen	zahlreich	G			0	Non-Opinionated	3		0		0		0		0		0		0	85	true	5
+w87	Verkaufsläden	Verkaufsladen	N			0	Non-Opinionated	3		0		0		0		0		0		0	86	true	5
+w88	gehen	gehen	V			0	Non-Opinionated	3		0		0		0		0		0		0	87	true	5
+w89	und	und	C			0	Non-Opinionated	3		0		0		0		0		0		0	88	true	5
+w90	sein	sein	Q			0	Non-Opinionated	3		0		0		0		0		0		0	89	true	5
+w91	Essen	Essen	N			0	Non-Opinionated	3		0		0		0		0		0		0	90	true	5
+w92	bzw.	bzw.	C			0	Non-Opinionated	3		0		0		0		0		0		0	91	true	5
+w93	seine	sein	Q			0	Non-Opinionated	3		0		0		0		0		0		0	92	true	5
+w94	Getränke	Getränk	N			0	Non-Opinionated	3		0		0		0		0		0		0	93	true	5
+w95	holen	holen	V			0	Non-Opinionated	3		0		0		0		0		0		0	94	true	5
+w96	.	.	O			0	Non-Opinionated	3		0		0		0		0		0		0	95	true	5

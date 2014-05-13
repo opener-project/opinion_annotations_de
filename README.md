@@ -12,3 +12,10 @@ Tag and KAF files, processed with the pipeline:
   + polarity_tagger.sh --ignore-pos
   + ner_tagger.sh de
   + constituent_parser_de.sh
+
+##attractions##
+Tag and KAF files processed with:
+  + ehu-nerc-de entity tagger
+  + constituent parser (stanford)
+  + polarity tagger
+  + Manual annotations --> opinions and properties/features/aspects

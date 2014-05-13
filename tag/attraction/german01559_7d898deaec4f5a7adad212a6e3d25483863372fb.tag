@@ -1,0 +1,19 @@
+w1	Blues	Blues	N			0		0		0	6-average-positive	3	tour(city/landscape)	2		0		0		0	0	true	1
+w33	Die	die	D			0	Non-Opinionated	1		0		0		0		0		0		0	32	true	5
+w34	Beale	Beale	O			0	Non-Opinionated	1		0		0		0		0		0		0	33	true	5
+w35	St.	St.	R			0	Non-Opinionated	1		0		0		0		0		0		0	34	true	5
+w36	ist	sein	V			0	Non-Opinionated	1		0		0		0		0		0		0	35	true	5
+w37	eine	eine	Q			0	Non-Opinionated	1		0		0		0		0		0		0	36	true	5
+w38	der	die	D			0	Non-Opinionated	1		0		0		0		0		0		0	37	true	5
+w39	wenigen	wenige	Q			0	Non-Opinionated	1		0		0		0		0		0		0	38	true	5
+w40	Strassen	Straße	N			0	Non-Opinionated	1		0		0		0		0		0		0	39	true	5
+w41	in	in	P			0	Non-Opinionated	1		0		0		0		0		0		0	40	true	5
+w42	den	die	D			0	Non-Opinionated	1		0		0		0		0		0		0	41	true	5
+w43	USA	USA	R			0	Non-Opinionated	1		0		0		0		0		0		0	42	true	5
+w44	auf	auf	P			0	Non-Opinionated	1		0		0		0		0		0		0	43	true	5
+w45	der	die	D			0	Non-Opinionated	1		0		0		0		0		0		0	44	true	5
+w46	öffentlich	öffentlich	G			0	Non-Opinionated	1		0		0		0		0		0		0	45	true	5
+w47	Alkohol	Alkohol	N			0	Non-Opinionated	1		0		0		0		0		0		0	46	true	5
+w48	getrunken	trinken	V			0	Non-Opinionated	1		0		0		0		0		0		0	47	true	5
+w49	werden	werden	V			0	Non-Opinionated	1		0		0		0		0		0		0	48	true	5
+w50	kann	können	V			0	Non-Opinionated	1		0		0		0		0		0		0	49	true	5

@@ -1,0 +1,353 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="de" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-de" timestamp="2014-02-10T14:05:38Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-de" timestamp="2014-02-10T14:05:38Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="entities">
+      <lp name="ehu-nerc-de" timestamp="2014-02-25 17:22:25" version="1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="constituents">
+      <lp timestamp="2014-02-25T17:22:30CET" version="1.3_17jan2014" name="Stanford German constituency parser trained on NEGRA corpus"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="features">
+      <lp name="Property manual annotations" version="1.0" timestamp="2014-05-13T09:43:08CEST"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-13T09:43:08CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w1" sent="1" para="1" offset="0" length="3">Ein</wf>
+    <wf wid="w2" sent="1" para="1" offset="4" length="9">absolutes</wf>
+    <wf wid="w3" sent="1" para="1" offset="14" length="11">technisches</wf>
+    <wf wid="w4" sent="1" para="1" offset="26" length="11">Meisterwerk</wf>
+    <wf wid="w5" sent="2" para="2" offset="38" length="3">Die</wf>
+    <wf wid="w6" sent="2" para="2" offset="42" length="7">Technik</wf>
+    <wf wid="w7" sent="2" para="2" offset="50" length="3">die</wf>
+    <wf wid="w8" sent="2" para="2" offset="54" length="4">hier</wf>
+    <wf wid="w9" sent="2" para="2" offset="59" length="9">verwendet</wf>
+    <wf wid="w10" sent="2" para="2" offset="69" length="5">wurde</wf>
+    <wf wid="w11" sent="2" para="2" offset="75" length="12">funktioniert</wf>
+    <wf wid="w12" sent="2" para="2" offset="88" length="4">noch</wf>
+    <wf wid="w13" sent="2" para="2" offset="93" length="4">ganz</wf>
+    <wf wid="w14" sent="2" para="2" offset="98" length="4">ohne</wf>
+    <wf wid="w15" sent="2" para="2" offset="103" length="10">Elektronik</wf>
+    <wf wid="w16" sent="2" para="2" offset="113" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Ein-->
+    <term tid="t1" type="close" lemma="eine" pos="D" morphofeat="ART">
+      <span>
+        <target id="w1"/>
+      </span>
+    </term>
+    <!--absolutes-->
+    <term tid="t2" type="open" lemma="absolut" pos="G" morphofeat="ADJA">
+      <sentiment resource="VUA_olery_lexicon_de_lmf" sentiment_modifier="intensifier"/>
+      <span>
+        <target id="w2"/>
+      </span>
+    </term>
+    <!--technisches-->
+    <term tid="t3" type="open" lemma="technisch" pos="G" morphofeat="ADJA">
+      <span>
+        <target id="w3"/>
+      </span>
+    </term>
+    <!--Meisterwerk-->
+    <term tid="t4" type="open" lemma="Meisterwerk" pos="N" morphofeat="NN">
+      <span>
+        <target id="w4"/>
+      </span>
+    </term>
+    <!--Die-->
+    <term tid="t5" type="close" lemma="die" pos="D" morphofeat="ART">
+      <span>
+        <target id="w5"/>
+      </span>
+    </term>
+    <!--Technik-->
+    <term tid="t6" type="open" lemma="Technik" pos="N" morphofeat="NN">
+      <span>
+        <target id="w6"/>
+      </span>
+    </term>
+    <!--die-->
+    <term tid="t7" type="close" lemma="die" pos="Q" morphofeat="PDS">
+      <span>
+        <target id="w7"/>
+      </span>
+    </term>
+    <!--hier-->
+    <term tid="t8" type="open" lemma="hier" pos="A" morphofeat="ADV">
+      <span>
+        <target id="w8"/>
+      </span>
+    </term>
+    <!--verwendet-->
+    <term tid="t9" type="open" lemma="verwenden" pos="V" morphofeat="VVPP">
+      <span>
+        <target id="w9"/>
+      </span>
+    </term>
+    <!--wurde-->
+    <term tid="t10" type="open" lemma="werden" pos="V" morphofeat="VAFIN">
+      <span>
+        <target id="w10"/>
+      </span>
+    </term>
+    <!--funktioniert-->
+    <term tid="t11" type="open" lemma="funktionieren" pos="V" morphofeat="VVFIN">
+      <sentiment resource="VUA_olery_lexicon_de_lmf" polarity="positive"/>
+      <span>
+        <target id="w11"/>
+      </span>
+    </term>
+    <!--noch-->
+    <term tid="t12" type="open" lemma="noch" pos="A" morphofeat="ADV">
+      <span>
+        <target id="w12"/>
+      </span>
+    </term>
+    <!--ganz-->
+    <term tid="t13" type="open" lemma="ganz" pos="A" morphofeat="ADV">
+      <span>
+        <target id="w13"/>
+      </span>
+    </term>
+    <!--ohne-->
+    <term tid="t14" type="close" lemma="ohne" pos="P" morphofeat="APPR">
+      <sentiment resource="VUA_olery_lexicon_de_lmf" sentiment_modifier="shifter"/>
+      <span>
+        <target id="w14"/>
+      </span>
+    </term>
+    <!--Elektronik-->
+    <term tid="t15" type="open" lemma="Elektronik" pos="N" morphofeat="NN">
+      <span>
+        <target id="w15"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t16" type="open" lemma="." pos="O" morphofeat="$.">
+      <span>
+        <target id="w16"/>
+      </span>
+    </term>
+  </terms>
+  <constituency>
+    <tree>
+      <nt id="nter0" label="ROOT"/>
+      <nt id="nter1" label="NUR"/>
+      <nt id="nter2" label="NP"/>
+      <nt id="nter3" label="ART"/>
+      <nt id="nter4" label="ADJA"/>
+      <nt id="nter5" label="ADJA"/>
+      <nt id="nter6" label="NN"/>
+      <t id="ter0">
+        <span>
+          <target id="t1"/>
+        </span>
+      </t>
+      <t id="ter1">
+        <span>
+          <target id="t2"/>
+        </span>
+      </t>
+      <t id="ter2">
+        <span>
+          <target id="t3"/>
+        </span>
+      </t>
+      <t id="ter3">
+        <span>
+          <target id="t4"/>
+        </span>
+      </t>
+      <!--  tre0  ROOT <- NUR -->
+      <edge from="nter1" id="tre0" to="nter0" head="yes"/>
+      <!--  tre1  NUR <- NP -->
+      <edge from="nter2" id="tre1" to="nter1" head="yes"/>
+      <!--  tre2  NP <- ART -->
+      <edge from="nter3" id="tre2" to="nter2"/>
+      <!--  tre3  ART <- eine -->
+      <edge from="ter0" id="tre3" to="nter3"/>
+      <!--  tre4  NP <- ADJA -->
+      <edge from="nter4" id="tre4" to="nter2"/>
+      <!--  tre5  ADJA <- absolut -->
+      <edge from="ter1" id="tre5" to="nter4"/>
+      <!--  tre6  NP <- ADJA -->
+      <edge from="nter5" id="tre6" to="nter2"/>
+      <!--  tre7  ADJA <- technisch -->
+      <edge from="ter2" id="tre7" to="nter5"/>
+      <!--  tre8  NP <- NN -->
+      <edge from="nter6" id="tre8" to="nter2" head="yes"/>
+      <!--  tre9  NN <- Meisterwerk -->
+      <edge from="ter3" id="tre9" to="nter6"/>
+    </tree>
+    <tree>
+      <nt id="nter7" label="ROOT"/>
+      <nt id="nter8" label="S"/>
+      <nt id="nter9" label="NP"/>
+      <nt id="nter10" label="ART"/>
+      <nt id="nter11" label="NN"/>
+      <nt id="nter12" label="S"/>
+      <nt id="nter13" label="PRELS-SB"/>
+      <nt id="nter14" label="VP"/>
+      <nt id="nter15" label="ADV"/>
+      <nt id="nter16" label="VVPP"/>
+      <nt id="nter17" label="VAFIN"/>
+      <nt id="nter18" label="VVFIN"/>
+      <nt id="nter19" label="ADV"/>
+      <nt id="nter20" label="PP"/>
+      <nt id="nter21" label="ADV"/>
+      <nt id="nter22" label="APPR"/>
+      <nt id="nter23" label="NN"/>
+      <nt id="nter24" label="$."/>
+      <t id="ter4">
+        <span>
+          <target id="t5"/>
+        </span>
+      </t>
+      <t id="ter5">
+        <span>
+          <target id="t6"/>
+        </span>
+      </t>
+      <t id="ter6">
+        <span>
+          <target id="t7"/>
+        </span>
+      </t>
+      <t id="ter7">
+        <span>
+          <target id="t8"/>
+        </span>
+      </t>
+      <t id="ter8">
+        <span>
+          <target id="t9"/>
+        </span>
+      </t>
+      <t id="ter9">
+        <span>
+          <target id="t10"/>
+        </span>
+      </t>
+      <t id="ter10">
+        <span>
+          <target id="t11"/>
+        </span>
+      </t>
+      <t id="ter11">
+        <span>
+          <target id="t12"/>
+        </span>
+      </t>
+      <t id="ter12">
+        <span>
+          <target id="t13"/>
+        </span>
+      </t>
+      <t id="ter13">
+        <span>
+          <target id="t14"/>
+        </span>
+      </t>
+      <t id="ter14">
+        <span>
+          <target id="t15"/>
+        </span>
+      </t>
+      <t id="ter15">
+        <span>
+          <target id="t16"/>
+        </span>
+      </t>
+      <!--  tre10  ROOT <- S -->
+      <edge from="nter8" id="tre10" to="nter7" head="yes"/>
+      <!--  tre11  S <- NP -->
+      <edge from="nter9" id="tre11" to="nter8"/>
+      <!--  tre12  NP <- ART -->
+      <edge from="nter10" id="tre12" to="nter9"/>
+      <!--  tre13  ART <- die -->
+      <edge from="ter4" id="tre13" to="nter10"/>
+      <!--  tre14  NP <- NN -->
+      <edge from="nter11" id="tre14" to="nter9" head="yes"/>
+      <!--  tre15  NN <- Technik -->
+      <edge from="ter5" id="tre15" to="nter11"/>
+      <!--  tre16  NP <- S -->
+      <edge from="nter12" id="tre16" to="nter9"/>
+      <!--  tre17  S <- PRELS-SB -->
+      <edge from="nter13" id="tre17" to="nter12"/>
+      <!--  tre18  PRELS-SB <- die -->
+      <edge from="ter6" id="tre18" to="nter13"/>
+      <!--  tre19  S <- VP -->
+      <edge from="nter14" id="tre19" to="nter12"/>
+      <!--  tre20  VP <- ADV -->
+      <edge from="nter15" id="tre20" to="nter14"/>
+      <!--  tre21  ADV <- hier -->
+      <edge from="ter7" id="tre21" to="nter15"/>
+      <!--  tre22  VP <- VVPP -->
+      <edge from="nter16" id="tre22" to="nter14" head="yes"/>
+      <!--  tre23  VVPP <- verwenden -->
+      <edge from="ter8" id="tre23" to="nter16"/>
+      <!--  tre24  S <- VAFIN -->
+      <edge from="nter17" id="tre24" to="nter12" head="yes"/>
+      <!--  tre25  VAFIN <- werden -->
+      <edge from="ter9" id="tre25" to="nter17"/>
+      <!--  tre26  S <- VVFIN -->
+      <edge from="nter18" id="tre26" to="nter8" head="yes"/>
+      <!--  tre27  VVFIN <- funktionieren -->
+      <edge from="ter10" id="tre27" to="nter18"/>
+      <!--  tre28  S <- ADV -->
+      <edge from="nter19" id="tre28" to="nter8"/>
+      <!--  tre29  ADV <- noch -->
+      <edge from="ter11" id="tre29" to="nter19"/>
+      <!--  tre30  S <- PP -->
+      <edge from="nter20" id="tre30" to="nter8"/>
+      <!--  tre31  PP <- ADV -->
+      <edge from="nter21" id="tre31" to="nter20"/>
+      <!--  tre32  ADV <- ganz -->
+      <edge from="ter12" id="tre32" to="nter21"/>
+      <!--  tre33  PP <- APPR -->
+      <edge from="nter22" id="tre33" to="nter20" head="yes"/>
+      <!--  tre34  APPR <- ohne -->
+      <edge from="ter13" id="tre34" to="nter22"/>
+      <!--  tre35  PP <- NN -->
+      <edge from="nter23" id="tre35" to="nter20"/>
+      <!--  tre36  NN <- Elektronik -->
+      <edge from="ter14" id="tre36" to="nter23"/>
+      <!--  tre37  S <- $. -->
+      <edge from="nter24" id="tre37" to="nter8"/>
+      <!--  tre38  $. <- . -->
+      <edge from="ter15" id="tre38" to="nter24"/>
+    </tree>
+  </constituency>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=3-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--Die Technik-->
+        <span>
+          <target id="t5"/>
+          <target id="t6"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Positive">
+        <!--funktioniert noch ganz ohne Elektronik-->
+        <span>
+          <target id="t11"/>
+          <target id="t12"/>
+          <target id="t13"/>
+          <target id="t14"/>
+          <target id="t15"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

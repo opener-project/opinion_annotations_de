@@ -1,0 +1,23 @@
+w66	Der	die	D			0	Non-Opinionated	1		0		0	church/castle	2		0		0		0	65	true	4
+w67	Dom	Dom	N			0	Non-Opinionated	1		0		0		0		0		0		0	66	true	4
+w68	befindet	befinden	V			0	Non-Opinionated	1		0		0		0		0		0		0	67	true	4
+w69	sich	sich	Q			0	Non-Opinionated	1		0		0		0		0		0		0	68	true	4
+w70	an	an	P			0	Non-Opinionated	1		0		0		0		0		0		0	69	true	4
+w71	der	die	D			0	Non-Opinionated	1		0		0		0		0		0		0	70	true	4
+w72	Museumsinsel	Museumsinsel	N			0	Non-Opinionated	1		0		0		0		0		0		0	71	true	4
+w73	vor	vor	P			0	Non-Opinionated	1		0		0		0		0		0		0	72	true	4
+w74	dem	die	D			0	Non-Opinionated	1		0		0		0		0		0		0	73	true	4
+w75	Lusgarten	Lusgarten	O			0	Non-Opinionated	1		0		0		0		0		0		0	74	true	4
+w76	und	und	C			0	Non-Opinionated	1		0		0		0		0		0		0	75	true	4
+w77	man	man	Q			0	Non-Opinionated	1		0		0		0		0		0		0	76	true	4
+w78	hat	haben	V			0	Non-Opinionated	1		0		0		0		0		0		0	77	true	4
+w79	die	die	D			0	Non-Opinionated	1		0		0		0		0		0		0	78	true	4
+w80	Möglichkeit	Möglichkeit	N			0	Non-Opinionated	1		0		0		0		0		0		0	79	true	4
+w81	alle	alle	Q			0	Non-Opinionated	1		0		0		0		0		0		0	80	true	4
+w82	wichtigen	wichtig	G			0	Non-Opinionated	1		0		0		0		0		0		0	81	true	4
+w83	Sehenswürdigkeiten	Sehenswürdigkeit	N			0	Non-Opinionated	1		0		0		0		0		0		0	82	true	4
+w84	Berlins	Berlin	R			0	Non-Opinionated	1		0		0		0		0		0		0	83	true	4
+w85	gleich	gleich	G			0	Non-Opinionated	1		0		0		0		0		0		0	84	true	4
+w86	mit	mit	V			0	Non-Opinionated	1		0		0		0		0		0		0	85	true	4
+w87	zu	zu	O			0	Non-Opinionated	1		0		0		0		0		0		0	86	true	4
+w88	besuchen	besuchen	V			0	Non-Opinionated	1		0		0		0		0		0		0	87	true	4

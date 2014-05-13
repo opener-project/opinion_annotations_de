@@ -1,0 +1,418 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="de" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-de" timestamp="2014-02-10T14:50:40Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-de" timestamp="2014-02-10T14:50:40Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="entities">
+      <lp name="ehu-nerc-de" timestamp="2014-02-25 18:36:16" version="1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="constituents">
+      <lp timestamp="2014-02-25T18:36:19CET" version="1.3_17jan2014" name="Stanford German constituency parser trained on NEGRA corpus"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="features">
+      <lp name="Property manual annotations" version="1.0" timestamp="2014-05-13T09:43:11CEST"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-13T09:43:11CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w1" sent="1" para="1" offset="0" length="10">Kulturtrip</wf>
+    <wf wid="w2" sent="2" para="2" offset="11" length="11">Wunderschön</wf>
+    <wf wid="w3" sent="2" para="2" offset="22" length="1">!</wf>
+    <wf wid="w4" sent="3" para="2" offset="24" length="3">Ein</wf>
+    <wf wid="w5" sent="3" para="2" offset="28" length="8">Erlebnis</wf>
+    <wf wid="w6" sent="3" para="2" offset="36" length="1">!</wf>
+    <wf wid="w7" sent="4" para="2" offset="38" length="10">Wunderbare</wf>
+    <wf wid="w8" sent="4" para="2" offset="49" length="6">Kultur</wf>
+    <wf wid="w9" sent="4" para="2" offset="56" length="3">und</wf>
+    <wf wid="w10" sent="4" para="2" offset="60" length="10">herrliches</wf>
+    <wf wid="w11" sent="4" para="2" offset="71" length="5">Essen</wf>
+    <wf wid="w12" sent="4" para="2" offset="76" length="1">.</wf>
+    <wf wid="w13" sent="5" para="2" offset="78" length="5">Beste</wf>
+    <wf wid="w14" sent="5" para="2" offset="84" length="8">shopping</wf>
+    <wf wid="w15" sent="5" para="2" offset="93" length="13">Möglichkeiten</wf>
+    <wf wid="w16" sent="5" para="2" offset="106" length="1">,</wf>
+    <wf wid="w17" sent="5" para="2" offset="108" length="11">Vorfrühling</wf>
+  </text>
+  <terms>
+    <!--Kulturtrip-->
+    <term tid="t1" type="open" lemma="Kulturtrip" pos="N" morphofeat="NN">
+      <span>
+        <target id="w1"/>
+      </span>
+    </term>
+    <!--Wunderschön-->
+    <term tid="t2" type="open" lemma="wunderschön" pos="G" morphofeat="ADJD">
+      <sentiment resource="VUA_olery_lexicon_de_lmf" polarity="positive"/>
+      <span>
+        <target id="w2"/>
+      </span>
+    </term>
+    <!--!-->
+    <term tid="t3" type="open" lemma="!" pos="O" morphofeat="$.">
+      <span>
+        <target id="w3"/>
+      </span>
+    </term>
+    <!--Ein-->
+    <term tid="t4" type="close" lemma="eine" pos="D" morphofeat="ART">
+      <span>
+        <target id="w4"/>
+      </span>
+    </term>
+    <!--Erlebnis-->
+    <term tid="t5" type="open" lemma="Erlebnis" pos="N" morphofeat="NN">
+      <span>
+        <target id="w5"/>
+      </span>
+    </term>
+    <!--!-->
+    <term tid="t6" type="open" lemma="!" pos="O" morphofeat="$.">
+      <span>
+        <target id="w6"/>
+      </span>
+    </term>
+    <!--Wunderbare-->
+    <term tid="t7" type="open" lemma="wunderbar" pos="G" morphofeat="ADJA">
+      <sentiment resource="VUA_olery_lexicon_de_lmf" polarity="positive"/>
+      <span>
+        <target id="w7"/>
+      </span>
+    </term>
+    <!--Kultur-->
+    <term tid="t8" type="open" lemma="Kultur" pos="N" morphofeat="NN">
+      <span>
+        <target id="w8"/>
+      </span>
+    </term>
+    <!--und-->
+    <term tid="t9" type="close" lemma="und" pos="C" morphofeat="KON">
+      <span>
+        <target id="w9"/>
+      </span>
+    </term>
+    <!--herrliches-->
+    <term tid="t10" type="open" lemma="herrlich" pos="G" morphofeat="ADJA">
+      <sentiment resource="VUA_olery_lexicon_de_lmf" polarity="positive"/>
+      <span>
+        <target id="w10"/>
+      </span>
+    </term>
+    <!--Essen-->
+    <term tid="t11" type="open" lemma="Essen" pos="N" morphofeat="NN">
+      <span>
+        <target id="w11"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t12" type="open" lemma="." pos="O" morphofeat="$.">
+      <span>
+        <target id="w12"/>
+      </span>
+    </term>
+    <!--Beste-->
+    <term tid="t13" type="open" lemma="gut" pos="G" morphofeat="ADJA">
+      <sentiment resource="VUA_olery_lexicon_de_lmf" polarity="positive"/>
+      <span>
+        <target id="w13"/>
+      </span>
+    </term>
+    <!--shopping-->
+    <term tid="t14" type="open" lemma="shopping" pos="O" morphofeat="NN unknown_lemma">
+      <span>
+        <target id="w14"/>
+      </span>
+    </term>
+    <!--Möglichkeiten-->
+    <term tid="t15" type="open" lemma="Möglichkeit" pos="N" morphofeat="NN">
+      <span>
+        <target id="w15"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t16" type="open" lemma="," pos="O" morphofeat="$,">
+      <span>
+        <target id="w16"/>
+      </span>
+    </term>
+    <!--Vorfrühling-->
+    <term tid="t17" type="open" lemma="Vorfrühling" pos="N" morphofeat="NN">
+      <span>
+        <target id="w17"/>
+      </span>
+    </term>
+  </terms>
+  <features>
+    <properties>
+      <property pid="p0" lemma="Cultural Value">
+        <references>
+          <span>
+            <target id="t8"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p1" lemma="Food">
+        <references>
+          <span>
+            <target id="t11"/>
+          </span>
+        </references>
+      </property>
+    </properties>
+  </features>
+  <constituency>
+    <tree>
+      <nt id="nter0" label="ROOT"/>
+      <nt id="nter1" label="NUR"/>
+      <nt id="nter2" label="NE"/>
+      <t id="ter0">
+        <span>
+          <target id="t1"/>
+        </span>
+      </t>
+      <!--  tre0  ROOT <- NUR -->
+      <edge from="nter1" id="tre0" to="nter0" head="yes"/>
+      <!--  tre1  NUR <- NE -->
+      <edge from="nter2" id="tre1" to="nter1" head="yes"/>
+      <!--  tre2  NE <- Kulturtrip -->
+      <edge from="ter0" id="tre2" to="nter2"/>
+    </tree>
+    <tree>
+      <nt id="nter3" label="ROOT"/>
+      <nt id="nter4" label="NUR"/>
+      <nt id="nter5" label="NE"/>
+      <nt id="nter6" label="$."/>
+      <t id="ter1">
+        <span>
+          <target id="t2"/>
+        </span>
+      </t>
+      <t id="ter2">
+        <span>
+          <target id="t3"/>
+        </span>
+      </t>
+      <!--  tre3  ROOT <- NUR -->
+      <edge from="nter4" id="tre3" to="nter3" head="yes"/>
+      <!--  tre4  NUR <- NE -->
+      <edge from="nter5" id="tre4" to="nter4" head="yes"/>
+      <!--  tre5  NE <- wunderschön -->
+      <edge from="ter1" id="tre5" to="nter5"/>
+      <!--  tre6  NUR <- $. -->
+      <edge from="nter6" id="tre6" to="nter4"/>
+      <!--  tre7  $. <- ! -->
+      <edge from="ter2" id="tre7" to="nter6"/>
+    </tree>
+    <tree>
+      <nt id="nter7" label="ROOT"/>
+      <nt id="nter8" label="NP"/>
+      <nt id="nter9" label="ART"/>
+      <nt id="nter10" label="NN"/>
+      <nt id="nter11" label="$."/>
+      <t id="ter3">
+        <span>
+          <target id="t4"/>
+        </span>
+      </t>
+      <t id="ter4">
+        <span>
+          <target id="t5"/>
+        </span>
+      </t>
+      <t id="ter5">
+        <span>
+          <target id="t6"/>
+        </span>
+      </t>
+      <!--  tre8  ROOT <- NP -->
+      <edge from="nter8" id="tre8" to="nter7" head="yes"/>
+      <!--  tre9  NP <- ART -->
+      <edge from="nter9" id="tre9" to="nter8"/>
+      <!--  tre10  ART <- eine -->
+      <edge from="ter3" id="tre10" to="nter9"/>
+      <!--  tre11  NP <- NN -->
+      <edge from="nter10" id="tre11" to="nter8" head="yes"/>
+      <!--  tre12  NN <- Erlebnis -->
+      <edge from="ter4" id="tre12" to="nter10"/>
+      <!--  tre13  NP <- $. -->
+      <edge from="nter11" id="tre13" to="nter8"/>
+      <!--  tre14  $. <- ! -->
+      <edge from="ter5" id="tre14" to="nter11"/>
+    </tree>
+    <tree>
+      <nt id="nter12" label="ROOT"/>
+      <nt id="nter13" label="CS"/>
+      <nt id="nter14" label="S"/>
+      <nt id="nter15" label="NP"/>
+      <nt id="nter16" label="NN"/>
+      <nt id="nter17" label="NN-SB"/>
+      <nt id="nter18" label="KON"/>
+      <nt id="nter19" label="S"/>
+      <nt id="nter20" label="VVFIN"/>
+      <nt id="nter21" label="NN-OA"/>
+      <nt id="nter22" label="$."/>
+      <t id="ter6">
+        <span>
+          <target id="t7"/>
+        </span>
+      </t>
+      <t id="ter7">
+        <span>
+          <target id="t8"/>
+        </span>
+      </t>
+      <t id="ter8">
+        <span>
+          <target id="t9"/>
+        </span>
+      </t>
+      <t id="ter9">
+        <span>
+          <target id="t10"/>
+        </span>
+      </t>
+      <t id="ter10">
+        <span>
+          <target id="t11"/>
+        </span>
+      </t>
+      <t id="ter11">
+        <span>
+          <target id="t12"/>
+        </span>
+      </t>
+      <!--  tre15  ROOT <- CS -->
+      <edge from="nter13" id="tre15" to="nter12" head="yes"/>
+      <!--  tre16  CS <- S -->
+      <edge from="nter14" id="tre16" to="nter13"/>
+      <!--  tre17  S <- NP -->
+      <edge from="nter15" id="tre17" to="nter14"/>
+      <!--  tre18  NP <- NN -->
+      <edge from="nter16" id="tre18" to="nter15" head="yes"/>
+      <!--  tre19  NN <- wunderbar -->
+      <edge from="ter6" id="tre19" to="nter16"/>
+      <!--  tre20  S <- NN-SB -->
+      <edge from="nter17" id="tre20" to="nter14" head="yes"/>
+      <!--  tre21  NN-SB <- Kultur -->
+      <edge from="ter7" id="tre21" to="nter17"/>
+      <!--  tre22  CS <- KON -->
+      <edge from="nter18" id="tre22" to="nter13"/>
+      <!--  tre23  KON <- und -->
+      <edge from="ter8" id="tre23" to="nter18"/>
+      <!--  tre24  CS <- S -->
+      <edge from="nter19" id="tre24" to="nter13" head="yes"/>
+      <!--  tre25  S <- VVFIN -->
+      <edge from="nter20" id="tre25" to="nter19" head="yes"/>
+      <!--  tre26  VVFIN <- herrlich -->
+      <edge from="ter9" id="tre26" to="nter20"/>
+      <!--  tre27  S <- NN-OA -->
+      <edge from="nter21" id="tre27" to="nter19"/>
+      <!--  tre28  NN-OA <- Essen -->
+      <edge from="ter10" id="tre28" to="nter21"/>
+      <!--  tre29  CS <- $. -->
+      <edge from="nter22" id="tre29" to="nter13"/>
+      <!--  tre30  $. <- . -->
+      <edge from="ter11" id="tre30" to="nter22"/>
+    </tree>
+    <tree>
+      <nt id="nter23" label="ROOT"/>
+      <nt id="nter24" label="NUR"/>
+      <nt id="nter25" label="NP"/>
+      <nt id="nter26" label="NN"/>
+      <nt id="nter27" label="NM"/>
+      <nt id="nter28" label="CARD"/>
+      <nt id="nter29" label="NN"/>
+      <nt id="nter30" label="$,"/>
+      <nt id="nter31" label="NN"/>
+      <t id="ter12">
+        <span>
+          <target id="t13"/>
+        </span>
+      </t>
+      <t id="ter13">
+        <span>
+          <target id="t14"/>
+        </span>
+      </t>
+      <t id="ter14">
+        <span>
+          <target id="t15"/>
+        </span>
+      </t>
+      <t id="ter15">
+        <span>
+          <target id="t16"/>
+        </span>
+      </t>
+      <t id="ter16">
+        <span>
+          <target id="t17"/>
+        </span>
+      </t>
+      <!--  tre31  ROOT <- NUR -->
+      <edge from="nter24" id="tre31" to="nter23" head="yes"/>
+      <!--  tre32  NUR <- NP -->
+      <edge from="nter25" id="tre32" to="nter24" head="yes"/>
+      <!--  tre33  NP <- NN -->
+      <edge from="nter26" id="tre33" to="nter25" head="yes"/>
+      <!--  tre34  NN <- gut -->
+      <edge from="ter12" id="tre34" to="nter26"/>
+      <!--  tre35  NP <- NM -->
+      <edge from="nter27" id="tre35" to="nter25"/>
+      <!--  tre36  NM <- CARD -->
+      <edge from="nter28" id="tre36" to="nter27" head="yes"/>
+      <!--  tre37  CARD <- shopping -->
+      <edge from="ter13" id="tre37" to="nter28"/>
+      <!--  tre38  NM <- NN -->
+      <edge from="nter29" id="tre38" to="nter27"/>
+      <!--  tre39  NN <- Möglichkeit -->
+      <edge from="ter14" id="tre39" to="nter29"/>
+      <!--  tre40  NP <- $, -->
+      <edge from="nter30" id="tre40" to="nter25"/>
+      <!--  tre41  $, <- , -->
+      <edge from="ter15" id="tre41" to="nter30"/>
+      <!--  tre42  NUR <- NN -->
+      <edge from="nter31" id="tre42" to="nter24"/>
+      <!--  tre43  NN <- Vorfrühling -->
+      <edge from="ter16" id="tre43" to="nter31"/>
+    </tree>
+  </constituency>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=4-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--Kultur-->
+        <span>
+          <target id="t8"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="StrongPositive">
+        <!--Wunderbare-->
+        <span>
+          <target id="t7"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=7-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--Essen-->
+        <span>
+          <target id="t11"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="StrongPositive">
+        <!--herrliches-->
+        <span>
+          <target id="t10"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

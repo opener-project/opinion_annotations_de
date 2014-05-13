@@ -1,0 +1,24 @@
+w1	Der	die	D			0		0		0	9-very positive	3	sports(stadium/game)	2		0		0		0	0	true	1
+w11	Ich	ich	Q			0	Non-Opinionated	1		0		0		0		0		0		0	10	true	2
+w12	kam	kommen	V			0	Non-Opinionated	1		0		0		0		0		0		0	11	true	2
+w13	zu	zu	P			0	Non-Opinionated	1		0		0		0		0		0		0	12	true	2
+w14	Estadio	Estadio	O			0	Non-Opinionated	1		0		0		0		0		0		0	13	true	2
+w15	Santiago	Santiago	R			0	Non-Opinionated	1		0		0		0		0		0		0	14	true	2
+w16	Bernabéu	Bernabéu	O			0	Non-Opinionated	1		0		0		0		0		0		0	15	true	2
+w17	März	März	N			0	Non-Opinionated	1		0		0		0		0		0		0	16	true	2
+w18	2010	@card@	O			0	Non-Opinionated	1		0		0		0		0		0		0	17	true	2
+w19	an	an	P			0	Non-Opinionated	1		0		0		0		0		0		0	18	true	2
+w20	der	die	D			0	Non-Opinionated	1		0		0		0		0		0		0	19	true	2
+w21	Champions	Champions	O			0	Non-Opinionated	1		0		0		0		0		0		0	20	true	2
+w22	League	League	O			0	Non-Opinionated	1		0		0		0		0		0		0	21	true	2
+w23	·	·	O			0	Non-Opinionated	1		0		0		0		0		0		0	22	true	2
+w24	Spiel	Spiel	N			0	Non-Opinionated	1		0		0		0		0		0		0	23	true	2
+w25	zwischen	zwischen	P			0	Non-Opinionated	1		0		0		0		0		0		0	24	true	2
+w26	Real	Real	N			0	Non-Opinionated	1		0		0		0		0		0		0	25	true	2
+w27	Madrid	Madrid	R			0	Non-Opinionated	1		0		0		0		0		0		0	26	true	2
+w28	und	und	C			0	Non-Opinionated	1		0		0		0		0		0		0	27	true	2
+w29	Olympique	Olympique	O			0	Non-Opinionated	1		0		0		0		0		0		0	28	true	2
+w30	Lyon	Lyon	R			0	Non-Opinionated	1		0		0		0		0		0		0	29	true	2
+w31	zu	zu	O			0	Non-Opinionated	1		0		0		0		0		0		0	30	true	2
+w32	sehen	sehen	V			0	Non-Opinionated	1		0		0		0		0		0		0	31	true	2
+w33	.	.	O			0	Non-Opinionated	1		0		0		0		0		0		0	32	true	2

@@ -1,0 +1,21 @@
+w1	schöne	schön	G			0		0		0	8-positive	3	museum	2		0		0		0	0	true	1
+w46	Das	die	D			0	Non-Opinionated	1		0		0		0		0		0		0	45	true	4
+w47	District	District	O			0	Non-Opinionated	1		0		0		0		0		0		0	46	true	4
+w48	führt	führen	V			0	Non-Opinionated	1		0		0		0		0		0		0	47	true	4
+w49	durch	durch	P			0	Non-Opinionated	1		0		0		0		0		0		0	48	true	4
+w50	das	die	D			0	Non-Opinionated	1		0		0		0		0		0		0	49	true	4
+w51	Herz	Herz	N			0	Non-Opinionated	1		0		0		0		0		0		0	50	true	4
+w52	von	von	P			0	Non-Opinionated	1		0		0		0		0		0		0	51	true	4
+w53	Miami	Miami	R			0	Non-Opinionated	1		0		0		0		0		0		0	52	true	4
+w54	Beach	Beach	O			0	Non-Opinionated	1		0		0		0		0		0		0	53	true	4
+w55	und	und	C			0	Non-Opinionated	1		0		0		0		0		0		0	54	true	4
+w56	man	man	Q			0	Non-Opinionated	1		0		0		0		0		0		0	55	true	4
+w57	bekommt	bekommen	V			0	Non-Opinionated	1		0		0		0		0		0		0	56	true	4
+w58	unter	unter	P			0	Non-Opinionated	1		0		0		0		0		0		0	57	true	4
+w59	anderem	andere	Q			0	Non-Opinionated	1		0		0		0		0		0		0	58	true	4
+w60	auch	auch	A			0	Non-Opinionated	1		0		0		0		0		0		0	59	true	4
+w61	am	an	P			0	Non-Opinionated	1		0		0		0		0		0		0	60	true	4
+w62	bekannten	bekannt	G			0	Non-Opinionated	1		0		0		0		0		0		0	61	true	4
+w63	Ocean	Ocean	O			0	Non-Opinionated	1		0		0		0		0		0		0	62	true	4
+w64	Drive	Drive	O			0	Non-Opinionated	1		0		0		0		0		0		0	63	true	4
+w65	vorbei	vorbei	V			0	Non-Opinionated	1		0		0		0		0		0		0	64	true	4

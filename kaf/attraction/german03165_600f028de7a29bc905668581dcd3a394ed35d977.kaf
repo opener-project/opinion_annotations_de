@@ -1,0 +1,615 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="de" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-de" timestamp="2014-02-10T16:35:20Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-de" timestamp="2014-02-10T16:35:20Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="entities">
+      <lp name="ehu-nerc-de" timestamp="2014-02-25 21:15:06" version="1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="constituents">
+      <lp timestamp="2014-02-25T21:15:10CET" version="1.3_17jan2014" name="Stanford German constituency parser trained on NEGRA corpus"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="features">
+      <lp name="Property manual annotations" version="1.0" timestamp="2014-05-13T09:43:11CEST"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-13T09:43:11CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w1" sent="1" para="1" offset="0" length="3">WOW</wf>
+    <wf wid="w2" sent="2" para="2" offset="4" length="4">WHAT</wf>
+    <wf wid="w3" sent="2" para="2" offset="9" length="1">A</wf>
+    <wf wid="w4" sent="2" para="2" offset="11" length="5">GREAT</wf>
+    <wf wid="w5" sent="2" para="2" offset="17" length="5">PLACE</wf>
+    <wf wid="w6" sent="2" para="2" offset="23" length="2">TO</wf>
+    <wf wid="w7" sent="2" para="2" offset="26" length="4">STAY</wf>
+    <wf wid="w8" sent="2" para="2" offset="30" length="1">.</wf>
+    <wf wid="w9" sent="3" para="2" offset="32" length="6">STAYED</wf>
+    <wf wid="w10" sent="3" para="2" offset="39" length="1">3</wf>
+    <wf wid="w11" sent="3" para="2" offset="41" length="6">NIGHTS</wf>
+    <wf wid="w12" sent="3" para="2" offset="47" length="1">.</wf>
+    <wf wid="w13" sent="4" para="2" offset="49" length="4">MAID</wf>
+    <wf wid="w14" sent="4" para="2" offset="54" length="5">COMES</wf>
+    <wf wid="w15" sent="4" para="2" offset="60" length="1">2</wf>
+    <wf wid="w16" sent="4" para="2" offset="62" length="5">TIMES</wf>
+    <wf wid="w17" sent="4" para="2" offset="68" length="1">A</wf>
+    <wf wid="w18" sent="4" para="2" offset="70" length="3">DAY</wf>
+    <wf wid="w19" sent="4" para="2" offset="73" length="1">.</wf>
+    <wf wid="w20" sent="5" para="2" offset="75" length="5">WORTH</wf>
+    <wf wid="w21" sent="5" para="2" offset="81" length="4">WHAT</wf>
+    <wf wid="w22" sent="5" para="2" offset="86" length="1">I</wf>
+    <wf wid="w23" sent="5" para="2" offset="88" length="4">PAID</wf>
+    <wf wid="w24" sent="5" para="2" offset="92" length="1">.</wf>
+    <wf wid="w25" sent="6" para="2" offset="93" length="5">WORTH</wf>
+    <wf wid="w26" sent="6" para="2" offset="99" length="3">THE</wf>
+    <wf wid="w27" sent="6" para="2" offset="103" length="5">MONEY</wf>
+  </text>
+  <terms>
+    <!--WOW-->
+    <term tid="t1" type="open" lemma="WOW" pos="O" morphofeat="NE unknown_lemma">
+      <span>
+        <target id="w1"/>
+      </span>
+    </term>
+    <!--WHAT-->
+    <term tid="t2" type="open" lemma="what" pos="O" morphofeat="FM">
+      <span>
+        <target id="w2"/>
+      </span>
+    </term>
+    <!--A-->
+    <term tid="t3" type="open" lemma="A" pos="N" morphofeat="NN">
+      <span>
+        <target id="w3"/>
+      </span>
+    </term>
+    <!--GREAT-->
+    <term tid="t4" type="open" lemma="GREAT" pos="O" morphofeat="NN unknown_lemma">
+      <span>
+        <target id="w4"/>
+      </span>
+    </term>
+    <!--PLACE-->
+    <term tid="t5" type="open" lemma="PLACE" pos="O" morphofeat="NN unknown_lemma">
+      <span>
+        <target id="w5"/>
+      </span>
+    </term>
+    <!--TO-->
+    <term tid="t6" type="open" lemma="TO" pos="O" morphofeat="VVFIN unknown_lemma">
+      <span>
+        <target id="w6"/>
+      </span>
+    </term>
+    <!--STAY-->
+    <term tid="t7" type="open" lemma="STAY" pos="O" morphofeat="NE unknown_lemma">
+      <span>
+        <target id="w7"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t8" type="open" lemma="." pos="O" morphofeat="$.">
+      <span>
+        <target id="w8"/>
+      </span>
+    </term>
+    <!--STAYED-->
+    <term tid="t9" type="open" lemma="STAYED" pos="O" morphofeat="NE unknown_lemma">
+      <span>
+        <target id="w9"/>
+      </span>
+    </term>
+    <!--3-->
+    <term tid="t10" type="open" lemma="3" pos="O" morphofeat="CARD">
+      <span>
+        <target id="w10"/>
+      </span>
+    </term>
+    <!--NIGHTS-->
+    <term tid="t11" type="open" lemma="NIGHTS" pos="O" morphofeat="NN unknown_lemma">
+      <span>
+        <target id="w11"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t12" type="open" lemma="." pos="O" morphofeat="$.">
+      <span>
+        <target id="w12"/>
+      </span>
+    </term>
+    <!--MAID-->
+    <term tid="t13" type="open" lemma="MAID" pos="O" morphofeat="ADJA unknown_lemma">
+      <span>
+        <target id="w13"/>
+      </span>
+    </term>
+    <!--COMES-->
+    <term tid="t14" type="open" lemma="COMES" pos="O" morphofeat="NN unknown_lemma">
+      <span>
+        <target id="w14"/>
+      </span>
+    </term>
+    <!--2-->
+    <term tid="t15" type="open" lemma="2" pos="O" morphofeat="CARD">
+      <span>
+        <target id="w15"/>
+      </span>
+    </term>
+    <!--TIMES-->
+    <term tid="t16" type="open" lemma="TIMES" pos="O" morphofeat="ADJA unknown_lemma">
+      <span>
+        <target id="w16"/>
+      </span>
+    </term>
+    <!--A-->
+    <term tid="t17" type="open" lemma="A" pos="N" morphofeat="NN">
+      <span>
+        <target id="w17"/>
+      </span>
+    </term>
+    <!--DAY-->
+    <term tid="t18" type="open" lemma="DAY" pos="O" morphofeat="NE unknown_lemma">
+      <span>
+        <target id="w18"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t19" type="open" lemma="." pos="O" morphofeat="$.">
+      <span>
+        <target id="w19"/>
+      </span>
+    </term>
+    <!--WORTH-->
+    <term tid="t20" type="open" lemma="WORTH" pos="O" morphofeat="NE unknown_lemma">
+      <span>
+        <target id="w20"/>
+      </span>
+    </term>
+    <!--WHAT-->
+    <term tid="t21" type="open" lemma="WHAT" pos="O" morphofeat="NE unknown_lemma">
+      <span>
+        <target id="w21"/>
+      </span>
+    </term>
+    <!--I-->
+    <term tid="t22" type="open" lemma="I" pos="N" morphofeat="NN">
+      <span>
+        <target id="w22"/>
+      </span>
+    </term>
+    <!--PAID-->
+    <term tid="t23" type="open" lemma="PAID" pos="O" morphofeat="NN unknown_lemma">
+      <span>
+        <target id="w23"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t24" type="open" lemma="." pos="O" morphofeat="$.">
+      <span>
+        <target id="w24"/>
+      </span>
+    </term>
+    <!--WORTH-->
+    <term tid="t25" type="open" lemma="WORTH" pos="O" morphofeat="NE unknown_lemma">
+      <span>
+        <target id="w25"/>
+      </span>
+    </term>
+    <!--THE-->
+    <term tid="t26" type="open" lemma="THE" pos="O" morphofeat="NE unknown_lemma">
+      <span>
+        <target id="w26"/>
+      </span>
+    </term>
+    <!--MONEY-->
+    <term tid="t27" type="open" lemma="MONEY" pos="O" morphofeat="NE unknown_lemma">
+      <span>
+        <target id="w27"/>
+      </span>
+    </term>
+  </terms>
+  <entities>
+    <entity eid="e1" type="misc">
+      <references>
+        <!--A GREAT PLACE TO STAY-->
+        <span>
+          <target id="t3"/>
+          <target id="t4"/>
+          <target id="t5"/>
+          <target id="t6"/>
+          <target id="t7"/>
+        </span>
+      </references>
+    </entity>
+    <entity eid="e2" type="location">
+      <references>
+        <!--DAY-->
+        <span>
+          <target id="t18"/>
+        </span>
+      </references>
+    </entity>
+    <entity eid="e3" type="person">
+      <references>
+        <!--WORTH WHAT I PAID-->
+        <span>
+          <target id="t20"/>
+          <target id="t21"/>
+          <target id="t22"/>
+          <target id="t23"/>
+        </span>
+      </references>
+    </entity>
+    <entity eid="e4" type="person">
+      <references>
+        <!--WORTH THE MONEY-->
+        <span>
+          <target id="t25"/>
+          <target id="t26"/>
+          <target id="t27"/>
+        </span>
+      </references>
+    </entity>
+  </entities>
+  <constituency>
+    <tree>
+      <nt id="nter0" label="ROOT"/>
+      <nt id="nter1" label="NUR"/>
+      <nt id="nter2" label="XY"/>
+      <t id="ter0">
+        <span>
+          <target id="t1"/>
+        </span>
+      </t>
+      <!--  tre0  ROOT <- NUR -->
+      <edge from="nter1" id="tre0" to="nter0" head="yes"/>
+      <!--  tre1  NUR <- XY -->
+      <edge from="nter2" id="tre1" to="nter1" head="yes"/>
+      <!--  tre2  XY <- WOW -->
+      <edge from="ter0" id="tre2" to="nter2"/>
+    </tree>
+    <tree>
+      <nt id="nter3" label="ROOT"/>
+      <nt id="nter4" label="NUR"/>
+      <nt id="nter5" label="NP"/>
+      <nt id="nter6" label="NE"/>
+      <nt id="nter7" label="NN"/>
+      <nt id="nter8" label="MPN"/>
+      <nt id="nter9" label="NE"/>
+      <nt id="nter10" label="NE"/>
+      <nt id="nter11" label="NE"/>
+      <nt id="nter12" label="NE"/>
+      <nt id="nter13" label="$."/>
+      <t id="ter1">
+        <span>
+          <target id="t2"/>
+        </span>
+      </t>
+      <t id="ter2">
+        <span>
+          <target id="t3"/>
+        </span>
+      </t>
+      <t id="ter3">
+        <span>
+          <target id="t4"/>
+        </span>
+      </t>
+      <t id="ter4">
+        <span>
+          <target id="t5"/>
+        </span>
+      </t>
+      <t id="ter5">
+        <span>
+          <target id="t6"/>
+        </span>
+      </t>
+      <t id="ter6">
+        <span>
+          <target id="t7"/>
+        </span>
+      </t>
+      <t id="ter7">
+        <span>
+          <target id="t8"/>
+        </span>
+      </t>
+      <!--  tre3  ROOT <- NUR -->
+      <edge from="nter4" id="tre3" to="nter3" head="yes"/>
+      <!--  tre4  NUR <- NP -->
+      <edge from="nter5" id="tre4" to="nter4" head="yes"/>
+      <!--  tre5  NP <- NE -->
+      <edge from="nter6" id="tre5" to="nter5"/>
+      <!--  tre6  NE <- what -->
+      <edge from="ter1" id="tre6" to="nter6"/>
+      <!--  tre7  NP <- NN -->
+      <edge from="nter7" id="tre7" to="nter5" head="yes"/>
+      <!--  tre8  NN <- A -->
+      <edge from="ter2" id="tre8" to="nter7"/>
+      <!--  tre9  NP <- MPN -->
+      <edge from="nter8" id="tre9" to="nter5"/>
+      <!--  tre10  MPN <- NE -->
+      <edge from="nter9" id="tre10" to="nter8"/>
+      <!--  tre11  NE <- GREAT -->
+      <edge from="ter3" id="tre11" to="nter9"/>
+      <!--  tre12  MPN <- NE -->
+      <edge from="nter10" id="tre12" to="nter8"/>
+      <!--  tre13  NE <- PLACE -->
+      <edge from="ter4" id="tre13" to="nter10"/>
+      <!--  tre14  MPN <- NE -->
+      <edge from="nter11" id="tre14" to="nter8"/>
+      <!--  tre15  NE <- TO -->
+      <edge from="ter5" id="tre15" to="nter11"/>
+      <!--  tre16  MPN <- NE -->
+      <edge from="nter12" id="tre16" to="nter8" head="yes"/>
+      <!--  tre17  NE <- STAY -->
+      <edge from="ter6" id="tre17" to="nter12"/>
+      <!--  tre18  NP <- $. -->
+      <edge from="nter13" id="tre18" to="nter5"/>
+      <!--  tre19  $. <- . -->
+      <edge from="ter7" id="tre19" to="nter13"/>
+    </tree>
+    <tree>
+      <nt id="nter14" label="ROOT"/>
+      <nt id="nter15" label="NUR"/>
+      <nt id="nter16" label="NP"/>
+      <nt id="nter17" label="NE"/>
+      <nt id="nter18" label="CARD"/>
+      <nt id="nter19" label="NE"/>
+      <nt id="nter20" label="$."/>
+      <t id="ter8">
+        <span>
+          <target id="t9"/>
+        </span>
+      </t>
+      <t id="ter9">
+        <span>
+          <target id="t10"/>
+        </span>
+      </t>
+      <t id="ter10">
+        <span>
+          <target id="t11"/>
+        </span>
+      </t>
+      <t id="ter11">
+        <span>
+          <target id="t12"/>
+        </span>
+      </t>
+      <!--  tre20  ROOT <- NUR -->
+      <edge from="nter15" id="tre20" to="nter14" head="yes"/>
+      <!--  tre21  NUR <- NP -->
+      <edge from="nter16" id="tre21" to="nter15" head="yes"/>
+      <!--  tre22  NP <- NE -->
+      <edge from="nter17" id="tre22" to="nter16" head="yes"/>
+      <!--  tre23  NE <- STAYED -->
+      <edge from="ter8" id="tre23" to="nter17"/>
+      <!--  tre24  NP <- CARD -->
+      <edge from="nter18" id="tre24" to="nter16"/>
+      <!--  tre25  CARD <- 3 -->
+      <edge from="ter9" id="tre25" to="nter18"/>
+      <!--  tre26  NUR <- NE -->
+      <edge from="nter19" id="tre26" to="nter15"/>
+      <!--  tre27  NE <- NIGHTS -->
+      <edge from="ter10" id="tre27" to="nter19"/>
+      <!--  tre28  NUR <- $. -->
+      <edge from="nter20" id="tre28" to="nter15"/>
+      <!--  tre29  $. <- . -->
+      <edge from="ter11" id="tre29" to="nter20"/>
+    </tree>
+    <tree>
+      <nt id="nter21" label="ROOT"/>
+      <nt id="nter22" label="NUR"/>
+      <nt id="nter23" label="MPN"/>
+      <nt id="nter24" label="NE"/>
+      <nt id="nter25" label="NE"/>
+      <nt id="nter26" label="NP"/>
+      <nt id="nter27" label="CARD"/>
+      <nt id="nter28" label="MPN"/>
+      <nt id="nter29" label="NE"/>
+      <nt id="nter30" label="FM"/>
+      <nt id="nter31" label="NE"/>
+      <nt id="nter32" label="$."/>
+      <t id="ter12">
+        <span>
+          <target id="t13"/>
+        </span>
+      </t>
+      <t id="ter13">
+        <span>
+          <target id="t14"/>
+        </span>
+      </t>
+      <t id="ter14">
+        <span>
+          <target id="t15"/>
+        </span>
+      </t>
+      <t id="ter15">
+        <span>
+          <target id="t16"/>
+        </span>
+      </t>
+      <t id="ter16">
+        <span>
+          <target id="t17"/>
+        </span>
+      </t>
+      <t id="ter17">
+        <span>
+          <target id="t18"/>
+        </span>
+      </t>
+      <t id="ter18">
+        <span>
+          <target id="t19"/>
+        </span>
+      </t>
+      <!--  tre30  ROOT <- NUR -->
+      <edge from="nter22" id="tre30" to="nter21" head="yes"/>
+      <!--  tre31  NUR <- MPN -->
+      <edge from="nter23" id="tre31" to="nter22" head="yes"/>
+      <!--  tre32  MPN <- NE -->
+      <edge from="nter24" id="tre32" to="nter23"/>
+      <!--  tre33  NE <- MAID -->
+      <edge from="ter12" id="tre33" to="nter24"/>
+      <!--  tre34  MPN <- NE -->
+      <edge from="nter25" id="tre34" to="nter23" head="yes"/>
+      <!--  tre35  NE <- COMES -->
+      <edge from="ter13" id="tre35" to="nter25"/>
+      <!--  tre36  NUR <- NP -->
+      <edge from="nter26" id="tre36" to="nter22"/>
+      <!--  tre37  NP <- CARD -->
+      <edge from="nter27" id="tre37" to="nter26"/>
+      <!--  tre38  CARD <- 2 -->
+      <edge from="ter14" id="tre38" to="nter27"/>
+      <!--  tre39  NP <- MPN -->
+      <edge from="nter28" id="tre39" to="nter26" head="yes"/>
+      <!--  tre40  MPN <- NE -->
+      <edge from="nter29" id="tre40" to="nter28"/>
+      <!--  tre41  NE <- TIMES -->
+      <edge from="ter15" id="tre41" to="nter29"/>
+      <!--  tre42  MPN <- FM -->
+      <edge from="nter30" id="tre42" to="nter28"/>
+      <!--  tre43  FM <- A -->
+      <edge from="ter16" id="tre43" to="nter30"/>
+      <!--  tre44  MPN <- NE -->
+      <edge from="nter31" id="tre44" to="nter28" head="yes"/>
+      <!--  tre45  NE <- DAY -->
+      <edge from="ter17" id="tre45" to="nter31"/>
+      <!--  tre46  NUR <- $. -->
+      <edge from="nter32" id="tre46" to="nter22"/>
+      <!--  tre47  $. <- . -->
+      <edge from="ter18" id="tre47" to="nter32"/>
+    </tree>
+    <tree>
+      <nt id="nter33" label="ROOT"/>
+      <nt id="nter34" label="NP"/>
+      <nt id="nter35" label="NN"/>
+      <nt id="nter36" label="NE"/>
+      <nt id="nter37" label="MPN"/>
+      <nt id="nter38" label="FM"/>
+      <nt id="nter39" label="FM"/>
+      <nt id="nter40" label="$."/>
+      <t id="ter19">
+        <span>
+          <target id="t20"/>
+        </span>
+      </t>
+      <t id="ter20">
+        <span>
+          <target id="t21"/>
+        </span>
+      </t>
+      <t id="ter21">
+        <span>
+          <target id="t22"/>
+        </span>
+      </t>
+      <t id="ter22">
+        <span>
+          <target id="t23"/>
+        </span>
+      </t>
+      <t id="ter23">
+        <span>
+          <target id="t24"/>
+        </span>
+      </t>
+      <!--  tre48  ROOT <- NP -->
+      <edge from="nter34" id="tre48" to="nter33" head="yes"/>
+      <!--  tre49  NP <- NN -->
+      <edge from="nter35" id="tre49" to="nter34" head="yes"/>
+      <!--  tre50  NN <- WORTH -->
+      <edge from="ter19" id="tre50" to="nter35"/>
+      <!--  tre51  NP <- NE -->
+      <edge from="nter36" id="tre51" to="nter34"/>
+      <!--  tre52  NE <- WHAT -->
+      <edge from="ter20" id="tre52" to="nter36"/>
+      <!--  tre53  NP <- MPN -->
+      <edge from="nter37" id="tre53" to="nter34"/>
+      <!--  tre54  MPN <- FM -->
+      <edge from="nter38" id="tre54" to="nter37"/>
+      <!--  tre55  FM <- I -->
+      <edge from="ter21" id="tre55" to="nter38"/>
+      <!--  tre56  MPN <- FM -->
+      <edge from="nter39" id="tre56" to="nter37" head="yes"/>
+      <!--  tre57  FM <- PAID -->
+      <edge from="ter22" id="tre57" to="nter39"/>
+      <!--  tre58  NP <- $. -->
+      <edge from="nter40" id="tre58" to="nter34"/>
+      <!--  tre59  $. <- . -->
+      <edge from="ter23" id="tre59" to="nter40"/>
+    </tree>
+    <tree>
+      <nt id="nter41" label="ROOT"/>
+      <nt id="nter42" label="MPN"/>
+      <nt id="nter43" label="NE"/>
+      <nt id="nter44" label="NE"/>
+      <nt id="nter45" label="NE"/>
+      <t id="ter24">
+        <span>
+          <target id="t25"/>
+        </span>
+      </t>
+      <t id="ter25">
+        <span>
+          <target id="t26"/>
+        </span>
+      </t>
+      <t id="ter26">
+        <span>
+          <target id="t27"/>
+        </span>
+      </t>
+      <!--  tre60  ROOT <- MPN -->
+      <edge from="nter42" id="tre60" to="nter41" head="yes"/>
+      <!--  tre61  MPN <- NE -->
+      <edge from="nter43" id="tre61" to="nter42"/>
+      <!--  tre62  NE <- WORTH -->
+      <edge from="ter24" id="tre62" to="nter43"/>
+      <!--  tre63  MPN <- NE -->
+      <edge from="nter44" id="tre63" to="nter42"/>
+      <!--  tre64  NE <- THE -->
+      <edge from="ter25" id="tre64" to="nter44"/>
+      <!--  tre65  MPN <- NE -->
+      <edge from="nter45" id="tre65" to="nter42" head="yes"/>
+      <!--  tre66  NE <- MONEY -->
+      <edge from="ter26" id="tre66" to="nter45"/>
+    </tree>
+  </constituency>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=3-->
+      <opinion_holder/>
+      <opinion_target/>
+      <opinion_expression polarity="StrongPositive">
+        <!--WORTH THE MONEY-->
+        <span>
+          <target id="t25"/>
+          <target id="t26"/>
+          <target id="t27"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+  <features>
+    <properties>
+      <property pid="p0" lemma="Value-for-money">
+        <references>
+          <span>
+            <target id="t25"/>
+            <target id="t26"/>
+            <target id="t27"/>
+          </span>
+        </references>
+      </property>
+    </properties>
+  </features>
+</KAF>

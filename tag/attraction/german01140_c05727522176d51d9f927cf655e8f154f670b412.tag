@@ -1,0 +1,15 @@
+w68	Der	die	D			0	Non-Opinionated	1		0		0		0		0		0		0	67	true	5
+w69	von	von	P			0	Non-Opinionated	1		0		0		0		0		0		0	68	true	5
+w70	außen	außen	A			0	Non-Opinionated	1		0		0		0		0		0		0	69	true	5
+w71	sichtbare	sichtbar	G			0	Non-Opinionated	1		0		0		0		0		0		0	70	true	5
+w72	Sarg	Sarg	N			0	Non-Opinionated	1		0		0		0		0		0		0	71	true	5
+w73	ist	sein	V			0	Non-Opinionated	1		0		0		0		0		0		0	72	true	5
+w74	enorm	enorm	G			0	Non-Opinionated	1		0		0		0		0		0		0	73	true	5
+w75	groß	groß	G			0	Non-Opinionated	1		0		0		0		0		0		0	74	true	5
+w76	und	und	C			0	Non-Opinionated	1		0		0		0		0		0		0	75	true	5
+w77	im	in	P			0	Non-Opinionated	1		0		0		0		0		0		0	76	true	5
+w78	Boden	Boden	N			0	Non-Opinionated	1		0		0		0		0		0		0	77	true	5
+w79	in	in	P			0	Non-Opinionated	1		0		0		0		0		0		0	78	true	5
+w80	einem	eine	D			0	Non-Opinionated	1		0		0		0		0		0		0	79	true	5
+w81	Loch	Loch	N			0	Non-Opinionated	1		0		0		0		0		0		0	80	true	5
+w82	versenkt	versenken	V			0	Non-Opinionated	1		0		0		0		0		0		0	81	true	5

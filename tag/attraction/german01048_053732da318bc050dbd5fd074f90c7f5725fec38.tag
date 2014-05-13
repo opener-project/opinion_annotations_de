@@ -1,0 +1,19 @@
+w7	Da	da	C			0	Non-Opinionated	1		0		0	zoo/aquarium	3		0		0		0	6	true	2
+w8	wir	wir	Q			0	Non-Opinionated	1		0		0		0		0		0		0	7	true	2
+w9	durch	durch	P			0	Non-Opinionated	1		0		0		0		0		0		0	8	true	2
+w10	den	die	D			0	Non-Opinionated	1		0		0		0		0		0		0	9	true	2
+w11	SFO	SFO	O			0	Non-Opinionated	1		0		0		0		0		0		0	10	true	2
+w12	City	City	R			0	Non-Opinionated	1		0		0		0		0		0		0	11	true	2
+w13	Pass	Pass	N			0	Non-Opinionated	1		0		0		0		0		0		0	12	true	2
+w14	freien	frei	G			0	Non-Opinionated	1		0		0		0		0		0		0	13	true	2
+w15	Eintritt	Eintritt	N			0	Non-Opinionated	1		0		0		0		0		0		0	14	true	2
+w16	in	in	P			0	Non-Opinionated	1		0		0		0		0		0		0	15	true	2
+w17	das	die	D			0	Non-Opinionated	1		0		0		0		0		0		0	16	true	2
+w18	Aquarium	Aquarium	N			0	Non-Opinionated	1		0		0		0		0		0		0	17	true	2
+w19	hatten	haben	V			0	Non-Opinionated	1		0		0		0		0		0		0	18	true	2
+w20	,	,	O			0	Non-Opinionated	1		0		0		0		0		0		0	19	true	2
+w21	haben	haben	V			0	Non-Opinionated	1		0		0		0		0		0		0	20	true	2
+w22	wir	wir	Q			0	Non-Opinionated	1		0		0		0		0		0		0	21	true	2
+w23	das	die	Q			0	Non-Opinionated	1		0		0		0		0		0		0	22	true	2
+w24	auch	auch	A			0	Non-Opinionated	1		0		0		0		0		0		0	23	true	2
+w25	ausgenutzt	ausnutzen	V			0	Non-Opinionated	1		0		0		0		0		0		0	24	true	2

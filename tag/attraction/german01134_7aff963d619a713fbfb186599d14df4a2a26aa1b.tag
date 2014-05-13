@@ -1,0 +1,9 @@
+w12	In	in	P			0	Non-Opinionated	1		0		0		0		0		0		0	11	true	3
+w13	der	die	D			0	Non-Opinionated	1		0		0		0		0		0		0	12	true	3
+w14	Nacht	Nacht	N			0	Non-Opinionated	1		0		0		0		0		0		0	13	true	3
+w15	der	die	D			0	Non-Opinionated	1		0		0		0		0		0		0	14	true	3
+w16	Museen	Museum	N			0	Non-Opinionated	1		0		0		0		0		0		0	15	true	3
+w17	bei	bei	P			0	Non-Opinionated	1		0		0		0		0		0		0	16	true	3
+w18	freiem	frei	G			0	Non-Opinionated	1		0		0		0		0		0		0	17	true	3
+w19	Eintritt	Eintritt	N			0	Non-Opinionated	1		0		0		0		0		0		0	18	true	3
+w20	besucht	besuchen	V			0	Non-Opinionated	1		0		0		0		0		0		0	19	true	3

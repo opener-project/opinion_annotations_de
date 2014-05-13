@@ -1,0 +1,19 @@
+w1	Alte	alt	G			0		0		0		0	tour(city/landscape)	3		0		0		0	0	true	1
+w15	Mit	mit	P			0	Non-Opinionated	1		0	8-positive	2		0		0		0		0	14	true	3
+w16	dem	die	D			0	Non-Opinionated	1		0		0		0		0		0		0	15	true	3
+w17	Aufzug	Aufzug	N			0	Non-Opinionated	1		0		0		0		0		0		0	16	true	3
+w18	in	in	P			0	Non-Opinionated	1		0		0		0		0		0		0	17	true	3
+w19	den	die	D			0	Non-Opinionated	1		0		0		0		0		0		0	18	true	3
+w20	Keller	Keller	N			0	Non-Opinionated	1		0		0		0		0		0		0	19	true	3
+w21	,	,	O			0	Non-Opinionated	1		0		0		0		0		0		0	20	true	3
+w22	dann	dann	A			0	Non-Opinionated	1		0		0		0		0		0		0	21	true	3
+w23	duch	duch	O			0	Non-Opinionated	1		0		0		0		0		0		0	22	true	3
+w24	den	die	D			0	Non-Opinionated	1		0		0		0		0		0		0	23	true	3
+w25	Tunnel	Tunnel	N			0	Non-Opinionated	1		0		0		0		0		0		0	24	true	3
+w26	und	und	C			0	Non-Opinionated	1		0		0		0		0		0		0	25	true	3
+w27	auf	auf	P			0	Non-Opinionated	1		0		0		0		0		0		0	26	true	3
+w28	der	die	D			0	Non-Opinionated	1		0		0		0		0		0		0	27	true	3
+w29	anderen	andere	Q			0	Non-Opinionated	1		0		0		0		0		0		0	28	true	3
+w30	Seite	Seite	N			0	Non-Opinionated	1		0		0		0		0		0		0	29	true	3
+w31	wieder	wieder	A			0	Non-Opinionated	1		0		0		0		0		0		0	30	true	3
+w32	hinauf	hinauf	V			0	Non-Opinionated	1		0		0		0		0		0		0	31	true	3

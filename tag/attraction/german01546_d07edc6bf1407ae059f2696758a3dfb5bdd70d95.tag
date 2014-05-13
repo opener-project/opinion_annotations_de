@@ -1,0 +1,19 @@
+w15	Wir	wir	Q			0	Non-Opinionated	1		0		0	unknown	2		0		0		0	14	true	3
+w16	sind	sein	V			0	Non-Opinionated	1		0		0		0		0		0		0	15	true	3
+w17	von	von	P			0	Non-Opinionated	1		0		0		0		0		0		0	16	true	3
+w18	Eastbourne	Eastbourne	O			0	Non-Opinionated	1		0		0		0		0		0		0	17	true	3
+w19	aus	aus	P			0	Non-Opinionated	1		0		0		0		0		0		0	18	true	3
+w20	erst	erst	A			0	Non-Opinionated	1		0		0		0		0		0		0	19	true	3
+w21	ein	eine	D			0	Non-Opinionated	1		0		0		0		0		0		0	20	true	3
+w22	Stück	Stück	N			0	Non-Opinionated	1		0		0		0		0		0		0	21	true	3
+w23	mit	mit	P			0	Non-Opinionated	1		0		0		0		0		0		0	22	true	3
+w24	dem	die	D			0	Non-Opinionated	1		0		0		0		0		0		0	23	true	3
+w25	Auto	Auto	N			0	Non-Opinionated	1		0		0		0		0		0		0	24	true	3
+w26	herangefahren	heranfahren	V			0	Non-Opinionated	1		0		0		0		0		0		0	25	true	3
+w27	und	und	C			0	Non-Opinionated	1		0		0		0		0		0		0	26	true	3
+w28	dann	dann	A			0	Non-Opinionated	1		0		0		0		0		0		0	27	true	3
+w29	etwa	etwa	A			0	Non-Opinionated	1		0		0		0		0		0		0	28	true	3
+w30	ab	ab	P			0	Non-Opinionated	1		0		0		0		0		0		0	29	true	3
+w31	halber	halb	G			0	Non-Opinionated	1		0		0		0		0		0		0	30	true	3
+w32	Höhe	Höhe	N			0	Non-Opinionated	1		0		0		0		0		0		0	31	true	3
+w33	losgewandert	losgewandert	O			0	Non-Opinionated	1		0		0		0		0		0		0	32	true	3

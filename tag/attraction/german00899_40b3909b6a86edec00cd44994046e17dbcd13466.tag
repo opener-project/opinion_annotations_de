@@ -1,0 +1,12 @@
+w1	Besinnlichkeit	Besinnlichkeit	N			0		0		0	5-average-negative	9	church/castle	8		0		0		0	0	true	1
+w34	Von	von	P		Negative	1	Opinion	5		0		0		0		0		0		0	33	true	4
+w35	Besinnlichkeit	Besinnlichkeit	N		Negative	1	Opinion	5		0		0		0		0		0		0	34	true	4
+w36	kann	können	V		Negative	1	Opinion	5		0		0		0		0		0		0	35	true	4
+w37	man	man	Q		OpinionHolder	6	Opinion	5		0		0		0		0		0		0	36	true	4
+w38	hier	hier	A		OpinionTarget	7	Opinion	5		0		0		0		0		0		0	37	true	4
+w39	nicht	nicht	O		Negative	1	Opinion	5		0		0		0		0		0		0	38	true	4
+w40	mehr	mehr	A		Negative	1	Opinion	5		0		0		0		0		0		0	39	true	4
+w41	sprechen	sprechen	V		Negative	1	Opinion	5		0		0		0		0		0		0	40	true	4
+w44	das	die	Q		OpinionTarget	2	Opinion	4		0		0		0		0		0		0	43	true	4
+w45	ist	sein	V		Negative	3	Opinion	4		0		0		0		0		0		0	44	true	4
+w46	schade	schade	G		Negative	3	Opinion	4		0		0		0		0		0		0	45	true	4

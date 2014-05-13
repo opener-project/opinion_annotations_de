@@ -1,0 +1,11 @@
+w1	Moderne	Moderne	N			0		0		0	8-positive	6	unknown	5		0		0		0	0	true	1
+w60	Vom	von	P		OpinionTarget	2	Opinion	1		0		0		0		0		0		0	59	true	6
+w61	Fernsehturm	Fernsehturm	N		OpinionTarget	2	Opinion	1		0		0		0		0		0		0	60	true	6
+w62	aus	aus	P		OpinionTarget	2	Opinion	1		0		0		0		0		0		0	61	true	6
+w63	hat	haben	V		OpinionHolder	3	Opinion	1		0		0		0		0		0		0	62	true	6
+w64	man	man	Q		OpinionHolder	3	Opinion	1		0		0		0		0		0		0	63	true	6
+w65	einen	eine	D		StrongPositive	4	Opinion	1		0		0		0		0		0		0	64	true	6
+w66	fantastischen	fantastisch	G		StrongPositive	4	Opinion	1		0		0		0		0		0		0	65	true	6
+w67	Blick	Blick	N		StrongPositive	4	Opinion	1		0		0		0		0		0		0	66	true	6
+w68	über	über	P		StrongPositive	4	Opinion	1		0		0		0		0		0		0	67	true	6
+w69	Berlin	Berlin	R		StrongPositive	4	Opinion	1		0		0		0		0		0		0	68	true	6

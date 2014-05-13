@@ -1,0 +1,25 @@
+w7	Für	für	P			0	Non-Opinionated	1		0		0	tour(city/landscape)	2		0		0		0	6	true	2
+w8	10	10	O			0	Non-Opinionated	1		0		0		0		0		0		0	7	true	2
+w9	Euro	Euro	N			0	Non-Opinionated	1		0		0		0		0		0		0	8	true	2
+w10	erhält	erhalten	V			0	Non-Opinionated	1		0		0		0		0		0		0	9	true	2
+w11	man	man	Q			0	Non-Opinionated	1		0		0		0		0		0		0	10	true	2
+w12	die	die	D			0	Non-Opinionated	1		0		0		0		0		0		0	11	true	2
+w13	Möglichkeit	Möglichkeit	N			0	Non-Opinionated	1		0		0		0		0		0		0	12	true	2
+w14	,	,	O			0	Non-Opinionated	1		0		0		0		0		0		0	13	true	2
+w15	die	die	D			0	Non-Opinionated	1		0		0		0		0		0		0	14	true	2
+w16	bekanntesten	bekannt	G			0	Non-Opinionated	1		0		0		0		0		0		0	15	true	2
+w17	Bauwerke	Bauwerk	N			0	Non-Opinionated	1		0		0		0		0		0		0	16	true	2
+w18	von	von	P			0	Non-Opinionated	1		0		0		0		0		0		0	17	true	2
+w19	Paris	Paris	R			0	Non-Opinionated	1		0		0		0		0		0		0	18	true	2
+w20	für	für	P			0	Non-Opinionated	1		0		0		0		0		0		0	19	true	2
+w21	ca	ca	O			0	Non-Opinionated	1		0		0		0		0		0		0	20	true	2
+w22	60	60	O			0	Non-Opinionated	1		0		0		0		0		0		0	21	true	2
+w23	·	·	O			0	Non-Opinionated	1		0		0		0		0		0		0	22	true	2
+w24	70	70	O			0	Non-Opinionated	1		0		0		0		0		0		0	23	true	2
+w25	Minuten	Minute	N			0	Non-Opinionated	1		0		0		0		0		0		0	24	true	2
+w26	von	von	P			0	Non-Opinionated	1		0		0		0		0		0		0	25	true	2
+w27	einer	eine	D			0	Non-Opinionated	1		0		0		0		0		0		0	26	true	2
+w28	anderen	andere	Q			0	Non-Opinionated	1		0		0		0		0		0		0	27	true	2
+w29	Perspektive	Perspektive	N			0	Non-Opinionated	1		0		0		0		0		0		0	28	true	2
+w30	zu	zu	O			0	Non-Opinionated	1		0		0		0		0		0		0	29	true	2
+w31	bewundern	bewundern	V			0	Non-Opinionated	1		0		0		0		0		0		0	30	true	2

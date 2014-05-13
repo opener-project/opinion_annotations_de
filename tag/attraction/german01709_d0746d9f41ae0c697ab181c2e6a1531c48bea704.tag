@@ -1,0 +1,10 @@
+w1	Konzert	Konzert	N			0		0		0	8-positive	6	church/castle	7		0		0		0	0	true	1
+w15	Ein	eine	D		OpinionTarget	1	Opinion	3		0		0		0		0		0		0	14	true	3
+w16	Orgelkonzert	Orgelkonzert	N		OpinionTarget	1	Opinion	3		0		0		0		0		0		0	15	true	3
+w17	mit	mit	P		OpinionTarget	1	Opinion	3		0		0		0		0		0		0	16	true	3
+w18	Bachtrompete	Bachtrompete	O		OpinionTarget	1	Opinion	3		0		0		0		0		0		0	17	true	3
+w19	kling	klingen	V		Positive	2	Opinion	3		0		0		0		0		0		0	18	true	3
+w20	an	an	P		Positive	2	Opinion	3		0		0		0		0		0		0	19	true	3
+w21	wenigen	wenige	Q		Positive	2	Opinion	3		0		0		0		0		0		0	20	true	3
+w22	Orten	Ort|Orten	N		Positive	2	Opinion	3		0		0		0		0		0		0	21	true	3
+w23	besser	gut	G		Positive	2	Opinion	3		0		0		0		0		0		0	22	true	3

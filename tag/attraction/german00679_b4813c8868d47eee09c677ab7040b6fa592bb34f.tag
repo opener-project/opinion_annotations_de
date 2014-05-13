@@ -1,0 +1,13 @@
+w1	Seit	seit	P			0		0		0	8-positive	7	monument/building	6		0		0		0	0	true	1
+w47	Die	die	D		OpinionTarget	1	Opinion	3		0		0		0		0		0		0	46	true	4
+w48	450	450	O		OpinionTarget	1	Opinion	3		0		0		0		0		0		0	47	true	4
+w49	m	m	N		OpinionTarget	1	Opinion	3		0		0		0		0		0		0	48	true	4
+w50	kann	können	V		Positive	2	Opinion	3		0		0		0		0		0		0	49	true	4
+w51	man	man	Q		Positive	2	Opinion	3		0		0		0		0		0		0	50	true	4
+w52	schnell	schnell	G		Positive	2	Opinion	3		0		0		0		0		0		0	51	true	4
+w53	durchlaufen	durchlaufen	V		Positive	2	Opinion	3		0		0		0		0		0		0	52	true	4
+w55	man	man	Q		Positive	4	Opinion	5		0		0		0		0		0		0	54	true	4
+w56	merkt	merken	V		Positive	4	Opinion	5		0		0		0		0		0		0	55	true	4
+w57	nichts	nichts	Q		Positive	4	Opinion	5		0		0		0		0		0		0	56	true	4
+w58	von	von	P		Positive	4	Opinion	5		0		0		0		0		0		0	57	true	4
+w59	Abgasen	Abgas	N		Positive	4	Opinion	5		0		0		0		0		0		0	58	true	4

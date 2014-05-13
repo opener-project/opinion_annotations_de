@@ -1,0 +1,612 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="de" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-de" timestamp="2014-02-10T14:52:24Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-de" timestamp="2014-02-10T14:52:24Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="entities">
+      <lp name="ehu-nerc-de" timestamp="2014-02-25 18:39:06" version="1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="constituents">
+      <lp timestamp="2014-02-25T18:39:09CET" version="1.3_17jan2014" name="Stanford German constituency parser trained on NEGRA corpus"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="features">
+      <lp name="Property manual annotations" version="1.0" timestamp="2014-05-13T09:43:00CEST"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-13T09:43:00CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w1" sent="1" para="1" offset="0" length="5">Saint</wf>
+    <wf wid="w2" sent="1" para="1" offset="6" length="6">Sernin</wf>
+    <wf wid="w3" sent="2" para="2" offset="13" length="5">Saint</wf>
+    <wf wid="w4" sent="2" para="2" offset="19" length="6">Sernin</wf>
+    <wf wid="w5" sent="2" para="2" offset="26" length="6">sollte</wf>
+    <wf wid="w6" sent="2" para="2" offset="33" length="3">man</wf>
+    <wf wid="w7" sent="2" para="2" offset="37" length="7">gesehen</wf>
+    <wf wid="w8" sent="2" para="2" offset="45" length="5">haben</wf>
+    <wf wid="w9" sent="2" para="2" offset="51" length="4">wenn</wf>
+    <wf wid="w10" sent="2" para="2" offset="56" length="3">man</wf>
+    <wf wid="w11" sent="2" para="2" offset="60" length="8">Toulouse</wf>
+    <wf wid="w12" sent="2" para="2" offset="69" length="7">besucht</wf>
+    <wf wid="w13" sent="2" para="2" offset="76" length="1">.</wf>
+    <wf wid="w14" sent="3" para="3" offset="78" length="5">Schön</wf>
+    <wf wid="w15" sent="3" para="3" offset="84" length="3">ist</wf>
+    <wf wid="w16" sent="3" para="3" offset="88" length="4">auch</wf>
+    <wf wid="w17" sent="3" para="3" offset="93" length="3">der</wf>
+    <wf wid="w18" sent="3" para="3" offset="97" length="5">Markt</wf>
+    <wf wid="w19" sent="3" para="3" offset="103" length="3">mit</wf>
+    <wf wid="w20" sent="3" para="3" offset="107" length="5">allem</wf>
+    <wf wid="w21" sent="3" para="3" offset="113" length="3">was</wf>
+    <wf wid="w22" sent="3" para="3" offset="117" length="3">man</wf>
+    <wf wid="w23" sent="3" para="3" offset="121" length="4">sich</wf>
+    <wf wid="w24" sent="3" para="3" offset="126" length="3">nur</wf>
+    <wf wid="w25" sent="3" para="3" offset="130" length="6">denken</wf>
+    <wf wid="w26" sent="3" para="3" offset="137" length="4">kann</wf>
+    <wf wid="w27" sent="3" para="3" offset="142" length="2">am</wf>
+    <wf wid="w28" sent="3" para="3" offset="145" length="7">Sonntag</wf>
+    <wf wid="w29" sent="3" para="3" offset="153" length="9">Vormittag</wf>
+    <wf wid="w30" sent="3" para="3" offset="162" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Saint-->
+    <term tid="t1" type="open" lemma="Saint" pos="R" morphofeat="NE">
+      <span>
+        <target id="w1"/>
+      </span>
+    </term>
+    <!--Sernin-->
+    <term tid="t2" type="open" lemma="Sernin" pos="O" morphofeat="NE unknown_lemma">
+      <span>
+        <target id="w2"/>
+      </span>
+    </term>
+    <!--Saint-->
+    <term tid="t3" type="open" lemma="Saint" pos="R" morphofeat="NE">
+      <span>
+        <target id="w3"/>
+      </span>
+    </term>
+    <!--Sernin-->
+    <term tid="t4" type="open" lemma="Sernin" pos="O" morphofeat="NE unknown_lemma">
+      <span>
+        <target id="w4"/>
+      </span>
+    </term>
+    <!--sollte-->
+    <term tid="t5" type="open" lemma="sollen" pos="V" morphofeat="VMFIN">
+      <span>
+        <target id="w5"/>
+      </span>
+    </term>
+    <!--man-->
+    <term tid="t6" type="close" lemma="man" pos="Q" morphofeat="PIS">
+      <span>
+        <target id="w6"/>
+      </span>
+    </term>
+    <!--gesehen-->
+    <term tid="t7" type="open" lemma="sehen" pos="V" morphofeat="VVPP">
+      <span>
+        <target id="w7"/>
+      </span>
+    </term>
+    <!--haben-->
+    <term tid="t8" type="open" lemma="haben" pos="V" morphofeat="VAINF">
+      <span>
+        <target id="w8"/>
+      </span>
+    </term>
+    <!--wenn-->
+    <term tid="t9" type="close" lemma="wenn" pos="C" morphofeat="KOUS">
+      <span>
+        <target id="w9"/>
+      </span>
+    </term>
+    <!--man-->
+    <term tid="t10" type="close" lemma="man" pos="Q" morphofeat="PIS">
+      <span>
+        <target id="w10"/>
+      </span>
+    </term>
+    <!--Toulouse-->
+    <term tid="t11" type="open" lemma="Toulouse" pos="R" morphofeat="NE">
+      <span>
+        <target id="w11"/>
+      </span>
+    </term>
+    <!--besucht-->
+    <term tid="t12" type="open" lemma="besuchen" pos="V" morphofeat="VVPP">
+      <span>
+        <target id="w12"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t13" type="open" lemma="." pos="O" morphofeat="$.">
+      <span>
+        <target id="w13"/>
+      </span>
+    </term>
+    <!--Schön-->
+    <term tid="t14" type="open" lemma="schön" pos="G" morphofeat="ADJD">
+      <sentiment resource="VUA_olery_lexicon_de_lmf" polarity="positive"/>
+      <span>
+        <target id="w14"/>
+      </span>
+    </term>
+    <!--ist-->
+    <term tid="t15" type="open" lemma="sein" pos="V" morphofeat="VAFIN">
+      <span>
+        <target id="w15"/>
+      </span>
+    </term>
+    <!--auch-->
+    <term tid="t16" type="open" lemma="auch" pos="A" morphofeat="ADV">
+      <span>
+        <target id="w16"/>
+      </span>
+    </term>
+    <!--der-->
+    <term tid="t17" type="close" lemma="die" pos="D" morphofeat="ART">
+      <span>
+        <target id="w17"/>
+      </span>
+    </term>
+    <!--Markt-->
+    <term tid="t18" type="open" lemma="Markt" pos="N" morphofeat="NN">
+      <span>
+        <target id="w18"/>
+      </span>
+    </term>
+    <!--mit-->
+    <term tid="t19" type="close" lemma="mit" pos="P" morphofeat="APPR">
+      <span>
+        <target id="w19"/>
+      </span>
+    </term>
+    <!--allem-->
+    <term tid="t20" type="close" lemma="alle" pos="Q" morphofeat="PIS">
+      <span>
+        <target id="w20"/>
+      </span>
+    </term>
+    <!--was-->
+    <term tid="t21" type="close" lemma="was" pos="Q" morphofeat="PRELS">
+      <span>
+        <target id="w21"/>
+      </span>
+    </term>
+    <!--man-->
+    <term tid="t22" type="close" lemma="man" pos="Q" morphofeat="PIS">
+      <span>
+        <target id="w22"/>
+      </span>
+    </term>
+    <!--sich-->
+    <term tid="t23" type="close" lemma="sich" pos="Q" morphofeat="PRF">
+      <span>
+        <target id="w23"/>
+      </span>
+    </term>
+    <!--nur-->
+    <term tid="t24" type="open" lemma="nur" pos="A" morphofeat="ADV">
+      <span>
+        <target id="w24"/>
+      </span>
+    </term>
+    <!--denken-->
+    <term tid="t25" type="open" lemma="denken" pos="V" morphofeat="VVINF">
+      <span>
+        <target id="w25"/>
+      </span>
+    </term>
+    <!--kann-->
+    <term tid="t26" type="open" lemma="können" pos="V" morphofeat="VMFIN">
+      <span>
+        <target id="w26"/>
+      </span>
+    </term>
+    <!--am-->
+    <term tid="t27" type="close" lemma="an" pos="P" morphofeat="APPRART">
+      <span>
+        <target id="w27"/>
+      </span>
+    </term>
+    <!--Sonntag-->
+    <term tid="t28" type="open" lemma="Sonntag" pos="N" morphofeat="NN">
+      <span>
+        <target id="w28"/>
+      </span>
+    </term>
+    <!--Vormittag-->
+    <term tid="t29" type="open" lemma="Vormittag" pos="N" morphofeat="NN">
+      <span>
+        <target id="w29"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t30" type="open" lemma="." pos="O" morphofeat="$.">
+      <span>
+        <target id="w30"/>
+      </span>
+    </term>
+  </terms>
+  <constituency>
+    <tree>
+      <nt id="nter0" label="ROOT"/>
+      <nt id="nter1" label="NUR"/>
+      <nt id="nter2" label="MPN"/>
+      <nt id="nter3" label="NE"/>
+      <nt id="nter4" label="NE"/>
+      <t id="ter0">
+        <span>
+          <target id="t1"/>
+        </span>
+      </t>
+      <t id="ter1">
+        <span>
+          <target id="t2"/>
+        </span>
+      </t>
+      <!--  tre0  ROOT <- NUR -->
+      <edge from="nter1" id="tre0" to="nter0" head="yes"/>
+      <!--  tre1  NUR <- MPN -->
+      <edge from="nter2" id="tre1" to="nter1" head="yes"/>
+      <!--  tre2  MPN <- NE -->
+      <edge from="nter3" id="tre2" to="nter2"/>
+      <!--  tre3  NE <- Saint -->
+      <edge from="ter0" id="tre3" to="nter3"/>
+      <!--  tre4  MPN <- NE -->
+      <edge from="nter4" id="tre4" to="nter2" head="yes"/>
+      <!--  tre5  NE <- Sernin -->
+      <edge from="ter1" id="tre5" to="nter4"/>
+    </tree>
+    <tree>
+      <nt id="nter5" label="ROOT"/>
+      <nt id="nter6" label="CS"/>
+      <nt id="nter7" label="S"/>
+      <nt id="nter8" label="MPN-SB"/>
+      <nt id="nter9" label="NE"/>
+      <nt id="nter10" label="NE"/>
+      <nt id="nter11" label="VMFIN"/>
+      <nt id="nter12" label="PIS-SB"/>
+      <nt id="nter13" label="VP"/>
+      <nt id="nter14" label="VVPP"/>
+      <nt id="nter15" label="VAINF"/>
+      <nt id="nter16" label="S"/>
+      <nt id="nter17" label="KOUS"/>
+      <nt id="nter18" label="PIS-SB"/>
+      <nt id="nter19" label="NN-OA"/>
+      <nt id="nter20" label="VVFIN"/>
+      <nt id="nter21" label="$."/>
+      <t id="ter2">
+        <span>
+          <target id="t3"/>
+        </span>
+      </t>
+      <t id="ter3">
+        <span>
+          <target id="t4"/>
+        </span>
+      </t>
+      <t id="ter4">
+        <span>
+          <target id="t5"/>
+        </span>
+      </t>
+      <t id="ter5">
+        <span>
+          <target id="t6"/>
+        </span>
+      </t>
+      <t id="ter6">
+        <span>
+          <target id="t7"/>
+        </span>
+      </t>
+      <t id="ter7">
+        <span>
+          <target id="t8"/>
+        </span>
+      </t>
+      <t id="ter8">
+        <span>
+          <target id="t9"/>
+        </span>
+      </t>
+      <t id="ter9">
+        <span>
+          <target id="t10"/>
+        </span>
+      </t>
+      <t id="ter10">
+        <span>
+          <target id="t11"/>
+        </span>
+      </t>
+      <t id="ter11">
+        <span>
+          <target id="t12"/>
+        </span>
+      </t>
+      <t id="ter12">
+        <span>
+          <target id="t13"/>
+        </span>
+      </t>
+      <!--  tre6  ROOT <- CS -->
+      <edge from="nter6" id="tre6" to="nter5" head="yes"/>
+      <!--  tre7  CS <- S -->
+      <edge from="nter7" id="tre7" to="nter6"/>
+      <!--  tre8  S <- MPN-SB -->
+      <edge from="nter8" id="tre8" to="nter7"/>
+      <!--  tre9  MPN-SB <- NE -->
+      <edge from="nter9" id="tre9" to="nter8"/>
+      <!--  tre10  NE <- Saint -->
+      <edge from="ter2" id="tre10" to="nter9"/>
+      <!--  tre11  MPN-SB <- NE -->
+      <edge from="nter10" id="tre11" to="nter8" head="yes"/>
+      <!--  tre12  NE <- Sernin -->
+      <edge from="ter3" id="tre12" to="nter10"/>
+      <!--  tre13  S <- VMFIN -->
+      <edge from="nter11" id="tre13" to="nter7" head="yes"/>
+      <!--  tre14  VMFIN <- sollen -->
+      <edge from="ter4" id="tre14" to="nter11"/>
+      <!--  tre15  S <- PIS-SB -->
+      <edge from="nter12" id="tre15" to="nter7"/>
+      <!--  tre16  PIS-SB <- man -->
+      <edge from="ter5" id="tre16" to="nter12"/>
+      <!--  tre17  S <- VP -->
+      <edge from="nter13" id="tre17" to="nter7"/>
+      <!--  tre18  VP <- VVPP -->
+      <edge from="nter14" id="tre18" to="nter13"/>
+      <!--  tre19  VVPP <- sehen -->
+      <edge from="ter6" id="tre19" to="nter14"/>
+      <!--  tre20  VP <- VAINF -->
+      <edge from="nter15" id="tre20" to="nter13" head="yes"/>
+      <!--  tre21  VAINF <- haben -->
+      <edge from="ter7" id="tre21" to="nter15"/>
+      <!--  tre22  CS <- S -->
+      <edge from="nter16" id="tre22" to="nter6" head="yes"/>
+      <!--  tre23  S <- KOUS -->
+      <edge from="nter17" id="tre23" to="nter16"/>
+      <!--  tre24  KOUS <- wenn -->
+      <edge from="ter8" id="tre24" to="nter17"/>
+      <!--  tre25  S <- PIS-SB -->
+      <edge from="nter18" id="tre25" to="nter16"/>
+      <!--  tre26  PIS-SB <- man -->
+      <edge from="ter9" id="tre26" to="nter18"/>
+      <!--  tre27  S <- NN-OA -->
+      <edge from="nter19" id="tre27" to="nter16"/>
+      <!--  tre28  NN-OA <- Toulouse -->
+      <edge from="ter10" id="tre28" to="nter19"/>
+      <!--  tre29  S <- VVFIN -->
+      <edge from="nter20" id="tre29" to="nter16" head="yes"/>
+      <!--  tre30  VVFIN <- besuchen -->
+      <edge from="ter11" id="tre30" to="nter20"/>
+      <!--  tre31  CS <- $. -->
+      <edge from="nter21" id="tre31" to="nter6"/>
+      <!--  tre32  $. <- . -->
+      <edge from="ter12" id="tre32" to="nter21"/>
+    </tree>
+    <tree>
+      <nt id="nter22" label="ROOT"/>
+      <nt id="nter23" label="S"/>
+      <nt id="nter24" label="NN-SB"/>
+      <nt id="nter25" label="VAFIN"/>
+      <nt id="nter26" label="NP-SB"/>
+      <nt id="nter27" label="ADV"/>
+      <nt id="nter28" label="ART"/>
+      <nt id="nter29" label="NN"/>
+      <nt id="nter30" label="PP"/>
+      <nt id="nter31" label="APPR"/>
+      <nt id="nter32" label="PIS"/>
+      <nt id="nter33" label="S"/>
+      <nt id="nter34" label="PWS"/>
+      <nt id="nter35" label="PIS-SB"/>
+      <nt id="nter36" label="VP"/>
+      <nt id="nter37" label="PRF-OA"/>
+      <nt id="nter38" label="ADV"/>
+      <nt id="nter39" label="VVINF"/>
+      <nt id="nter40" label="VMFIN"/>
+      <nt id="nter41" label="PP"/>
+      <nt id="nter42" label="APPRART"/>
+      <nt id="nter43" label="NN"/>
+      <nt id="nter44" label="NN"/>
+      <nt id="nter45" label="$."/>
+      <t id="ter13">
+        <span>
+          <target id="t14"/>
+        </span>
+      </t>
+      <t id="ter14">
+        <span>
+          <target id="t15"/>
+        </span>
+      </t>
+      <t id="ter15">
+        <span>
+          <target id="t16"/>
+        </span>
+      </t>
+      <t id="ter16">
+        <span>
+          <target id="t17"/>
+        </span>
+      </t>
+      <t id="ter17">
+        <span>
+          <target id="t18"/>
+        </span>
+      </t>
+      <t id="ter18">
+        <span>
+          <target id="t19"/>
+        </span>
+      </t>
+      <t id="ter19">
+        <span>
+          <target id="t20"/>
+        </span>
+      </t>
+      <t id="ter20">
+        <span>
+          <target id="t21"/>
+        </span>
+      </t>
+      <t id="ter21">
+        <span>
+          <target id="t22"/>
+        </span>
+      </t>
+      <t id="ter22">
+        <span>
+          <target id="t23"/>
+        </span>
+      </t>
+      <t id="ter23">
+        <span>
+          <target id="t24"/>
+        </span>
+      </t>
+      <t id="ter24">
+        <span>
+          <target id="t25"/>
+        </span>
+      </t>
+      <t id="ter25">
+        <span>
+          <target id="t26"/>
+        </span>
+      </t>
+      <t id="ter26">
+        <span>
+          <target id="t27"/>
+        </span>
+      </t>
+      <t id="ter27">
+        <span>
+          <target id="t28"/>
+        </span>
+      </t>
+      <t id="ter28">
+        <span>
+          <target id="t29"/>
+        </span>
+      </t>
+      <t id="ter29">
+        <span>
+          <target id="t30"/>
+        </span>
+      </t>
+      <!--  tre33  ROOT <- S -->
+      <edge from="nter23" id="tre33" to="nter22" head="yes"/>
+      <!--  tre34  S <- NN-SB -->
+      <edge from="nter24" id="tre34" to="nter23"/>
+      <!--  tre35  NN-SB <- schön -->
+      <edge from="ter13" id="tre35" to="nter24"/>
+      <!--  tre36  S <- VAFIN -->
+      <edge from="nter25" id="tre36" to="nter23" head="yes"/>
+      <!--  tre37  VAFIN <- sein -->
+      <edge from="ter14" id="tre37" to="nter25"/>
+      <!--  tre38  S <- NP-SB -->
+      <edge from="nter26" id="tre38" to="nter23"/>
+      <!--  tre39  NP-SB <- ADV -->
+      <edge from="nter27" id="tre39" to="nter26"/>
+      <!--  tre40  ADV <- auch -->
+      <edge from="ter15" id="tre40" to="nter27"/>
+      <!--  tre41  NP-SB <- ART -->
+      <edge from="nter28" id="tre41" to="nter26"/>
+      <!--  tre42  ART <- die -->
+      <edge from="ter16" id="tre42" to="nter28"/>
+      <!--  tre43  NP-SB <- NN -->
+      <edge from="nter29" id="tre43" to="nter26" head="yes"/>
+      <!--  tre44  NN <- Markt -->
+      <edge from="ter17" id="tre44" to="nter29"/>
+      <!--  tre45  NP-SB <- PP -->
+      <edge from="nter30" id="tre45" to="nter26"/>
+      <!--  tre46  PP <- APPR -->
+      <edge from="nter31" id="tre46" to="nter30" head="yes"/>
+      <!--  tre47  APPR <- mit -->
+      <edge from="ter18" id="tre47" to="nter31"/>
+      <!--  tre48  PP <- PIS -->
+      <edge from="nter32" id="tre48" to="nter30"/>
+      <!--  tre49  PIS <- alle -->
+      <edge from="ter19" id="tre49" to="nter32"/>
+      <!--  tre50  S <- S -->
+      <edge from="nter33" id="tre50" to="nter23"/>
+      <!--  tre51  S <- PWS -->
+      <edge from="nter34" id="tre51" to="nter33"/>
+      <!--  tre52  PWS <- was -->
+      <edge from="ter20" id="tre52" to="nter34"/>
+      <!--  tre53  S <- PIS-SB -->
+      <edge from="nter35" id="tre53" to="nter33"/>
+      <!--  tre54  PIS-SB <- man -->
+      <edge from="ter21" id="tre54" to="nter35"/>
+      <!--  tre55  S <- VP -->
+      <edge from="nter36" id="tre55" to="nter33"/>
+      <!--  tre56  VP <- PRF-OA -->
+      <edge from="nter37" id="tre56" to="nter36"/>
+      <!--  tre57  PRF-OA <- sich -->
+      <edge from="ter22" id="tre57" to="nter37"/>
+      <!--  tre58  VP <- ADV -->
+      <edge from="nter38" id="tre58" to="nter36"/>
+      <!--  tre59  ADV <- nur -->
+      <edge from="ter23" id="tre59" to="nter38"/>
+      <!--  tre60  VP <- VVINF -->
+      <edge from="nter39" id="tre60" to="nter36" head="yes"/>
+      <!--  tre61  VVINF <- denken -->
+      <edge from="ter24" id="tre61" to="nter39"/>
+      <!--  tre62  S <- VMFIN -->
+      <edge from="nter40" id="tre62" to="nter33" head="yes"/>
+      <!--  tre63  VMFIN <- können -->
+      <edge from="ter25" id="tre63" to="nter40"/>
+      <!--  tre64  S <- PP -->
+      <edge from="nter41" id="tre64" to="nter33"/>
+      <!--  tre65  PP <- APPRART -->
+      <edge from="nter42" id="tre65" to="nter41" head="yes"/>
+      <!--  tre66  APPRART <- an -->
+      <edge from="ter26" id="tre66" to="nter42"/>
+      <!--  tre67  PP <- NN -->
+      <edge from="nter43" id="tre67" to="nter41"/>
+      <!--  tre68  NN <- Sonntag -->
+      <edge from="ter27" id="tre68" to="nter43"/>
+      <!--  tre69  PP <- NN -->
+      <edge from="nter44" id="tre69" to="nter41"/>
+      <!--  tre70  NN <- Vormittag -->
+      <edge from="ter28" id="tre70" to="nter44"/>
+      <!--  tre71  S <- $. -->
+      <edge from="nter45" id="tre71" to="nter23"/>
+      <!--  tre72  $. <- . -->
+      <edge from="ter29" id="tre72" to="nter45"/>
+    </tree>
+  </constituency>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=4-->
+      <opinion_holder>
+        <!--man-->
+        <span>
+          <target id="t6"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--Saint Sernin-->
+        <span>
+          <target id="t3"/>
+          <target id="t4"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Positive">
+        <!--gesehen haben-->
+        <span>
+          <target id="t7"/>
+          <target id="t8"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

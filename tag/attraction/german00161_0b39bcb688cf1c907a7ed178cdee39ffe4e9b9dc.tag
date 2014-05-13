@@ -1,0 +1,10 @@
+w52	Der	die	D			0	Non-Opinionated	1		0		0		0		0		0		0	51	true	6
+w53	Bahnhof	Bahnhof	N			0	Non-Opinionated	1		0		0		0		0		0		0	52	true	6
+w54	verbindert	verbindert	O			0	Non-Opinionated	1		0		0		0		0		0		0	53	true	6
+w55	den	die	D			0	Non-Opinionated	1		0		0		0		0		0		0	54	true	6
+w56	Platz	Platz	N			0	Non-Opinionated	1		0		0		0		0		0		0	55	true	6
+w57	mit	mit	P			0	Non-Opinionated	1		0		0		0		0		0		0	56	true	6
+w58	S	S	N			0	Non-Opinionated	1		0		0		0		0		0		0	57	true	6
+w59	Bahn	Bahn	N			0	Non-Opinionated	1		0		0		0		0		0		0	58	true	6
+w60	und	und	C			0	Non-Opinionated	1		0		0		0		0		0		0	59	true	6
+w61	Regionalzügen	Regionalzug	N			0	Non-Opinionated	1		0		0		0		0		0		0	60	true	6

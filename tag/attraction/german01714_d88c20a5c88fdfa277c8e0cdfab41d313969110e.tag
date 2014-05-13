@@ -1,0 +1,19 @@
+w5	Die	die	D			0	Non-Opinionated	1		0		0	church/castle	2		0		0		0	4	true	2
+w6	Kathedrale	Kathedrale	N			0	Non-Opinionated	1		0		0		0		0		0		0	5	true	2
+w7	ist	sein	V			0	Non-Opinionated	1		0		0		0		0		0		0	6	true	2
+w8	ein	eine	D			0	Non-Opinionated	1		0		0		0		0		0		0	7	true	2
+w9	massives	massiv	G			0	Non-Opinionated	1		0		0		0		0		0		0	8	true	2
+w10	Bauwerk	Bauwerk	N			0	Non-Opinionated	1		0		0		0		0		0		0	9	true	2
+w11	und	und	C			0	Non-Opinionated	1		0		0		0		0		0		0	10	true	2
+w12	ist	sein	V			0	Non-Opinionated	1		0		0		0		0		0		0	11	true	2
+w13	114	@card@	O			0	Non-Opinionated	1		0		0		0		0		0		0	12	true	2
+w14	Meter	Meter	N			0	Non-Opinionated	1		0		0		0		0		0		0	13	true	2
+w15	lang	lang	G			0	Non-Opinionated	1		0		0		0		0		0		0	14	true	2
+w16	,	,	O			0	Non-Opinionated	1		0		0		0		0		0		0	15	true	2
+w17	73	73	O			0	Non-Opinionated	1		0		0		0		0		0		0	16	true	2
+w18	Meter	Meter	N			0	Non-Opinionated	1		0		0		0		0		0		0	17	true	2
+w19	breit	breit	G			0	Non-Opinionated	1		0		0		0		0		0		0	18	true	2
+w20	und	und	C			0	Non-Opinionated	1		0		0		0		0		0		0	19	true	2
+w21	116	@card@	O			0	Non-Opinionated	1		0		0		0		0		0		0	20	true	2
+w22	Meter	Meter	N			0	Non-Opinionated	1		0		0		0		0		0		0	21	true	2
+w23	hoch	hoch	V			0	Non-Opinionated	1		0		0		0		0		0		0	22	true	2

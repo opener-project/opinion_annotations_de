@@ -1,0 +1,17 @@
+w45	Alle	alle	Q			0	Non-Opinionated	1		0		0		0		0		0		0	44	true	4
+w46	bekannten	bekannt	G			0	Non-Opinionated	1		0		0		0		0		0		0	45	true	4
+w47	grossen	groß	G			0	Non-Opinionated	1		0		0		0		0		0		0	46	true	4
+w48	Ketten	Kette	N			0	Non-Opinionated	1		0		0		0		0		0		0	47	true	4
+w49	und	und	C			0	Non-Opinionated	1		0		0		0		0		0		0	48	true	4
+w50	auch	auch	A			0	Non-Opinionated	1		0		0		0		0		0		0	49	true	4
+w51	viele	viele	Q			0	Non-Opinionated	1		0		0		0		0		0		0	50	true	4
+w52	kleinere	klein	G			0	Non-Opinionated	1		0		0		0		0		0		0	51	true	4
+w53	und	und	C			0	Non-Opinionated	1		0		0		0		0		0		0	52	true	4
+w54	mittlere	mittler	G			0	Non-Opinionated	1		0		0		0		0		0		0	53	true	4
+w55	Geschäfte	Geschäft	N			0	Non-Opinionated	1		0		0		0		0		0		0	54	true	4
+w56	sind	sein	V			0	Non-Opinionated	1		0		0		0		0		0		0	55	true	4
+w57	hier	hier	A			0	Non-Opinionated	1		0		0		0		0		0		0	56	true	4
+w58	auf	auf	P			0	Non-Opinionated	1		0		0		0		0		0		0	57	true	4
+w59	3	3	O			0	Non-Opinionated	1		0		0		0		0		0		0	58	true	4
+w60	Etagen	Etage	N			0	Non-Opinionated	1		0		0		0		0		0		0	59	true	4
+w61	vorhanden	vorhanden	G			0	Non-Opinionated	1		0		0		0		0		0		0	60	true	4

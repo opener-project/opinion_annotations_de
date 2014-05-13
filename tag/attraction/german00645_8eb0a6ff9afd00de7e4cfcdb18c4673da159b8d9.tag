@@ -1,0 +1,19 @@
+w1	Muss	müssen	V			0		0		0	3-negative	9	monument/building	11		0		0		0	0	true	1
+w14	für	für	P			0	Opinion	5		0		0		0		0		0		0	13	true	3
+w15	mich	ich	Q		OpinionHolder	3	Opinion	5		0		0		0		0		0		0	14	true	3
+w16	war	sein	V		StrongNegative	2	Opinion	5		0		0		0		0		0		0	15	true	3
+w17	der	die	D		OpinionTarget	4	Opinion	5		0		0		0		0		0		0	16	true	3
+w18	Gang	Gang	N		OpinionTarget	4	Opinion	5		0		0		0		0		0		0	17	true	3
+w19	durch	durch	P		OpinionTarget	4	Opinion	5		0		0		0		0		0		0	18	true	3
+w20	den	die	D		OpinionTarget	4	Opinion	5		0		0		0		0		0		0	19	true	3
+w21	kalten	kalt	G		OpinionTarget	4	Opinion	5		0		0		0		0		0		0	20	false	3
+w22	,	,	O		OpinionTarget	4	Opinion	5		0		0		0		0		0		0	21	true	3
+w23	muffigen	muffig	G		OpinionTarget	4	Opinion	5		0		0		0		0		0		0	22	true	3
+w24	Tunnel	Tunnel	N		OpinionTarget	4	Opinion	5		0		0		0		0		0		0	23	true	3
+w25	nichts	nichts	Q		StrongNegative	2	Opinion	5		0		0		0		0		0		0	24	true	3
+w27	wir	wir	Q		OpinionHolder	6	Opinion	8		0		0		0		0		0		0	26	true	3
+w28	sind	sein	V		Negative	7	Opinion	8		0		0		0		0		0		0	27	true	3
+w29	nach	nach	P		Negative	7	Opinion	8		0		0		0		0		0		0	28	true	3
+w30	wenigen	wenige	Q		Negative	7	Opinion	8		0		0		0		0		0		0	29	true	3
+w31	Metern	Meter	N		Negative	7	Opinion	8		0		0		0		0		0		0	30	true	3
+w32	umgekehrt	umgekehrt	G		Negative	7	Opinion	8		0		0		0		0		0		0	31	true	3

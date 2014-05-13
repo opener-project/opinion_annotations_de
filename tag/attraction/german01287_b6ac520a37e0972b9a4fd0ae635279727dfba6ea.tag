@@ -1,0 +1,9 @@
+w1	Lohnt	lohnen	V			0		0		0	8-positive	6	museum	1		0		0		0	0	true	1
+w65	die	die	D		OpinionTarget	2	Opinion	4		0		0		0		0		0		0	64	true	5
+w66	Außengebäude	Außengebäude	N		OpinionTarget	2	Opinion	4		0		0		0		0		0		0	65	true	5
+w67	muss	müssen	V		Negative	3	Opinion	4		0		0		0		0		0		0	66	true	5
+w68	man	man	Q		Negative	3	Opinion	4		0		0		0		0		0		0	67	true	5
+w69	sich	sich	Q		Negative	3	Opinion	4		0		0		0		0		0		0	68	true	5
+w70	nicht	nicht	O		Negative	3	Opinion	4		0		0		0		0		0		0	69	true	5
+w71	unbedingt	unbedingt	G		Negative	3	Opinion	4		0		0		0		0		0		0	70	true	5
+w72	anschauen	anschauen	V		Negative	3	Opinion	4		0		0		0		0		0		0	71	true	5

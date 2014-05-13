@@ -1,0 +1,9 @@
+w1	Nicht	nicht	O			0		0		0	6-average-positive	1	tour(city/landscape)	2		0		0		0	0	true	1
+w12	der	die	D		OpinionTarget	3	Opinion	5		0		0		0		0		0		0	11	true	2
+w13	Eintritt	Eintritt	N		OpinionTarget	3	Opinion	5		0		0		0		0		0		0	12	true	2
+w14	frei	frei	G		Positive	4	Opinion	5		0		0		0		0		0		0	13	true	2
+w23	es	es	Q		OpinionTarget	6	Opinion	8		0		0		0		0		0		0	22	true	2
+w24	bestimmt	bestimmt	A		Positive	7	Opinion	8		0		0		0		0		0		0	23	true	2
+w25	einen	eine	D		Positive	7	Opinion	8		0		0		0		0		0		0	24	true	2
+w26	Besuch	Besuch	N		Positive	7	Opinion	8		0		0		0		0		0		0	25	true	2
+w27	wert	wert	G		Positive	7	Opinion	8		0		0		0		0		0		0	26	true	2

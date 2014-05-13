@@ -1,0 +1,21 @@
+w1	Den	die	D			0		0		0	9-very positive	3	tour(city/landscape)	2		0		0		0	0	true	1
+w8	Der	die	D			0	Non-Opinionated	4		0		0		0		0		0		0	7	true	2
+w9	Alexanderplatz	Alexanderplatz	N			0	Non-Opinionated	4		0		0		0		0		0		0	8	true	2
+w10	im	in	P			0	Non-Opinionated	4		0		0		0		0		0		0	9	true	2
+w11	Ortsteil	Ortsteil	N			0	Non-Opinionated	4		0		0		0		0		0		0	10	true	2
+w12	Mitte	Mitte	N			0	Non-Opinionated	4		0		0		0		0		0		0	11	true	2
+w13	ist	sein	V			0	Non-Opinionated	4		0		0		0		0		0		0	12	true	2
+w14	ein	eine	D			0	Non-Opinionated	4		0		0		0		0		0		0	13	true	2
+w15	zentraler	zentral	G			0	Non-Opinionated	4		0		0		0		0		0		0	14	true	2
+w16	Punkt	Punkt	N			0	Non-Opinionated	4		0		0		0		0		0		0	15	true	2
+w17	in	in	P			0	Non-Opinionated	4		0		0		0		0		0		0	16	true	2
+w18	der	die	D			0	Non-Opinionated	4		0		0		0		0		0		0	17	true	2
+w19	Landeshauptstadt	Landeshauptstadt	N			0	Non-Opinionated	4		0		0		0		0		0		0	18	true	2
+w20	Berlin	Berlin	R			0	Non-Opinionated	4		0		0		0		0		0		0	19	true	2
+w21	,	,	O			0	Non-Opinionated	4		0		0		0		0		0		0	20	true	2
+w22	fast	fast	A			0	Non-Opinionated	4		0		0		0		0		0		0	21	true	2
+w23	alle	alle	Q			0	Non-Opinionated	4		0		0		0		0		0		0	22	true	2
+w24	Verkehrsverbindungen	Verkehrsverbindung	N			0	Non-Opinionated	4		0		0		0		0		0		0	23	true	2
+w25	laufen	laufen	V			0	Non-Opinionated	4		0		0		0		0		0		0	24	true	2
+w26	hier	hier	A			0	Non-Opinionated	4		0		0		0		0		0		0	25	true	2
+w27	zusammen	zusammen	V			0	Non-Opinionated	4		0		0		0		0		0		0	26	true	2

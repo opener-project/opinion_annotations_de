@@ -1,0 +1,27 @@
+w1	Tunnelblick	Tunnelblick	N			0		0		0	8-positive	2	unknown	3		0		0		0	0	true	1
+w44	Nachdem	nachdem	C			0	Non-Opinionated	1		0		0		0		0		0		0	43	true	5
+w45	man	man	Q			0	Non-Opinionated	1		0		0		0		0		0		0	44	true	5
+w46	entweder	entweder	C			0	Non-Opinionated	1		0		0		0		0		0		0	45	true	5
+w47	per	per	P			0	Non-Opinionated	1		0		0		0		0		0		0	46	true	5
+w48	Treppe	Treppe	N			0	Non-Opinionated	1		0		0		0		0		0		0	47	true	5
+w49	oder	oder	C			0	Non-Opinionated	1		0		0		0		0		0		0	48	true	5
+w50	Fahrstuhl	Fahrstuhl	N			0	Non-Opinionated	1		0		0		0		0		0		0	49	true	5
+w51	ca.	ca.	A			0	Non-Opinionated	1		0		0		0		0		0		0	50	true	5
+w52	24	24	O			0	Non-Opinionated	1		0		0		0		0		0		0	51	true	5
+w53	m	m	N			0	Non-Opinionated	1		0		0		0		0		0		0	52	true	5
+w54	in	in	P			0	Non-Opinionated	1		0		0		0		0		0		0	53	true	5
+w55	die	die	D			0	Non-Opinionated	1		0		0		0		0		0		0	54	true	5
+w56	Tiefe	Tiefe	N			0	Non-Opinionated	1		0		0		0		0		0		0	55	true	5
+w57	gelangt	gelangen|langen	V			0	Non-Opinionated	1		0		0		0		0		0		0	56	true	5
+w58	ist	sein	V			0	Non-Opinionated	1		0		0		0		0		0		0	57	true	5
+w59	,	,	O			0	Non-Opinionated	1		0		0		0		0		0		0	58	true	5
+w60	geht	gehen	V			0	Non-Opinionated	1		0		0		0		0		0		0	59	true	5
+w61	man	man	Q			0	Non-Opinionated	1		0		0		0		0		0		0	60	true	5
+w62	durch	durch	P			0	Non-Opinionated	1		0		0		0		0		0		0	61	true	5
+w63	den	die	D			0	Non-Opinionated	1		0		0		0		0		0		0	62	true	5
+w64	gekachelten	gekachelt	G			0	Non-Opinionated	1		0		0		0		0		0		0	63	true	5
+w65	Tunnel	Tunnel	N			0	Non-Opinionated	1		0		0		0		0		0		0	64	true	5
+w66	unter	unter	P			0	Non-Opinionated	1		0		0		0		0		0		0	65	true	5
+w67	der	die	D			0	Non-Opinionated	1		0		0		0		0		0		0	66	true	5
+w68	Elbe	Elbe	R			0	Non-Opinionated	1		0		0		0		0		0		0	67	true	5
+w69	hindurch	hindurch	V			0	Non-Opinionated	1		0		0		0		0		0		0	68	true	5

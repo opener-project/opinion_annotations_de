@@ -1,0 +1,10 @@
+w1	Spaß	Spaß	N			0		0		0	8-positive	4	church/castle	6		0		0		0	0	true	1
+w100	Jeder	jede	Q		Positive	3	Opinion	1		0		0		0		0		0		0	99	true	7
+w101	Bayer	Bayer	N		Positive	3	Opinion	1		0		0		0		0		0		0	100	true	7
+w102	sollte	sollen	V		Positive	3	Opinion	1		0		0		0		0		0		0	101	true	7
+w103	einmal	einmal	A		Positive	3	Opinion	1		0		0		0		0		0		0	102	true	7
+w104	den	die	D		OpinionTarget	2	Opinion	1		0		0		0		0		0		0	103	true	7
+w105	heiligen	heilig	G		OpinionTarget	2	Opinion	1		0		0		0		0		0		0	104	true	7
+w106	Berg	Berg	N		OpinionTarget	2	Opinion	1		0		0		0		0		0		0	105	true	7
+w107	genossen	genießen	V		Positive	3	Opinion	1		0		0		0		0		0		0	106	true	7
+w108	haben	haben	V		Positive	3	Opinion	1		0		0		0		0		0		0	107	true	7

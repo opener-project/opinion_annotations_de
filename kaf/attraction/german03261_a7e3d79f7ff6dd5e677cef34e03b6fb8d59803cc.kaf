@@ -1,0 +1,493 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="de" version="v1.opener">
+  <kafHeader>
+    <fileDesc/>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-de" timestamp="2014-02-10T16:41:54Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-de" timestamp="2014-02-10T16:41:54Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="entities">
+      <lp name="ehu-nerc-de" timestamp="2014-02-25 21:23:58" version="1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="constituents">
+      <lp timestamp="2014-02-25T21:24:02CET" version="1.3_17jan2014" name="Stanford German constituency parser trained on NEGRA corpus"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="features">
+      <lp name="Property manual annotations" version="1.0" timestamp="2014-05-13T09:43:02CEST"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-13T09:43:02CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w1" sent="1" para="1" offset="0" length="7">Drachen</wf>
+    <wf wid="w2" sent="1" para="1" offset="8" length="6">lieben</wf>
+    <wf wid="w3" sent="1" para="1" offset="15" length="7">Klassik</wf>
+    <wf wid="w4" sent="2" para="2" offset="23" length="14">Beeindruckende</wf>
+    <wf wid="w5" sent="2" para="2" offset="38" length="15">Tropfsteinhöhle</wf>
+    <wf wid="w6" sent="2" para="2" offset="53" length="1">,</wf>
+    <wf wid="w7" sent="2" para="2" offset="55" length="12">unerwartetes</wf>
+    <wf wid="w8" sent="2" para="2" offset="68" length="11">klassisches</wf>
+    <wf wid="w9" sent="2" para="2" offset="80" length="10">Seekonzert</wf>
+    <wf wid="w10" sent="2" para="2" offset="91" length="3">und</wf>
+    <wf wid="w11" sent="2" para="2" offset="95" length="4">eine</wf>
+    <wf wid="w12" sent="2" para="2" offset="100" length="6">kleine</wf>
+    <wf wid="w13" sent="2" para="2" offset="107" length="11">Bootspartie</wf>
+    <wf wid="w14" sent="2" para="2" offset="118" length="1">.</wf>
+    <wf wid="w15" sent="3" para="2" offset="120" length="3">Für</wf>
+    <wf wid="w16" sent="3" para="2" offset="124" length="10">Erwachsene</wf>
+    <wf wid="w17" sent="3" para="2" offset="135" length="3">und</wf>
+    <wf wid="w18" sent="3" para="2" offset="139" length="6">Kinder</wf>
+    <wf wid="w19" sent="3" para="2" offset="146" length="3">ein</wf>
+    <wf wid="w20" sent="3" para="2" offset="150" length="8">Erlebnis</wf>
+    <wf wid="w21" sent="3" para="2" offset="158" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Drachen-->
+    <term tid="t1" type="open" lemma="Drache|Drachen" pos="N" morphofeat="NN">
+      <span>
+        <target id="w1"/>
+      </span>
+    </term>
+    <!--lieben-->
+    <term tid="t2" type="open" lemma="lieb" pos="G" morphofeat="ADJA">
+      <span>
+        <target id="w2"/>
+      </span>
+    </term>
+    <!--Klassik-->
+    <term tid="t3" type="open" lemma="Klassik" pos="N" morphofeat="NN">
+      <span>
+        <target id="w3"/>
+      </span>
+    </term>
+    <!--Beeindruckende-->
+    <term tid="t4" type="open" lemma="beeindruckend" pos="G" morphofeat="ADJA">
+      <sentiment resource="VUA_olery_lexicon_de_lmf" polarity="positive"/>
+      <span>
+        <target id="w4"/>
+      </span>
+    </term>
+    <!--Tropfsteinhöhle-->
+    <term tid="t5" type="open" lemma="Tropfsteinhöhle" pos="N" morphofeat="NN">
+      <span>
+        <target id="w5"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t6" type="open" lemma="," pos="O" morphofeat="$,">
+      <span>
+        <target id="w6"/>
+      </span>
+    </term>
+    <!--unerwartetes-->
+    <term tid="t7" type="open" lemma="unerwartet" pos="G" morphofeat="ADJA">
+      <sentiment resource="VUA_olery_lexicon_de_lmf" polarity="negative"/>
+      <span>
+        <target id="w7"/>
+      </span>
+    </term>
+    <!--klassisches-->
+    <term tid="t8" type="open" lemma="klassisch" pos="G" morphofeat="ADJA">
+      <sentiment resource="VUA_olery_lexicon_de_lmf" polarity="positive"/>
+      <span>
+        <target id="w8"/>
+      </span>
+    </term>
+    <!--Seekonzert-->
+    <term tid="t9" type="open" lemma="Seekonzert" pos="O" morphofeat="NN unknown_lemma">
+      <span>
+        <target id="w9"/>
+      </span>
+    </term>
+    <!--und-->
+    <term tid="t10" type="close" lemma="und" pos="C" morphofeat="KON">
+      <span>
+        <target id="w10"/>
+      </span>
+    </term>
+    <!--eine-->
+    <term tid="t11" type="close" lemma="eine" pos="D" morphofeat="ART">
+      <span>
+        <target id="w11"/>
+      </span>
+    </term>
+    <!--kleine-->
+    <term tid="t12" type="open" lemma="klein" pos="G" morphofeat="ADJA">
+      <sentiment resource="VUA_olery_lexicon_de_lmf" polarity="negative"/>
+      <span>
+        <target id="w12"/>
+      </span>
+    </term>
+    <!--Bootspartie-->
+    <term tid="t13" type="open" lemma="Bootspartie" pos="N" morphofeat="NN">
+      <span>
+        <target id="w13"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t14" type="open" lemma="." pos="O" morphofeat="$.">
+      <span>
+        <target id="w14"/>
+      </span>
+    </term>
+    <!--Für-->
+    <term tid="t15" type="close" lemma="für" pos="P" morphofeat="APPR">
+      <span>
+        <target id="w15"/>
+      </span>
+    </term>
+    <!--Erwachsene-->
+    <term tid="t16" type="open" lemma="Erwachsene" pos="N" morphofeat="NN">
+      <span>
+        <target id="w16"/>
+      </span>
+    </term>
+    <!--und-->
+    <term tid="t17" type="close" lemma="und" pos="C" morphofeat="KON">
+      <span>
+        <target id="w17"/>
+      </span>
+    </term>
+    <!--Kinder-->
+    <term tid="t18" type="open" lemma="Kind" pos="N" morphofeat="NN">
+      <span>
+        <target id="w18"/>
+      </span>
+    </term>
+    <!--ein-->
+    <term tid="t19" type="close" lemma="eine" pos="D" morphofeat="ART">
+      <span>
+        <target id="w19"/>
+      </span>
+    </term>
+    <!--Erlebnis-->
+    <term tid="t20" type="open" lemma="Erlebnis" pos="N" morphofeat="NN">
+      <span>
+        <target id="w20"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t21" type="open" lemma="." pos="O" morphofeat="$.">
+      <span>
+        <target id="w21"/>
+      </span>
+    </term>
+  </terms>
+  <features>
+    <properties>
+      <property pid="p0" lemma="Interior/exterior">
+        <references>
+          <span>
+            <target id="t5"/>
+          </span>
+        </references>
+      </property>
+    </properties>
+  </features>
+  <constituency>
+    <tree>
+      <nt id="nter0" label="ROOT"/>
+      <nt id="nter1" label="NUR"/>
+      <nt id="nter2" label="NP"/>
+      <nt id="nter3" label="NN"/>
+      <nt id="nter4" label="NP"/>
+      <nt id="nter5" label="ADJA"/>
+      <nt id="nter6" label="NN"/>
+      <t id="ter0">
+        <span>
+          <target id="t1"/>
+        </span>
+      </t>
+      <t id="ter1">
+        <span>
+          <target id="t2"/>
+        </span>
+      </t>
+      <t id="ter2">
+        <span>
+          <target id="t3"/>
+        </span>
+      </t>
+      <!--  tre0  ROOT <- NUR -->
+      <edge from="nter1" id="tre0" to="nter0" head="yes"/>
+      <!--  tre1  NUR <- NP -->
+      <edge from="nter2" id="tre1" to="nter1" head="yes"/>
+      <!--  tre2  NP <- NN -->
+      <edge from="nter3" id="tre2" to="nter2" head="yes"/>
+      <!--  tre3  NN <- Drache|Drachen -->
+      <edge from="ter0" id="tre3" to="nter3"/>
+      <!--  tre4  NP <- NP -->
+      <edge from="nter4" id="tre4" to="nter2"/>
+      <!--  tre5  NP <- ADJA -->
+      <edge from="nter5" id="tre5" to="nter4"/>
+      <!--  tre6  ADJA <- lieb -->
+      <edge from="ter1" id="tre6" to="nter5"/>
+      <!--  tre7  NP <- NN -->
+      <edge from="nter6" id="tre7" to="nter4" head="yes"/>
+      <!--  tre8  NN <- Klassik -->
+      <edge from="ter2" id="tre8" to="nter6"/>
+    </tree>
+    <tree>
+      <nt id="nter7" label="ROOT"/>
+      <nt id="nter8" label="S"/>
+      <nt id="nter9" label="NP-SB"/>
+      <nt id="nter10" label="NN"/>
+      <nt id="nter11" label="NE"/>
+      <nt id="nter12" label="$,"/>
+      <nt id="nter13" label="VVFIN"/>
+      <nt id="nter14" label="CNP-OA"/>
+      <nt id="nter15" label="NP"/>
+      <nt id="nter16" label="ADJA"/>
+      <nt id="nter17" label="NN"/>
+      <nt id="nter18" label="KON"/>
+      <nt id="nter19" label="NP"/>
+      <nt id="nter20" label="ART"/>
+      <nt id="nter21" label="ADJA"/>
+      <nt id="nter22" label="NN"/>
+      <nt id="nter23" label="$."/>
+      <t id="ter3">
+        <span>
+          <target id="t4"/>
+        </span>
+      </t>
+      <t id="ter4">
+        <span>
+          <target id="t5"/>
+        </span>
+      </t>
+      <t id="ter5">
+        <span>
+          <target id="t6"/>
+        </span>
+      </t>
+      <t id="ter6">
+        <span>
+          <target id="t7"/>
+        </span>
+      </t>
+      <t id="ter7">
+        <span>
+          <target id="t8"/>
+        </span>
+      </t>
+      <t id="ter8">
+        <span>
+          <target id="t9"/>
+        </span>
+      </t>
+      <t id="ter9">
+        <span>
+          <target id="t10"/>
+        </span>
+      </t>
+      <t id="ter10">
+        <span>
+          <target id="t11"/>
+        </span>
+      </t>
+      <t id="ter11">
+        <span>
+          <target id="t12"/>
+        </span>
+      </t>
+      <t id="ter12">
+        <span>
+          <target id="t13"/>
+        </span>
+      </t>
+      <t id="ter13">
+        <span>
+          <target id="t14"/>
+        </span>
+      </t>
+      <!--  tre9  ROOT <- S -->
+      <edge from="nter8" id="tre9" to="nter7" head="yes"/>
+      <!--  tre10  S <- NP-SB -->
+      <edge from="nter9" id="tre10" to="nter8"/>
+      <!--  tre11  NP-SB <- NN -->
+      <edge from="nter10" id="tre11" to="nter9" head="yes"/>
+      <!--  tre12  NN <- beeindruckend -->
+      <edge from="ter3" id="tre12" to="nter10"/>
+      <!--  tre13  NP-SB <- NE -->
+      <edge from="nter11" id="tre13" to="nter9"/>
+      <!--  tre14  NE <- Tropfsteinhöhle -->
+      <edge from="ter4" id="tre14" to="nter11"/>
+      <!--  tre15  S <- $, -->
+      <edge from="nter12" id="tre15" to="nter8"/>
+      <!--  tre16  $, <- , -->
+      <edge from="ter5" id="tre16" to="nter12"/>
+      <!--  tre17  S <- VVFIN -->
+      <edge from="nter13" id="tre17" to="nter8" head="yes"/>
+      <!--  tre18  VVFIN <- unerwartet -->
+      <edge from="ter6" id="tre18" to="nter13"/>
+      <!--  tre19  S <- CNP-OA -->
+      <edge from="nter14" id="tre19" to="nter8"/>
+      <!--  tre20  CNP-OA <- NP -->
+      <edge from="nter15" id="tre20" to="nter14"/>
+      <!--  tre21  NP <- ADJA -->
+      <edge from="nter16" id="tre21" to="nter15"/>
+      <!--  tre22  ADJA <- klassisch -->
+      <edge from="ter7" id="tre22" to="nter16"/>
+      <!--  tre23  NP <- NN -->
+      <edge from="nter17" id="tre23" to="nter15" head="yes"/>
+      <!--  tre24  NN <- Seekonzert -->
+      <edge from="ter8" id="tre24" to="nter17"/>
+      <!--  tre25  CNP-OA <- KON -->
+      <edge from="nter18" id="tre25" to="nter14"/>
+      <!--  tre26  KON <- und -->
+      <edge from="ter9" id="tre26" to="nter18"/>
+      <!--  tre27  CNP-OA <- NP -->
+      <edge from="nter19" id="tre27" to="nter14" head="yes"/>
+      <!--  tre28  NP <- ART -->
+      <edge from="nter20" id="tre28" to="nter19"/>
+      <!--  tre29  ART <- eine -->
+      <edge from="ter10" id="tre29" to="nter20"/>
+      <!--  tre30  NP <- ADJA -->
+      <edge from="nter21" id="tre30" to="nter19"/>
+      <!--  tre31  ADJA <- klein -->
+      <edge from="ter11" id="tre31" to="nter21"/>
+      <!--  tre32  NP <- NN -->
+      <edge from="nter22" id="tre32" to="nter19" head="yes"/>
+      <!--  tre33  NN <- Bootspartie -->
+      <edge from="ter12" id="tre33" to="nter22"/>
+      <!--  tre34  S <- $. -->
+      <edge from="nter23" id="tre34" to="nter8"/>
+      <!--  tre35  $. <- . -->
+      <edge from="ter13" id="tre35" to="nter23"/>
+    </tree>
+    <tree>
+      <nt id="nter24" label="ROOT"/>
+      <nt id="nter25" label="S"/>
+      <nt id="nter26" label="PP"/>
+      <nt id="nter27" label="APPR"/>
+      <nt id="nter28" label="CNP"/>
+      <nt id="nter29" label="NN"/>
+      <nt id="nter30" label="KON"/>
+      <nt id="nter31" label="NN"/>
+      <nt id="nter32" label="NP-SB"/>
+      <nt id="nter33" label="ART"/>
+      <nt id="nter34" label="NN"/>
+      <nt id="nter35" label="$."/>
+      <t id="ter14">
+        <span>
+          <target id="t15"/>
+        </span>
+      </t>
+      <t id="ter15">
+        <span>
+          <target id="t16"/>
+        </span>
+      </t>
+      <t id="ter16">
+        <span>
+          <target id="t17"/>
+        </span>
+      </t>
+      <t id="ter17">
+        <span>
+          <target id="t18"/>
+        </span>
+      </t>
+      <t id="ter18">
+        <span>
+          <target id="t19"/>
+        </span>
+      </t>
+      <t id="ter19">
+        <span>
+          <target id="t20"/>
+        </span>
+      </t>
+      <t id="ter20">
+        <span>
+          <target id="t21"/>
+        </span>
+      </t>
+      <!--  tre36  ROOT <- S -->
+      <edge from="nter25" id="tre36" to="nter24" head="yes"/>
+      <!--  tre37  S <- PP -->
+      <edge from="nter26" id="tre37" to="nter25"/>
+      <!--  tre38  PP <- APPR -->
+      <edge from="nter27" id="tre38" to="nter26" head="yes"/>
+      <!--  tre39  APPR <- für -->
+      <edge from="ter14" id="tre39" to="nter27"/>
+      <!--  tre40  PP <- CNP -->
+      <edge from="nter28" id="tre40" to="nter26"/>
+      <!--  tre41  CNP <- NN -->
+      <edge from="nter29" id="tre41" to="nter28"/>
+      <!--  tre42  NN <- Erwachsene -->
+      <edge from="ter15" id="tre42" to="nter29"/>
+      <!--  tre43  CNP <- KON -->
+      <edge from="nter30" id="tre43" to="nter28"/>
+      <!--  tre44  KON <- und -->
+      <edge from="ter16" id="tre44" to="nter30"/>
+      <!--  tre45  CNP <- NN -->
+      <edge from="nter31" id="tre45" to="nter28" head="yes"/>
+      <!--  tre46  NN <- Kind -->
+      <edge from="ter17" id="tre46" to="nter31"/>
+      <!--  tre47  S <- NP-SB -->
+      <edge from="nter32" id="tre47" to="nter25"/>
+      <!--  tre48  NP-SB <- ART -->
+      <edge from="nter33" id="tre48" to="nter32"/>
+      <!--  tre49  ART <- eine -->
+      <edge from="ter18" id="tre49" to="nter33"/>
+      <!--  tre50  NP-SB <- NN -->
+      <edge from="nter34" id="tre50" to="nter32" head="yes"/>
+      <!--  tre51  NN <- Erlebnis -->
+      <edge from="ter19" id="tre51" to="nter34"/>
+      <!--  tre52  S <- $. -->
+      <edge from="nter35" id="tre52" to="nter25" head="yes"/>
+      <!--  tre53  $. <- . -->
+      <edge from="ter20" id="tre53" to="nter35"/>
+    </tree>
+  </constituency>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=8-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--Seekonzert-->
+        <span>
+          <target id="t9"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="StrongPositive">
+        <!--unerwartetes klassisches-->
+        <span>
+          <target id="t7"/>
+          <target id="t8"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=4-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--Tropfsteinhöhle-->
+        <span>
+          <target id="t5"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="StrongPositive">
+        <!--Beeindruckende-->
+        <span>
+          <target id="t4"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o2">
+      <!--Tag opinion scope id=10-->
+      <opinion_holder/>
+      <opinion_target/>
+      <opinion_expression polarity="Positive">
+        <!--eine kleine Bootspartie-->
+        <span>
+          <target id="t11"/>
+          <target id="t12"/>
+          <target id="t13"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

@@ -1,0 +1,12 @@
+w42	Ansonsten	ansonsten	A			0	Non-Opinionated	1		0		0		0		0		0		0	41	true	4
+w43	Sonnenhut	Sonnenhut	N			0	Non-Opinionated	1		0		0		0		0		0		0	42	true	4
+w44	und	und	C			0	Non-Opinionated	1		0		0		0		0		0		0	43	true	4
+w45	Wasser	Wasser	N			0	Non-Opinionated	1		0		0		0		0		0		0	44	true	4
+w46	nicht	nicht	O			0	Non-Opinionated	1		0		0		0		0		0		0	45	true	4
+w47	vergessen	vergessen	V			0	Non-Opinionated	1		0		0		0		0		0		0	46	true	4
+w48	,	,	O			0	Non-Opinionated	1		0		0		0		0		0		0	47	true	4
+w49	man	man	Q			0	Non-Opinionated	1		0		0		0		0		0		0	48	true	4
+w50	bewegt	bewegen	V			0	Non-Opinionated	1		0		0		0		0		0		0	49	true	4
+w51	sich	sich	Q			0	Non-Opinionated	1		0		0		0		0		0		0	50	true	4
+w52	ja	ja	A			0	Non-Opinionated	1		0		0		0		0		0		0	51	true	4
+w53	draußen	draußen	A			0	Non-Opinionated	1		0		0		0		0		0		0	52	true	4

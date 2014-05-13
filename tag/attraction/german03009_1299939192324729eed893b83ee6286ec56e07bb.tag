@@ -1,0 +1,9 @@
+w1	Einer	eine	Q			0		0		0	8-positive	6	sports(stadium/game)	1		0		0		0	0	true	1
+w45	lohnt	lohnen	V		Positive	4	Opinion	5		0		0		0		0		0		0	44	true	3
+w46	ich	ich	Q		OpinionHolder	2	Opinion	5		0		0		0		0		0		0	45	true	3
+w47	immer	immer	A		Positive	4	Opinion	5		0		0		0		0		0		0	46	true	3
+w48	der	die	D		OpinionTarget	3	Opinion	5		0		0		0		0		0		0	47	true	3
+w49	Besuch	Besuch	N		OpinionTarget	3	Opinion	5		0		0		0		0		0		0	48	true	3
+w50	bei	bei	P		OpinionTarget	3	Opinion	5		0		0		0		0		0		0	49	true	3
+w51	einem	eine	D		OpinionTarget	3	Opinion	5		0		0		0		0		0		0	50	true	3
+w52	Spiel	Spiel	N		OpinionTarget	3	Opinion	5		0		0		0		0		0		0	51	true	3

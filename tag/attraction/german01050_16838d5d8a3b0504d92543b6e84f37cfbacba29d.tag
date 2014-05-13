@@ -1,0 +1,16 @@
+w33	Das	die	D			0	Non-Opinionated	1		0		0		0		0		0		0	32	true	3
+w34	Museum	Museum	N			0	Non-Opinionated	1		0		0		0		0		0		0	33	true	3
+w35	bietet	bieten	V			0	Non-Opinionated	1		0		0		0		0		0		0	34	true	3
+w36	zahlreiche	zahlreich	G			0	Non-Opinionated	1		0		0		0		0		0		0	35	true	3
+w37	Aquarien	Aquarium	N			0	Non-Opinionated	1		0		0		0		0		0		0	36	true	3
+w38	mit	mit	P			0	Non-Opinionated	1		0		0		0		0		0		0	37	true	3
+w39	Meerestieren	Meerestier	N			0	Non-Opinionated	1		0		0		0		0		0		0	38	true	3
+w40	,	,	O			0	Non-Opinionated	1		0		0		0		0		0		0	39	true	3
+w41	die	die	Q			0	Non-Opinionated	1		0		0		0		0		0		0	40	true	3
+w42	in	in	P			0	Non-Opinionated	1		0		0		0		0		0		0	41	true	3
+w43	der	die	D			0	Non-Opinionated	1		0		0		0		0		0		0	42	true	3
+w44	Bay	Bay	O			0	Non-Opinionated	1		0		0		0		0		0		0	43	true	3
+w45	Area	Area	O			0	Non-Opinionated	1		0		0		0		0		0		0	44	true	3
+w46	zu	zu	O			0	Non-Opinionated	1		0		0		0		0		0		0	45	true	3
+w47	finden	finden	V			0	Non-Opinionated	1		0		0		0		0		0		0	46	true	3
+w48	sind	sein	V			0	Non-Opinionated	1		0		0		0		0		0		0	47	true	3

@@ -1,0 +1,14 @@
+w35	Wer	wer	Q			0	Non-Opinionated	1		0		0		0		0		0		0	34	true	3
+w36	den	die	D			0	Non-Opinionated	1		0		0		0		0		0		0	35	true	3
+w37	direkten	direkt	G			0	Non-Opinionated	1		0		0		0		0		0		0	36	true	3
+w38	Weg	Weg	N			0	Non-Opinionated	1		0		0		0		0		0		0	37	true	3
+w39	von	von	P			0	Non-Opinionated	1		0		0		0		0		0		0	38	true	3
+w40	Herrsching	Herrsching	R			0	Non-Opinionated	1		0		0		0		0		0		0	39	true	3
+w41	zum	zu	P			0	Non-Opinionated	1		0		0		0		0		0		0	40	true	3
+w42	Kloster	Kloster	N			0	Non-Opinionated	1		0		0		0		0		0		0	41	true	3
+w43	nimmt	nehmen	V			0	Non-Opinionated	1		0		0		0		0		0		0	42	true	3
+w44	,	,	O			0	Non-Opinionated	1		0		0		0		0		0		0	43	true	3
+w45	benötigt	benötigen	V			0	Non-Opinionated	1		0		0		0		0		0		0	44	true	3
+w46	vielleicht	vielleicht	A			0	Non-Opinionated	1		0		0		0		0		0		0	45	true	3
+w47	1,5	1,5	O			0	Non-Opinionated	1		0		0		0		0		0		0	46	true	3
+w48	Stunden	Stunde|Stunden	N			0	Non-Opinionated	1		0		0		0		0		0		0	47	true	3

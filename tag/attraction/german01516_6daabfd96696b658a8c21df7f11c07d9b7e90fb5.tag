@@ -1,0 +1,23 @@
+w4	wir	wir	Q			0	Non-Opinionated	1		0		0	tour(city/landscape)	2		0		0		0	3	true	2
+w5	haben	haben	V			0	Non-Opinionated	1		0		0		0		0		0		0	4	true	2
+w6	den	die	D			0	Non-Opinionated	1		0		0		0		0		0		0	5	true	2
+w7	batobus	batobus	O			0	Non-Opinionated	1		0		0		0		0		0		0	6	true	2
+w8	als	als	C			0	Non-Opinionated	1		0		0		0		0		0		0	7	true	2
+w9	zusatz	Zusatz	N			0	Non-Opinionated	1		0		0		0		0		0		0	8	true	2
+w10	zur	zu	P			0	Non-Opinionated	1		0		0		0		0		0		0	9	true	2
+w11	open	open	O			0	Non-Opinionated	1		0		0		0		0		0		0	10	true	2
+w12	·	·	O			0	Non-Opinionated	1		0		0		0		0		0		0	11	true	2
+w13	bus	bus	O			0	Non-Opinionated	1		0		0		0		0		0		0	12	true	2
+w14	·	·	O			0	Non-Opinionated	1		0		0		0		0		0		0	13	true	2
+w15	tour	tour	O			0	Non-Opinionated	1		0		0		0		0		0		0	14	true	2
+w16	gebucht	buchen	V			0	Non-Opinionated	1		0		0		0		0		0		0	15	true	2
+w17	und	und	C			0	Non-Opinionated	1		0		0		0		0		0		0	16	true	2
+w18	wollten	wollen	V			0	Non-Opinionated	1		0		0		0		0		0		0	17	true	2
+w19	die	die	D			0	Non-Opinionated	1		0		0		0		0		0		0	18	true	2
+w20	sightseeing	sightseeing	O			0	Non-Opinionated	1		0		0		0		0		0		0	19	true	2
+w21	·	·	O			0	Non-Opinionated	1		0		0		0		0		0		0	20	true	2
+w22	tour	tour	O			0	Non-Opinionated	1		0		0		0		0		0		0	21	true	2
+w23	auf	auf	P			0	Non-Opinionated	1		0		0		0		0		0		0	22	true	2
+w24	der	die	D			0	Non-Opinionated	1		0		0		0		0		0		0	23	true	2
+w25	seine	sein	Q			0	Non-Opinionated	1		0		0		0		0		0		0	24	true	2
+w26	abschliessen	abschließen	V			0	Non-Opinionated	1		0		0		0		0		0		0	25	true	2

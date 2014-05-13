@@ -1,0 +1,21 @@
+w16	Obwohl	obwohl	C			0	Non-Opinionated	1		0		0	church/castle	2		0		0		0	15	true	3
+w17	ich	ich	Q			0	Non-Opinionated	1		0		0		0		0		0		0	16	true	3
+w18	seit	seit	P			0	Non-Opinionated	1		0		0		0		0		0		0	17	true	3
+w19	Jahrzehnten	Jahrzehnt	N			0	Non-Opinionated	1		0		0		0		0		0		0	18	true	3
+w20	immer	immer	A			0	Non-Opinionated	1		0		0		0		0		0		0	19	true	3
+w21	in	in	P			0	Non-Opinionated	1		0		0		0		0		0		0	20	true	3
+w22	München	München	R			0	Non-Opinionated	1		0		0		0		0		0		0	21	true	3
+w23	bin	sein	V			0	Non-Opinionated	1		0		0		0		0		0		0	22	true	3
+w24	,	,	O			0	Non-Opinionated	1		0		0		0		0		0		0	23	true	3
+w25	die	die	D			0	Non-Opinionated	1		0		0		0		0		0		0	24	true	3
+w26	großen	groß	G			0	Non-Opinionated	1		0		0		0		0		0		0	25	true	3
+w27	Kirchen	Kirche	N			0	Non-Opinionated	1		0		0		0		0		0		0	26	true	3
+w28	alle	alle	Q			0	Non-Opinionated	1		0		0		0		0		0		0	27	true	3
+w29	angeguckt	angucken	V			0	Non-Opinionated	1		0		0		0		0		0		0	28	true	3
+w30	hatte	haben	V			0	Non-Opinionated	1		0		0		0		0		0		0	29	true	3
+w31	,	,	O			0	Non-Opinionated	1		0		0		0		0		0		0	30	true	3
+w32	war	sein	V			0	Non-Opinionated	1		0		0		0		0		0		0	31	true	3
+w33	ich	ich	Q			0	Non-Opinionated	1		0		0		0		0		0		0	32	true	3
+w34	noch	noch	A			0	Non-Opinionated	1		0		0		0		0		0		0	33	true	3
+w35	nie	nie	A			0	Non-Opinionated	1		0		0		0		0		0		0	34	true	3
+w36	hier	hier	A			0	Non-Opinionated	1		0		0		0		0		0		0	35	true	3

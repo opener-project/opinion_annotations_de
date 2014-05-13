@@ -1,0 +1,19 @@
+w1	Toller	toll	G			0		0		0	9-very positive	3	museum	4		0		0		0	0	true	1
+w41	Es	es	Q			0	Non-Opinionated	2		0		0		0		0		0		0	40	true	4
+w42	stehen	stehen	V			0	Non-Opinionated	2		0		0		0		0		0		0	41	true	4
+w43	in	in	P			0	Non-Opinionated	2		0		0		0		0		0		0	42	true	4
+w44	der	die	D			0	Non-Opinionated	2		0		0		0		0		0		0	43	true	4
+w45	gesamten	gesamt	G			0	Non-Opinionated	2		0		0		0		0		0		0	44	true	4
+w46	BMW	BMW	R			0	Non-Opinionated	2		0		0		0		0		0		0	45	true	4
+w47	Welt	Welt	N			0	Non-Opinionated	2		0		0		0		0		0		0	46	true	4
+w48	bis	bis	C			0	Non-Opinionated	2		0		0		0		0		0		0	47	true	4
+w49	auf	auf	P			0	Non-Opinionated	2		0		0		0		0		0		0	48	true	4
+w50	die	die	D			0	Non-Opinionated	2		0		0		0		0		0		0	49	true	4
+w51	7er	7er	N			0	Non-Opinionated	2		0		0		0		0		0		0	50	true	4
+w52	Reihe	Reihe	N			0	Non-Opinionated	2		0		0		0		0		0		0	51	true	4
+w53	alle	alle	Q			0	Non-Opinionated	2		0		0		0		0		0		0	52	true	4
+w54	BMW	BMW	N			0	Non-Opinionated	2		0		0		0		0		0		0	53	true	4
+w55	Fahrzeuge	Fahrzeug	N			0	Non-Opinionated	2		0		0		0		0		0		0	54	true	4
+w56	in	in	P			0	Non-Opinionated	2		0		0		0		0		0		0	55	true	4
+w57	der	die	D			0	Non-Opinionated	2		0		0		0		0		0		0	56	true	4
+w58	Ausstellung	Ausstellung	N			0	Non-Opinionated	2		0		0		0		0		0		0	57	true	4

@@ -1,0 +1,19 @@
+w54	Der	die	D			0	Non-Opinionated	1		0		0	church/castle	2		0		0		0	53	true	5
+w55	Dom	Dom	N			0	Non-Opinionated	1		0		0		0		0		0		0	54	true	5
+w56	an	an	P			0	Non-Opinionated	1		0		0		0		0		0		0	55	true	5
+w57	sich	sich	Q			0	Non-Opinionated	1		0		0		0		0		0		0	56	true	5
+w58	besteht	bestehen	V			0	Non-Opinionated	1		0		0		0		0		0		0	57	true	5
+w59	aus	aus	P			0	Non-Opinionated	1		0		0		0		0		0		0	58	true	5
+w60	einem	eine	D			0	Non-Opinionated	1		0		0		0		0		0		0	59	true	5
+w61	großem	groß	G			0	Non-Opinionated	1		0		0		0		0		0		0	60	true	5
+w62	Raum	Raum	N			0	Non-Opinionated	1		0		0		0		0		0		0	61	true	5
+w63	mit	mit	P			0	Non-Opinionated	1		0		0		0		0		0		0	62	true	5
+w64	viel	viele	Q			0	Non-Opinionated	1		0		0		0		0		0		0	63	true	5
+w65	Gold	Gold	N			0	Non-Opinionated	1		0		0		0		0		0		0	64	true	5
+w66	und	und	C			0	Non-Opinionated	1		0		0		0		0		0		0	65	true	5
+w67	Prunk	Prunk	N			0	Non-Opinionated	1		0		0		0		0		0		0	66	true	5
+w68	,	,	O			0	Non-Opinionated	1		0		0		0		0		0		0	67	true	5
+w69	untypisch	untypisch	G			0	Non-Opinionated	1		0		0		0		0		0		0	68	true	5
+w70	für	für	P			0	Non-Opinionated	1		0		0		0		0		0		0	69	true	5
+w71	evangelische	evangelisch	G			0	Non-Opinionated	1		0		0		0		0		0		0	70	true	5
+w72	Kirchen	Kirche	N			0	Non-Opinionated	1		0		0		0		0		0		0	71	true	5

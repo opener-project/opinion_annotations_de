@@ -1,0 +1,19 @@
+w4	Das	die	D			0	Non-Opinionated	1		0		0	museum	2		0		0		0	3	true	2
+w5	Hotel	Hotel	N			0	Non-Opinionated	1		0		0		0		0		0		0	4	true	2
+w6	des	die	D			0	Non-Opinionated	1		0		0		0		0		0		0	5	true	2
+w7	Invalides	invalide	G			0	Non-Opinionated	1		0		0		0		0		0		0	6	true	2
+w8	lies	lesen	V			0	Non-Opinionated	1		0		0		0		0		0		0	7	true	2
+w9	König	König	R			0	Non-Opinionated	1		0		0		0		0		0		0	8	true	2
+w10	Louis	Louis	R			0	Non-Opinionated	1		0		0		0		0		0		0	9	true	2
+w11	1671	@card@	O			0	Non-Opinionated	1		0		0		0		0		0		0	10	true	2
+w12	·	·	O			0	Non-Opinionated	1		0		0		0		0		0		0	11	true	2
+w13	1676	@card@	O			0	Non-Opinionated	1		0		0		0		0		0		0	12	true	2
+w14	für	für	P			0	Non-Opinionated	1		0		0		0		0		0		0	13	true	2
+w15	seine	sein	Q			0	Non-Opinionated	1		0		0		0		0		0		0	14	true	2
+w16	Kriegsveteranen	Kriegsveteran	N			0	Non-Opinionated	1		0		0		0		0		0		0	15	true	2
+w17	und	und	C			0	Non-Opinionated	1		0		0		0		0		0		0	16	true	2
+w18	zum	zu	P			0	Non-Opinionated	1		0		0		0		0		0		0	17	true	2
+w19	Zeichen	Zeichen	N			0	Non-Opinionated	1		0		0		0		0		0		0	18	true	2
+w20	seines	sein	Q			0	Non-Opinionated	1		0		0		0		0		0		0	19	true	2
+w21	Ruhms	Ruhm	N			0	Non-Opinionated	1		0		0		0		0		0		0	20	true	2
+w22	anlegen	anlegen	V			0	Non-Opinionated	1		0		0		0		0		0		0	21	true	2
