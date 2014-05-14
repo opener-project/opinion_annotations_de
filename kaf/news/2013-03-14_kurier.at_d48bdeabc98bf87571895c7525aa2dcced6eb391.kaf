@@ -17,7 +17,7 @@
       <lp timestamp="2014-05-07T17:14:49CEST" version="1.3_17jan2014" name="Stanford German constituency parser trained on NEGRA corpus"/>
     </linguisticProcessors>
     <linguisticProcessors layer="opinions">
-      <lp name="Manual annotations" version="1.0" timestamp="2014-05-08T09:59:04CEST"/>
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T11:51:15CEST"/>
     </linguisticProcessors>
   </kafHeader>
   <text>
@@ -7365,4 +7365,49 @@
       <edge from="ter401" id="tre995" to="nter622"/>
     </tree>
   </constituency>
+  <opinions>
+    <opinion oid="o0">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t105"/>
+          <target id="t106"/>
+          <target id="t107"/>
+          <target id="t108"/>
+          <target id="t109"/>
+          <target id="t110"/>
+          <target id="t111"/>
+          <target id="t112"/>
+          <target id="t113"/>
+          <target id="t114"/>
+          <target id="t115"/>
+          <target id="t116"/>
+          <target id="t117"/>
+          <target id="t118"/>
+          <target id="t119"/>
+          <target id="t120"/>
+          <target id="t121"/>
+          <target id="t122"/>
+          <target id="t123"/>
+          <target id="t124"/>
+          <target id="t125"/>
+          <target id="t126"/>
+          <target id="t127"/>
+          <target id="t128"/>
+          <target id="t324"/>
+          <target id="t325"/>
+          <target id="t326"/>
+          <target id="t327"/>
+          <target id="t328"/>
+          <target id="t329"/>
+          <target id="t330"/>
+          <target id="t331"/>
+          <target id="t332"/>
+          <target id="t333"/>
+          <target id="t334"/>
+          <target id="t335"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
 </KAF>

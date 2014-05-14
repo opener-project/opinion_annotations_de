@@ -17,7 +17,7 @@
       <lp timestamp="2014-05-07T17:02:43CEST" version="1.3_17jan2014" name="Stanford German constituency parser trained on NEGRA corpus"/>
     </linguisticProcessors>
     <linguisticProcessors layer="opinions">
-      <lp name="Manual annotations" version="1.0" timestamp="2014-05-08T09:58:32CEST"/>
+      <lp name="Manual annotations" version="1.0" timestamp="2014-05-14T11:50:47CEST"/>
     </linguisticProcessors>
   </kafHeader>
   <text>
@@ -16881,4 +16881,30 @@
       <edge from="ter942" id="tre2309" to="nter1424"/>
     </tree>
   </constituency>
+  <opinions>
+    <opinion oid="o0">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t774"/>
+          <target id="t775"/>
+          <target id="t776"/>
+          <target id="t777"/>
+          <target id="t778"/>
+          <target id="t779"/>
+          <target id="t780"/>
+          <target id="t781"/>
+          <target id="t782"/>
+          <target id="t783"/>
+          <target id="t784"/>
+          <target id="t785"/>
+          <target id="t786"/>
+          <target id="t787"/>
+          <target id="t788"/>
+          <target id="t789"/>
+          <target id="t790"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
 </KAF>
